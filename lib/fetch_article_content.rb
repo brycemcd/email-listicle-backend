@@ -8,6 +8,7 @@ class FetchArticleContent
     @url_content = fetch_content
   end
 
+
   private
 
   def fetch_content
@@ -20,6 +21,13 @@ end
 class ParseEmailLinks
   class EmailLink
     attr_accessor :title, :url, :article_content
+
+    def to_json(*args)
+      { url: self.url,
+        article_content: self.article_content,
+        title: self.title
+      }
+    end
   end
 
   attr_reader :email_links
