@@ -19,17 +19,6 @@ class FetchArticleContent
 end
 
 class ParseEmailLinks
-  class EmailLink
-    attr_accessor :title, :url, :article_content
-
-    def to_json(*args)
-      { url: self.url,
-        article_content: self.article_content,
-        title: self.title
-      }.to_json
-    end
-  end
-
   attr_reader :email_links
 
   def initialize(email_html_body)
