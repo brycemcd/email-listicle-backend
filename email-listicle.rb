@@ -5,11 +5,22 @@ def email_content
 EMAIL
 end
 
-require "sinatra/reloader" if development?
+#require "sinatra/reloader" if development?
 
 
-get "/" do
-  content_type :json
-  links = ParseEmailLinks.new(email_content)
-  [ links.email_links.first.to_json ]
+module EmailListicle
+  module V1
+    class API < Grape::API
+      version 'v1', using: :path
+      format :json
+      prefix :api
+
+      resource :email_links do
+        desc "Lists un-seen links"
+        get :all do
+          ParseEmailLinks.new(email_content).email_links
+        end
+      end
+    end
+  end
 end

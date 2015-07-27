@@ -1,3 +1,4 @@
 require 'sinatra'
+require 'grape'
 require_relative 'email-listicle'
-run Sinatra::Application
+run EmailListicle::V1::API

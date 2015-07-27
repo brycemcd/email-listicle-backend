@@ -26,7 +26,7 @@ class ParseEmailLinks
       { url: self.url,
         article_content: self.article_content,
         title: self.title
-      }
+      }.to_json
     end
   end
 
