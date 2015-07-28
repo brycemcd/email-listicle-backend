@@ -25,7 +25,8 @@ module EmailListicle
 
       desc "Parse and store links from an email"
       post do
-        ParseEmailLinks.new(params[:raw_message]).save_parsed_links
+        puts params
+        ParseEmailLinks.new(params['raw_message']).save_parsed_links
       end
     end
   end
