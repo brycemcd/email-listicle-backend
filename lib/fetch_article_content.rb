@@ -1,5 +1,4 @@
 require 'httparty'
-require 'nokogiri'
 
 class FetchArticleContent
   attr_reader :url, :url_content
@@ -31,6 +30,10 @@ class ParseEmailLinks
       #el.article_content = FetchArticleContent.new(link['href'])
       el
     end.compact
+  end
+
+  def save_parsed_links
+    self.email_links.each { |el| el.save }
   end
 end
 

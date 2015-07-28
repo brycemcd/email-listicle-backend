@@ -1,2 +1,10 @@
 index: email_links
 type: email_link
+
+all:
+  body:
+
+undecided:
+  filter:
+    missing:
+      field: accepted

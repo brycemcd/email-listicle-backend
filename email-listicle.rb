@@ -22,6 +22,11 @@ module EmailListicle
       get :all do
         EmailLink.undecided
       end
+
+      desc "Parse and store links from an email"
+      post do
+        ParseEmailLinks.new(params[:raw_message]).save_parsed_links
+      end
     end
   end
 end
