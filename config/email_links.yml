@@ -8,3 +8,12 @@ undecided:
   filter:
     missing:
       field: accepted
+
+unread:
+  filter:
+    bool:
+      must:
+        - term:
+            accepted: true
+        - missing:
+            field: read

@@ -23,16 +23,24 @@ module EmailListicle
         EmailLink.undecided
       end
 
+      desc "fetches unread stories"
+      get :unread do
+        EmailLink.unread
+      end
+
       desc "Parse and store links from an email"
       post do
-        jsons = JSON.parse(params['mandrill_events'])
+        msgs = JSON.parse(params['mandrill_events'])
 
-        jsons.each do |json|
+        msgs.each do |json|
           pl = ParseEmailLinks.new(json['msg']['html'])
-          puts pl.email_links
-          puts pl.save_parsed_links
+          pl.save_parsed_links
         end
+      end
 
+      desc "adds link id to reading list"
+      post :add_to_list do
+        EmailLink.add_to_reading_list(id)
       end
     end
   end

@@ -18,6 +18,13 @@ class EsClient
 
   end
 
+  def update(id, params)
+    $es_client.update(id: id,
+                      index: query_index,
+                      type: full_config_file['type'],
+                      body: {doc: params })
+  end
+
   def search
     $es_client.search(index: query_index,
                       body: get_config_hash)

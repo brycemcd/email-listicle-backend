@@ -21,6 +21,11 @@ class EmailLink
              body_hash: self.as_hash)
   end
 
+  def self.add_to_reading_list(id)
+    es = EsClient.new(YAML_CONFIG, nil)
+    es.update(id, accepted: true)
+  end
+
   def self.all
     es = EsClient.new(YAML_CONFIG, 'all')
     es.search['hits']['hits'].map do |result|
@@ -30,6 +35,13 @@ class EmailLink
 
   def self.undecided
     es = EsClient.new(YAML_CONFIG, 'undecided')
+    es.search['hits']['hits'].map do |result|
+      parse_from_result(result)
+    end
+  end
+
+  def self.unread
+    es = EsClient.new(YAML_CONFIG, 'unread')
     es.search['hits']['hits'].map do |result|
       parse_from_result(result)
     end
