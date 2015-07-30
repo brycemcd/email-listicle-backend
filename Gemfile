@@ -8,3 +8,4 @@ gem "puma"
 gem "grape"
 gem "dotenv"
 gem "elasticsearch"
+gem 'rack-cors'
