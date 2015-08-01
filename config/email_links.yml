@@ -3,8 +3,10 @@ type: email_link
 
 all:
   body:
+    size: 400
 
 undecided:
+  size: 400
   filter:
     missing:
       field: accepted

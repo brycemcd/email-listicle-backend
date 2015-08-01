@@ -26,6 +26,11 @@ class EmailLink
     es.update(id, accepted: true)
   end
 
+  def self.reject_from_reading_list(id)
+    es = EsClient.new(YAML_CONFIG, nil)
+    es.update(id, accepted: false)
+  end
+
   def self.all
     es = EsClient.new(YAML_CONFIG, 'all')
     es.search['hits']['hits'].map do |result|

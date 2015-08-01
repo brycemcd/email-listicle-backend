@@ -33,8 +33,13 @@ module EmailListicle
       end
 
       desc "adds link id to reading list"
-      post :add_to_list do
-        EmailLink.add_to_reading_list(id)
+      post :mark_for_read do
+        EmailLink.add_to_reading_list(params[:id])
+      end
+
+      desc "adds link id to not going to read"
+      post :mark_for_reject do
+        EmailLink.reject_from_reading_list(params[:id])
       end
     end
   end
