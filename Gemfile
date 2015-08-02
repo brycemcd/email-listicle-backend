@@ -9,3 +9,4 @@ gem "grape"
 gem "dotenv"
 gem "elasticsearch"
 gem 'rack-cors'
+gem 'ruby-trello'

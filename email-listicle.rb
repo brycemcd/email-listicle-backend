@@ -34,7 +34,8 @@ module EmailListicle
 
       desc "adds link id to reading list"
       post :mark_for_read do
-        EmailLink.add_to_reading_list(params[:id])
+        el = EmailLink.add_to_reading_list(params[:id])
+        TrelloInterface.add_to_todo(el)
       end
 
       desc "adds link id to not going to read"

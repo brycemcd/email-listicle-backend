@@ -21,14 +21,21 @@ class EmailLink
              body_hash: self.as_hash)
   end
 
+  def self.find(id)
+    es = EsClient.new(YAML_CONFIG, nil)
+    doc = es.get_with_id(id)
+    parse_from_result(doc)
+  end
+
   def self.add_to_reading_list(id)
     es = EsClient.new(YAML_CONFIG, nil)
-    es.update(id, accepted: true)
+    es.update(id, accepted: true, accept_or_reject_dttm: DateTime.now.iso8601)
+    find(id)
   end
 
   def self.reject_from_reading_list(id)
     es = EsClient.new(YAML_CONFIG, nil)
-    es.update(id, accepted: false)
+    es.update(id, accepted: false, accept_or_reject_dttm: DateTime.now.iso8601)
   end
 
   def self.all

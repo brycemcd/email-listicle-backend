@@ -25,6 +25,12 @@ class EsClient
                       body: {doc: params })
   end
 
+  def get_with_id(id)
+    $es_client.get(index: query_index,
+                   type: full_config_file['type'],
+                   id: id)
+  end
+
   def search
     $es_client.search(index: query_index,
                       body: get_config_hash)
