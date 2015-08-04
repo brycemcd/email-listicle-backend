@@ -25,6 +25,7 @@ module EmailListicle
       desc "Parse and store links from an email"
       post do
         msgs = JSON.parse(params['mandrill_events'])
+        puts msgs
 
         msgs.each do |json|
           pl = ParseEmailLinks.new(json['msg']['html'])
