@@ -1,5 +1,6 @@
 class EmailLink
-  attr_accessor :title, :url, :article_content, :id
+  attr_accessor :title, :url, :article_content, :id,
+    :email_subject, :created_at
 
   YAML_CONFIG = 'email_links.yml'
 
@@ -11,7 +12,9 @@ class EmailLink
     { id: self.id,
       url: self.url,
       article_content: self.article_content,
-      title: self.title
+      title: self.title,
+      email_subject: self.email_subject,
+      created_at: self.created_at,
     }
   end
 

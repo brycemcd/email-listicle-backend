@@ -20,13 +20,15 @@ end
 class ParseEmailLinks
   attr_reader :email_links
 
-  def initialize(email_html_body)
+  def initialize(email_html_body, subject)
     parsed = Nokogiri::HTML(email_html_body)
     @email_links = parsed.xpath('//a').collect do |link|
       next unless link['href'] =~ /http/
       el = EmailLink.new
       el.title = link.text
       el.url = link['href']
+      el.email_subject = subject
+      el.created_at = DateTime.now.iso8601
       #el.article_content = FetchArticleContent.new(link['href'])
       el
     end.compact
