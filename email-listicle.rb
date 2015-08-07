@@ -27,8 +27,7 @@ module EmailListicle
         msgs = JSON.parse(params['mandrill_events'])
 
         msgs.each do |json|
-          pl = ParseEmailLinks.new(json['msg']['html'],
-                                   json['msg']['subject'])
+          pl = ParseEmailLinks.new(json['msg'])
           pl.save_parsed_links
         end
       end

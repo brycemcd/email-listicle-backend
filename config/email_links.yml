@@ -7,6 +7,9 @@ all:
 
 undecided:
   size: 400
+  sort:
+    created_at:
+      order: asc
   filter:
     missing:
       field: accepted
