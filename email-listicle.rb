@@ -3,6 +3,7 @@ Dotenv.load
 Bundler.require
 
 require 'grape'
+require_relative "async/store_links_from_email_worker"
 require_relative "lib/base"
 
 module EmailListicle
@@ -24,12 +25,8 @@ module EmailListicle
 
       desc "Parse and store links from an email"
       post do
-        msgs = JSON.parse(params['mandrill_events'])
-
-        msgs.each do |json|
-          pl = ParseEmailLinks.new(json['msg'])
-          pl.save_parsed_links
-        end
+        StoreLinksFromEmailWorker.perform_async(params['mandrill_events'])
+        {status: :ok}
       end
 
       desc "adds link id to reading list"
