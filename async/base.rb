@@ -5,5 +5,10 @@ Bundler.require
 require_relative "../lib/base"
 
 require 'sidekiq'
-require_relative "store_links_from_email_worker"
-require_relative "process_links_from_email_worker"
+
+curdur = Dir.pwd
+Dir.chdir("async")
+Dir.glob("*.rb").each do |worker|
+  require_relative "./#{worker}" unless worker =~ /base/
+end
+Dir.chdir(curdur)

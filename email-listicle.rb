@@ -3,8 +3,8 @@ Dotenv.load
 Bundler.require
 
 require 'grape'
-require_relative "async/store_links_from_email_worker"
 require_relative "lib/base"
+require_relative "async/base"
 
 module EmailListicle
   class API < Grape::API
@@ -31,13 +31,12 @@ module EmailListicle
 
       desc "adds link id to reading list"
       post :mark_for_read do
-        el = EmailLink.add_to_reading_list(params[:id])
-        TrelloInterface.add_to_todo(el)
+        AddLinkToReadingListWorker.perform_async(params[:id])
       end
 
       desc "adds link id to not going to read"
       post :mark_for_reject do
-        EmailLink.reject_from_reading_list(params[:id])
+        RejectLinkFromReadingListWorker.perform_async(params[:id])
       end
     end
   end
