@@ -1,6 +1,6 @@
 class EmailLink
   attr_accessor :title, :url, :article_content, :id,
-    :email_subject, :created_at, :from_email, :from_name
+    :email_subject, :created_at, :from_email, :from_name, :cnt_title_words
 
   YAML_CONFIG = 'email_links.yml'
 
@@ -16,14 +16,21 @@ class EmailLink
       email_subject: self.email_subject,
       created_at: self.created_at,
       from_name: self.from_name,
-      from_email: self.from_email
+      from_email: self.from_email,
+      cnt_title_words: self.cnt_title_words
     }
   end
 
+  # TODO - this should be create, not save
   def save
     es = EsClient.new(YAML_CONFIG, nil)
     es.write(type: 'email_link',
              body_hash: self.as_hash)
+  end
+
+  def update
+    es = EsClient.new(YAML_CONFIG, nil)
+    es.update(self.id, self.as_hash)
   end
 
   def self.find(id)
@@ -64,6 +71,13 @@ class EmailLink
     end
   end
 
+  def self.unengineered
+    es = EsClient.new(YAML_CONFIG, 'unengineered')
+    es.search['hits']['hits'].map do |result|
+      parse_from_result(result)
+    end
+  end
+
   def self.parse_from_result(result)
     id = result['_id']
     result = result['_source']
@@ -76,6 +90,7 @@ class EmailLink
     el.email_subject = result['email_subject']
     el.from_email  = result['from_email']
     el.from_name   = result['from_name']
+    el.cnt_title_words   = result['cnt_title_words']
     el
   end
 end

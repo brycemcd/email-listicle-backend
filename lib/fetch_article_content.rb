@@ -37,6 +37,6 @@ class ParseEmailLinks
   end
 
   def save_parsed_links
-    self.email_links.each { |el| el.save }
+    self.email_links.collect { |el| el.save }
   end
 end

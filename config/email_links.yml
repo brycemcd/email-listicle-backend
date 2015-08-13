@@ -14,6 +14,13 @@ undecided:
     missing:
       field: accepted
 
+unengineered:
+  size: 2000
+  filter:
+    bool:
+      must:
+        - missing:
+            field: cnt_title_words
 unread:
   filter:
     bool:
