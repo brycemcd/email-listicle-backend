@@ -7,7 +7,7 @@ class ProcessLinksFromEmailWorker
 
     els = EmailLink.unengineered
     els.each do |el|
-      ProcessLinksFromEmailWorker.perform_async(el.id)
+      FeatureEngineeringWorker.perform_async(el.id)
     end
   end
 end
