@@ -12,6 +12,18 @@ module EmailListicle
     format :json
     prefix :api
 
+    resource :cards do
+      desc "fetches unlabeled cards from the ToDo list @ Trello"
+      get :unlabeled do
+        TrelloInterface.unlabeled_cards_in_list
+      end
+
+      put :label do
+        TrelloInterface.label_card(card_id: params[:card_id],
+                                   label_color:  params[:label_color])
+      end
+    end
+
     resource :email_links do
       desc "Lists un-seen links"
       get :all do
