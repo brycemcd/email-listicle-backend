@@ -18,6 +18,11 @@ module EmailListicle
         TrelloInterface.unlabeled_cards_in_list
       end
 
+      desc "Fetches cards that are in the TODO list and labeled"
+      get :unread do
+        TrelloInterface.labeled_cards_in_list
+      end
+
       put :label do
         TrelloInterface.label_card(card_id: params[:card_id],
                                    label_color:  params[:label_color])

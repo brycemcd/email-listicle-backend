@@ -1,5 +1,15 @@
 require_relative "../config/trello"
 
+# NOTE: YUCK - monkey patch
+module Trello
+  class List < BasicData
+    def self.list_with_cards(list_id, params)
+      ret = client.get("/lists/#{list_id}/cards", params)
+      JSON.parse(ret)
+    end
+  end
+end
+
 class TrelloInterface
   def self.add_to_todo(el)
     card = Trello::Card.create(list_id: ENV['TRELLO_LIST_ID'],
@@ -9,12 +19,17 @@ class TrelloInterface
   end
 
   def self.all_cards_in_list(list_id: ENV['TRELLO_LIST_ID'])
-    cards = Trello::List.find(list_id).cards
+    Trello::List.list_with_cards(list_id, attachments: true)
+  end
+
+  def self.labeled_cards_in_list(list_id: ENV['TRELLO_LIST_ID'])
+    cards = all_cards_in_list(list_id: list_id)
+    cards.select { |card| !card["labels"].empty? }
   end
 
   def self.unlabeled_cards_in_list(list_id: ENV['TRELLO_LIST_ID'])
-    @cards ||= all_cards_in_list(list_id: list_id)
-    @cards.select { |card| card.card_labels.empty? }
+    cards = all_cards_in_list(list_id: list_id)
+    cards.select { |card| card["labels"].empty? }
   end
 
   def self.label_card(card_id: nil, label_color: nil)
