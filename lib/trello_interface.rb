@@ -35,4 +35,23 @@ class TrelloInterface
   def self.label_card(card_id: nil, label_color: nil)
     Trello::Card.find(card_id).add_label(label_color)
   end
+
+  def self.move_card_to_list(card_id: nil, list_id: nil)
+    card = Trello::Card.find(card_id)
+    listed = card.move_to_list(list_id)
+    move_card_position_on_list(card_id: card_id)
+    listed
+  end
+
+  def self.move_card_position_on_list(card_id: nil, position: :top)
+    card = Trello::Card.find(card_id)
+    card.pos = :top
+    card.save
+  end
+
+  def self.close_card(card_id: nil)
+    card = Trello::Card.find(card_id)
+    card.closed = true
+    card.save
+  end
 end

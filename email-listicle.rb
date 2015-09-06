@@ -23,9 +23,27 @@ module EmailListicle
         TrelloInterface.labeled_cards_in_list
       end
 
+      desc "applies label color (like green, not a hash) to a card"
       put :label do
         TrelloInterface.label_card(card_id: params[:card_id],
                                    label_color:  params[:label_color])
+      end
+
+      desc "moves card from TODO to Doing list"
+      put :move_card_to_doing do
+        TrelloInterface.move_card_to_list(list_id: ENV['TRELLO_DOING_LIST_ID'],
+                                          card_id: params[:card_id])
+      end
+
+      desc "moves card from Doing to Done list"
+      put :move_card_to_done do
+        TrelloInterface.move_card_to_list(list_id: ENV['TRELLO_DONE_LIST_ID'],
+                                          card_id: params[:card_id])
+      end
+
+      desc "archives card in Trello"
+      delete :archive_card do
+        TrelloInterface.close_card(card_id: params[:card_id])
       end
     end
 
