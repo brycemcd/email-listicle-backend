@@ -12,22 +12,22 @@ end
 
 class TrelloInterface
   def self.add_to_todo(el)
-    card = Trello::Card.create(list_id: ENV['TRELLO_LIST_ID'],
+    card = Trello::Card.create(list_id: ENV['TRELLO_TODO_LIST_ID'],
                                name: el.title,
                                pos: 'bottom')
     card.add_attachment(el.url)
   end
 
-  def self.all_cards_in_list(list_id: ENV['TRELLO_LIST_ID'])
+  def self.all_cards_in_list(list_id: ENV['TRELLO_TODO_LIST_ID'])
     Trello::List.list_with_cards(list_id, attachments: true)
   end
 
-  def self.labeled_cards_in_list(list_id: ENV['TRELLO_LIST_ID'])
+  def self.labeled_cards_in_list(list_id: ENV['TRELLO_TODO_LIST_ID'])
     cards = all_cards_in_list(list_id: list_id)
     cards.select { |card| !card["labels"].empty? }
   end
 
-  def self.unlabeled_cards_in_list(list_id: ENV['TRELLO_LIST_ID'])
+  def self.unlabeled_cards_in_list(list_id: ENV['TRELLO_TODO_LIST_ID'])
     cards = all_cards_in_list(list_id: list_id)
     cards.select { |card| card["labels"].empty? }
   end
