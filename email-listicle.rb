@@ -60,7 +60,12 @@ module EmailListicle
 
       desc "Parse and store links from an email"
       post do
-        StoreLinksFromEmailWorker.perform_async(params['mandrill_events'])
+        puts params
+        PersistDataToCloud.new.perform(data: params,
+                                       bucket: 'bme-listicle',
+                                       key: "inbound-emails/#{Time.now.iso8601}.json",
+                                      )
+        #StoreLinksFromEmailWorker.perform_async(params['mandrill_events'])
         {status: :ok}
       end
 
