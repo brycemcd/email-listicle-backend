@@ -60,12 +60,11 @@ module EmailListicle
 
       desc "Parse and store links from an email"
       post do
-        # NOTE this to_json is a hack to avoid Hashie
         PersistDataToCloud.new.perform(data: params["mandrill_events"],
                                        bucket: 'bme-listicle',
                                        key: "inbound-emails/#{Time.now.iso8601}.json",
                                       )
-        #StoreLinksFromEmailWorker.perform_async(params['mandrill_events'])
+        StoreLinksFromEmailWorker.perform_async(params['mandrill_events'])
         {status: :ok}
       end
 
