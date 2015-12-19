@@ -6,7 +6,7 @@ class FeatureEngineeringWorker
     el.cnt_title_words = word_count(el.title)
     result = el.update
 
-    #TODO - auto rejecting needs to happen in a separate, out of (this)
+    # TODO - auto rejecting needs to happen in a separate, out of (this)
     # loop, routine. For now, the only reliable thing we know is a title
     # less <= 4 words should be automatically rejected
     if el.cnt_title_words <= 4
