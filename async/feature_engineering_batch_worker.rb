@@ -4,7 +4,7 @@ class FeatureEngineeringBatchWorker
   def perform
     els = EmailLink.unengineered
     els.each do |el|
-      FeatureEngineeringWorker.perform_async(el.id)
+      LinkFilter.perform_async(el.id)
     end
   end
 end

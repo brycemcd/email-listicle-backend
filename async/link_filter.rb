@@ -1,4 +1,4 @@
-class FeatureEngineeringWorker
+class LinkFilter
   include Sidekiq::Worker
 
   def perform(email_link_id)
@@ -6,10 +6,7 @@ class FeatureEngineeringWorker
     el.cnt_title_words = word_count(el.title)
     result = el.update
 
-    # TODO - auto rejecting needs to happen in a separate, out of (this)
-    # loop, routine. For now, the only reliable thing we know is a title
-    # less <= 4 words should be automatically rejected
-    if el.cnt_title_words <= 4
+    if autoreject?(el)
       EmailLink.reject_from_reading_list(email_link_id)
     end
     result
@@ -23,5 +20,12 @@ class FeatureEngineeringWorker
     rescue # if it doesn't respond to #split, I don't want to know it
       0
     end
+  end
+
+  def autoreject?(el)
+    resp = HTTParty.post( "#{ENV['PIO_FILTER_SERVER_URL']}/queries.json",
+                 body: {text: el.title}.to_json,
+                 headers: { 'Content-Type' => 'application/json' })
+    resp["category"] == "reject"
   end
 end
