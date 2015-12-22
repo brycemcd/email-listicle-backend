@@ -2,8 +2,7 @@ index: email_links
 type: email_link
 
 all:
-  body:
-    size: 400
+  size: 20_000
 
 undecided:
   size: 400
