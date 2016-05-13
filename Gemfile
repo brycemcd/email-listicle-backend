@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby "2.2.1"
+ruby "2.2.0"
 
 gem 'shotgun'
 gem "httparty"
@@ -14,3 +14,8 @@ gem 'sinatra'
 gem 'sidekiq'
 gem 'aws-sdk', '~> 2'
 gem "predictionio"
+gem "mail"
+
+group :test, :development do
+  gem 'rspec'
+end

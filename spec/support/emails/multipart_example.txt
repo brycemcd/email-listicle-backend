@@ -1,0 +1,229 @@
+Return-Path: <bryce@bridgetownint.com>
+Received: from mail-lf0-f41.google.com (mail-lf0-f41.google.com [209.85.215.41])
+ by inbound-smtp.us-west-2.amazonaws.com with SMTP id 9a4c073tqo50f7qq5tu23t9803goj90i88fopcg1
+ for news@news.adas.co;
+ Thu, 12 May 2016 01:03:18 +0000 (UTC)
+X-SES-Spam-Verdict: PASS
+X-SES-Virus-Verdict: PASS
+Received-SPF: none (spfCheck: 209.85.215.41 is neither permitted nor denied by domain of bridgetownint.com) client-ip=209.85.215.41; envelope-from=bryce@bridgetownint.com; helo=mail-lf0-f41.google.com;
+Authentication-Results: amazonses.com;
+ spf=none (spfCheck: 209.85.215.41 is neither permitted nor denied by domain of bridgetownint.com) client-ip=209.85.215.41; envelope-from=bryce@bridgetownint.com; helo=mail-lf0-f41.google.com;
+ dkim=pass header.i=@bridgetownint-com.20150623.gappssmtp.com;
+Received: by mail-lf0-f41.google.com with SMTP id m64so63366370lfd.1
+        for <news@news.adas.co>; Wed, 11 May 2016 18:03:17 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=bridgetownint-com.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:sender:in-reply-to:references:date:message-id:subject
+         :from:to;
+        bh=ROWdcCqYRrSdjNBWPDFpYHEjZNYOXMbvQAUwMKWijIs=;
+        b=Ap26VHlRucCCA9IcpR8CxTz13EUbSlOrab6OCRlYL4mBZ9tPxsbHFPZN947278cls7
+         Y83VjjizbeYWkNAkuq2GCaURuiWxzDhqgVZxliROiinyWLtke9bPwqbW/7jI6el4Pafp
+         C5lXIjKv4Au3qZhnwOvhsswm7DyaBDaP/0EnL82b7TpqAl+HGx2gmKX3b92tmtE76VHo
+         KhmZK3bx4wm6s63K/gpDbQErExAeKai67yEHjAHjPx9v2jbDOkK1bRw23CCN9OlXWkLc
+         mSye+XvqS54qkwcYns7f6o+mLerNmRpsq6OdUb9hD4gqTsq9w5LRjKQse7EDjwT2dbc3
+         HB2w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:sender:in-reply-to:references:date
+         :message-id:subject:from:to;
+        bh=ROWdcCqYRrSdjNBWPDFpYHEjZNYOXMbvQAUwMKWijIs=;
+        b=BjpOP4eyH/+HcHrcm3ANpvCMAQlv8RBCdI5mAahMNeAjt8jRkWGztb1LrGDeomKWQ+
+         bvZEUzw7A5YCQ/3FNlBmq/hIOp+AWT58a1XoHgDpKVTnF2H3hjlBx/xXcy052wv1vqYc
+         BD+pVtdYHT90+Hi19ZGLDLYNYc7NKbwdqtiZCWO9z0c7r/dL0xf9/81z8GR2w/sFpvRK
+         YKwRMFcBxYiTUcl0MD6R2YgcECsGu8dm2XyyA1VxTCmZaMOhkHmn+AZoY4PcwuEfhWlJ
+         1XSrdh8OQOVgkkyo7/Jy1f/eLMVGddXCPKLDygnplUHstmwD6dVAPHSTNt1rSoDIWHBv
+         I4UA==
+X-Gm-Message-State: AOPr4FXYR5yYSrOnyLdcIl5wLnPXOVR6CJ0vd03Un1dKUMejWQz/WRLQylTn5g6AwMLONAl9t4kTH7aJ6Hdmjw==
+MIME-Version: 1.0
+X-Received: by 10.25.149.66 with SMTP id x63mr2774286lfd.128.1463014995589;
+ Wed, 11 May 2016 18:03:15 -0700 (PDT)
+Sender: bryce@bridgetownint.com
+Received: by 10.25.27.6 with HTTP; Wed, 11 May 2016 18:03:15 -0700 (PDT)
+In-Reply-To: <10612303.20160512004751.5733d2b7114d55.49375959@systemalerts3.mailchimp.com>
+References: <10612303.20160512004751.5733d2b7114d55.49375959@systemalerts3.mailchimp.com>
+Date: Wed, 11 May 2016 21:03:15 -0400
+X-Google-Sender-Auth: iOnra-6oQG73aotcxEhqUvYS2MY
+Message-ID: <CAGe7B4E0u+a3GB0hUfgSUAvCu9uwJrjoq=hWDeuavDeoU1hsXg@mail.gmail.com>
+Subject: Fwd: MailChimp Reset Password
+From: Bryce Mcdonnell <bryce@rpackage.io>
+To: news@news.adas.co
+Content-Type: multipart/alternative; boundary=001a114034e41d15c605329ab9c1
+
+--001a114034e41d15c605329ab9c1
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+---------- Forwarded message ----------
+From: MailChimp Support <confirm@mailchimp.com>
+Date: Wed, May 11, 2016 at 8:47 PM
+Subject: MailChimp Reset Password
+To: bryce@rpackage.io
+
+
+[image: MailChimp] <http://www.mailchimp.com/> Forgot your password? Let's
+get you a new one.
+rpackage
+Reset Your Password
+<https://login.mailchimp.com/login/reset?id=3D56fc7eff-95aa-46b8-99aa-cdc10=
+0ef1f95>
+Help! I didn't request this.
+<http://kb.mailchimp.com/article/how-do-i-change-my-security-question/>
+=C2=A9 2001-2016 MailChimp=C2=AE, All Rights Reserved.
+675 Ponce De Leon Ave NE =E2=80=A2 Suite 5000 =E2=80=A2 Atlanta, GA 30308 U=
+SA
+<#m_-19645511781877978_>
+<http://www.mailchimp.com/>
+
+--001a114034e41d15c605329ab9c1
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br><div class=3D"gmail_quote">---------- Forwarded messag=
+e ----------<br>From: <b class=3D"gmail_sendername">MailChimp Support</b> <=
+span dir=3D"ltr">&lt;<a href=3D"mailto:confirm@mailchimp.com">confirm@mailc=
+himp.com</a>&gt;</span><br>Date: Wed, May 11, 2016 at 8:47 PM<br>Subject: M=
+ailChimp Reset Password<br>To: <a href=3D"mailto:bryce@rpackage.io">bryce@r=
+package.io</a><br><br><br><u></u>
+
+=09
+       =20
+       =20
+
+       =20
+   =20
+    <div style=3D"background-color:#f2f2f2">
+    	<center>
+        	<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"=
+100%" width=3D"100%" style=3D"background-color:#f2f2f2">
+            	<tbody><tr>
+                	<td align=3D"center" valign=3D"top" style=3D"padding:40px =
+20px">
+                    	<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" style=3D"width:600px">
+                            <tbody><tr>
+                                <td align=3D"center" valign=3D"top" style=
+=3D"padding-bottom:30px">
+                                    <table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" width=3D"100%" style=3D"background-color:#ffffff;border-co=
+llapse:separate!important;border-radius:4px">
+                                    	<tbody><tr>
+                                        	<td align=3D"center" valign=3D"top=
+" style=3D"padding-top:40px;padding-right:40px;padding-bottom:0;padding-lef=
+t:40px">
+                                            	<table border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%">
+                                                    <tbody><tr>
+                                                        <td align=3D"center=
+" valign=3D"top" style=3D"padding-right:20px">
+                                                            <a href=3D"http=
+://www.mailchimp.com/" title=3D"MailChimp" style=3D"text-decoration:none" t=
+arget=3D"_blank"><img src=3D"http://cdn-images.mailchimp.com/template_image=
+s/icons/mc_freddie.png" alt=3D"MailChimp" height=3D"" width=3D"50" style=3D=
+"border:0;color:#6dc6dd!important;font-family:Helvetica,Arial,sans-serif;fo=
+nt-size:60px;font-weight:bold;min-height:auto!important;letter-spacing:-4px=
+;line-height:100%;outline:none;text-align:center;text-decoration:none"></a>
+                                                        </td>
+                                                        <td valign=3D"middl=
+e" width=3D"100%" style=3D"color:#606060;font-family:Helvetica,Arial,sans-s=
+erif;font-size:15px;line-height:150%;text-align:left">
+                                                            <h1 style=3D"co=
+lor:#606060!important;font-family:Helvetica,Arial,sans-serif;font-size:26px=
+;font-weight:bold;letter-spacing:-1px;line-height:115%;margin:0;padding:0;t=
+ext-align:left">Forgot your password? Let&#39;s get you a new one.</h1>
+                                                        </td>
+                                                    </tr>
+                                                </tbody></table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align=3D"left" valign=3D"to=
+p" style=3D"padding-top:40px;padding-right:40px;padding-bottom:40px;padding=
+-left:40px">
+                                            	<table border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%">
+                                                	<tbody><tr>
+                                                    	<td style=3D"border-to=
+p:1px dotted #cccccc;border-bottom:1px dotted #cccccc;padding-top:10px;padd=
+ing-bottom:10px">
+                                            				<h2 style=3D"color:#606060!=
+important;font-family:Helvetica,Arial,sans-serif;font-size:20px;letter-spac=
+ing:-.5px;line-height:115%;margin:0;padding:0;text-align:center">rpackage</=
+h2>
+                                                		</td>
+                                                    </tr>
+                                                </tbody></table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align=3D"center" valign=3D"=
+middle" style=3D"padding-right:40px;padding-bottom:40px;padding-left:40px">
+                                                <table border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" style=3D"background-color:#6dc6dd;border-colla=
+pse:separate!important;border-radius:3px">
+                                                    <tbody><tr>
+                                                        <td align=3D"center=
+" valign=3D"middle" style=3D"color:#ffffff;font-family:Helvetica,Arial,sans=
+-serif;font-size:15px;font-weight:bold;line-height:100%;padding-top:18px;pa=
+dding-right:15px;padding-bottom:15px;padding-left:15px">
+                                                            <a href=3D"http=
+s://login.mailchimp.com/login/reset?id=3D56fc7eff-95aa-46b8-99aa-cdc100ef1f=
+95" style=3D"color:#ffffff;text-decoration:none" target=3D"_blank">Reset Yo=
+ur Password</a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody></table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align=3D"center" valign=3D"=
+top" style=3D"border-top:2px solid #f2f2f2;color:#606060;font-family:Helvet=
+ica,Arial,sans-serif;font-size:15px;line-height:150%;padding-top:20px;paddi=
+ng-right:40px;padding-bottom:20px;padding-left:40px;text-align:center">
+                                                Help! <a href=3D"http://kb.=
+mailchimp.com/article/how-do-i-change-my-security-question/" style=3D"color=
+:#52bad5" target=3D"_blank">I didn&#39;t request this.</a>
+                                            </td>
+                                        </tr>
+                                    </tbody></table>
+                                </td>
+                            </tr>
+                            <tr>
+                            	<td align=3D"center" valign=3D"top">
+                                 	<table border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" width=3D"100%">
+                                    	<tbody><tr>
+                                        	<td align=3D"center" valign=3D"top=
+" style=3D"color:#606060;font-family:Helvetica,Arial,sans-serif;font-size:1=
+3px;line-height:125%">
+                                            	=C2=A9 2001-2016 MailChimp<spa=
+n style=3D"font-size:10px!important;vertical-align:super">=C2=AE</span>, Al=
+l Rights Reserved.
+                                                <br>
+                                                <a href=3D"#m_-196455117818=
+77978_" style=3D"color:#606060!important;text-decoration:none!important"><s=
+pan style=3D"color:#606060!important">675 Ponce De Leon Ave NE =E2=80=A2 Su=
+ite 5000 =E2=80=A2 Atlanta, GA 30308 USA</span></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                        	<td align=3D"center" valign=3D"top=
+" style=3D"padding-top:30px">
+                                            	<a href=3D"http://www.mailchim=
+p.com/" title=3D"MailChimp" style=3D"text-decoration:none" target=3D"_blank=
+"><img src=3D"http://cdn-images.mailchimp.com/template_images/logo_newscrip=
+t_footer.png" height=3D"25" width=3D"100" style=3D"border:0;outline:none;te=
+xt-decoration:none"></a>
+                                            </td>
+                                        </tr>
+                                    </tbody></table>
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+            </tbody></table>
+        </center>
+    </div>
+</div><br></div>
+
+--001a114034e41d15c605329ab9c1--
