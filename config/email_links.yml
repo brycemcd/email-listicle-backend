@@ -10,8 +10,13 @@ undecided:
     created_at:
       order: asc
   filter:
-    missing:
-      field: accepted
+    and:
+      - range:
+          created_at:
+            gte: 'now-1w'
+            time_zone: "+4:00"
+      - missing:
+          field: accepted
 
 unengineered:
   size: 2000
