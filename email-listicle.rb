@@ -9,7 +9,7 @@ require_relative "async/base"
 module EmailListicle
   class API < Grape::API
     version 'v1', using: :path
-    format :json
+    #format :json
     prefix :api
 
     resource :cards do
@@ -60,9 +60,18 @@ module EmailListicle
 
       desc "Parse and store links from an email"
       post do
+        if headers['X-Amz-Sns-Message-Type']
+          bd = ""
+          request.body.each { |x| bd << x}
+          json = JSON.parse(bd)
+        else
+          json = params
+        end
+        puts "headers"
         puts headers.to_yaml
-        puts params.to_yaml
-        StoreLinksFromEmailWorker.perform_async(params['Message'])
+        puts "json"
+        puts json.to_yaml
+        StoreLinksFromEmailWorker.perform_async(json['Message'])
         {status: :ok}
       end
 

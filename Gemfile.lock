@@ -77,7 +77,7 @@ GEM
     oauth (0.4.7)
     predictionio (0.9.6)
       json (~> 1.8)
-    puma (2.16.0)
+    puma (3.4.0)
     rack (1.6.4)
     rack-accept (0.4.5)
       rack (>= 0.4)
