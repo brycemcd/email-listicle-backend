@@ -60,6 +60,7 @@ module EmailListicle
 
       desc "Parse and store links from an email"
       post do
+        puts headers.to_yaml
         puts params.to_yaml
         StoreLinksFromEmailWorker.perform_async(params['Message'])
         {status: :ok}
