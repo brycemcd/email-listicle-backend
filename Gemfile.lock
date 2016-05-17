@@ -148,7 +148,7 @@ DEPENDENCIES
   puma
   rack-cors
   rspec
-  ruby-trello
+  ruby-trello (~> 1.4.1)
   shotgun
   sidekiq
   sinatra

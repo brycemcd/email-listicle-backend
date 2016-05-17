@@ -33,7 +33,8 @@ class TrelloInterface
   end
 
   def self.label_card(card_id: nil, label_color: nil)
-    Trello::Card.find(card_id).add_label(label_color)
+    color_id = label_from_color(label_color)
+    Trello::Card.find(card_id).add_label(color_id)
   end
 
   def self.move_card_to_list(card_id: nil, list_id: nil)
@@ -53,5 +54,14 @@ class TrelloInterface
     card = Trello::Card.find(card_id)
     card.closed = true
     card.save
+  end
+
+  def self.label_from_color(color)
+    colors = { 'orange' => '5516b206664ce8ff30c2bd0b',
+               'yellow' => '5516b206664ce8ff30c2bd0a',
+               'green'  => '5516b206664ce8ff30c2bd09',
+    }
+
+    Trello::Label.find(colors[color])
   end
 end

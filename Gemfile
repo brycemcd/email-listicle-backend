@@ -9,7 +9,7 @@ gem "grape"
 gem "dotenv"
 gem "elasticsearch"
 gem 'rack-cors'
-gem 'ruby-trello'
+gem 'ruby-trello', "~> 1.4.1"
 gem 'sinatra'
 gem 'sidekiq'
 gem 'aws-sdk', '~> 2'
