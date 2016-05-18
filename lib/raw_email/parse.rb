@@ -9,6 +9,10 @@ module RawEmail
       parse_links(parsed, mail)
     end
 
+    def save_parsed_links
+      self.email_links.collect { |el| el.save }
+    end
+
     private
 
     def parse_links(html_body, mail_obj)
