@@ -1,0 +1,2021 @@
+Return-Path: <brycebrycebaby@gmail.com>
+Received: from mail-wm0-f48.google.com (mail-wm0-f48.google.com [74.125.82.48])
+ by inbound-smtp.us-west-2.amazonaws.com with SMTP id ugorkl0vm64b5loq7nj2fgvs4r3qvqvfc1jfbio1
+ for news@news.adas.co;
+ Fri, 20 May 2016 01:37:42 +0000 (UTC)
+X-SES-Spam-Verdict: PASS
+X-SES-Virus-Verdict: PASS
+Received-SPF: pass (spfCheck: domain of _spf.google.com designates 74.125.82.48 as permitted sender) client-ip=74.125.82.48; envelope-from=brycebrycebaby@gmail.com; helo=mail-wm0-f48.google.com;
+Authentication-Results: amazonses.com;
+ spf=pass (spfCheck: domain of _spf.google.com designates 74.125.82.48 as permitted sender) client-ip=74.125.82.48; envelope-from=brycebrycebaby@gmail.com; helo=mail-wm0-f48.google.com;
+ dkim=pass header.i=@gmail.com;
+Received: by mail-wm0-f48.google.com with SMTP id a17so150880340wme.0
+        for <news@news.adas.co>; Thu, 19 May 2016 18:37:41 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to;
+        bh=iQEA/w8aVLS/CBe16zgLVa4ooENlEfsndZagq2OhesY=;
+        b=j8oVKZ+ruesPSNTf/rf70XIEtEg6+AoMpAXxKwZAbhS0zrO+3fo76KJQnQwJkrU64V
+         rZX85hIAYpZec3wt6XZ4nvtxOLa0zXRRxg6jQ8H7/NepeQrdaj1lPYeThviKktOUDqdu
+         h4TcZr2AVUT2eVSBpCzvTFHtGPO231UOwBS9h1t9/TKCK8leJGzFgpu32AbbOYiTdAYw
+         vi9VUc4XDIRz3xVLqFOSSx+iHTOPjauv5Yw2aCjApMS4yM7PyeTG0nTKcMI7I0RaPE+V
+         gJBIE8dNp7chgQ4D90vNtbSDhyCbgQYepmKIar2Z9QYmdbFNLv/A5TzskLezy5CvH/iO
+         BPgQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to;
+        bh=iQEA/w8aVLS/CBe16zgLVa4ooENlEfsndZagq2OhesY=;
+        b=G9iOcDUkRGCuJ5+qratEQ6762b3qc/dVVK6Ap0lfu0brrATLzBtc5r0Px/6lEt33bp
+         JGeguQMknET6/3emg6VAxv9QIEaT/O4+9syzfz0rv8nt46BJeIgNIfq1juJ1SO/VnICd
+         JCZmIPyz14968XeyD+m53ZNQM1v70umS7iJSgz7U9xFErKmZFKKD+LMqBfT1MyMBGh4x
+         09fOMBinke7ltEABq4717Af4soTEpE0APWpz52mCNqD3nN3E2nKo07SyzHIIrCiC2Q+U
+         gGyQMye/Fbq6F/0JvM+1omxRj23b1o133o8ikUKeYuEYgdr6OlTljURrl19Kl9RRJ2Jh
+         pavw==
+X-Gm-Message-State: AOPr4FUQGY1eAaK8Z3Yc9mxYQ1exYYx57QX3jPAhTforAVqRT1zxu9k/TinGG18Jbi/dpZiiQUo1Gg8Izt6Q2w==
+MIME-Version: 1.0
+X-Received: by 10.194.113.194 with SMTP id ja2mr376444wjb.13.1463708260036;
+ Thu, 19 May 2016 18:37:40 -0700 (PDT)
+Received: by 10.28.46.5 with HTTP; Thu, 19 May 2016 18:37:39 -0700 (PDT)
+In-Reply-To: <573e555ec67b9_28cc63cff413882@562f1460-d1a9-42f7-9d82-a9ce317bff18.mail>
+References: <573e555ec67b9_28cc63cff413882@562f1460-d1a9-42f7-9d82-a9ce317bff18.mail>
+Date: Thu, 19 May 2016 21:37:39 -0400
+Message-ID: <CAPJ-dLyoe85uXqM98oRUZJMOT4q5dFgYu+O79Ni854qtkqT2xA@mail.gmail.com>
+Subject: Fwd: What really makes a great product person - David Cancel on
+ starting and scaling product teams and personalized news from Sandi
+ MacPherson, Andrew Chen
+From: Bryce McDonnell <brycebrycebaby@gmail.com>
+To: news@news.adas.co
+Content-Type: multipart/alternative; boundary=001a1130cf14e4f6df05333c2282
+
+--001a1130cf14e4f6df05333c2282
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+---------- Forwarded message ----------
+From: Quibb <noreply@quibb.com>
+Date: Thu, May 19, 2016 at 8:07 PM
+Subject: What really makes a great product person - David Cancel on
+starting and scaling product teams and personalized news from Sandi
+MacPherson, Andrew Chen
+To: Bryce McDonnell <brycebrycebaby@gmail.com>
+
+
+[image: Logo]
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZPfyZKESmZ8n5UM3=
+AMqv-2BLg-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2=
+BCYUm9cePTjHVQmDmQDUjguplw6vNEXBBdyWkVCANLlb5zO-2BfuXequfTYlFkw-2BheB0qIkKX=
+6Mu6aa7bfc59DZUBolXaZC-2BzvSIxsR6BtCNsFDowwKdHCbP5-2FVvJE8o3lXU8fAEzWHcSu49=
+Gvu0gjD8k57mwe35-2BRNkSJftIK-2B-2FwhFaOABTut4ZqUIk4kCQOLpueI1-2F>
+
+Personalized News for Bryce McDonnell, Cricket's Circle
+
+Today's top links from 16 people
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZKCqNvdIpe6v1K2n=
+IV8z-2BKLVk7VN4ZsMdUc4tI-2Bqnvcwj7wRzNtZm46KlbD-2BqZXhwg-3D-3D_qk3BtX8NbYcx=
+o0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjgupl=
+w6m93foHxXly9YHb5Ii-2F8-2BcWEoxTCDZcra9-2FQQw44qBFUszRwxtngiHm9swv-2Bbm8VYX=
+-2BV-2B72pVXEyYuDh25pGW5MBEErWINLwHlcCH-2F-2FxG2trMPXusmGw764gUqerT9zduGiBP=
+-2BHoG87M1s-2BzAh6QYT5JXESpnn7DZf2Hul1wJvvk>
+you follow on Quibb
+------------------------------
+[image: Open-uri20120804-2-b7tt2h?1344063965]
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2BqMP7fZp0Q=
+5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8E=
+XrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6ijirftzM-2BvtNAVvVckLKCS9Z-2=
+F7to-2B9-2Fo4lXN2vzZ7oSp6ZxXl4yecTuD5oYLgBgvVMZHDoYEKjBBhRaah6oSxZR3ClmzDJv=
+OLJAjOjn5AtXBfDOS279YfAkersca8Zxzdvbh7il2VjTIM-2FKAKR-2BemdsJw-2F30s05RdxBv=
+fbAc7fs>
+What
+really makes a great product person - David Cancel on starting and scaling
+product teams
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9K-2FJjnc6C=
+TM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVmkdPhL51Ppt=
+cLWNauXamtbdB7a5uupap_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5Cc=
+cDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6mgITLlQ-2F9KL6Je9MApdgfvY0w7AVekFBeyble=
+YiALVGiOymlvkaTqALwUA8M0tXqGUxz7pNF-2FJlONHe1KdXrZfrhaNvOK5iTbK-2Bqy-2FwBPM=
+bIHpSEy0IHxbThRsSLDlFbS-2FrFSvEnrvHDVOvckEzZAtjSkP9KEsj61Z2OwJ3bLSR>
+By Sandi MacPherson, Editor-in-Chief at Quibb
+
+
+
+*David Cancel is Co-Founder and CEO at Drift. He shares his expertise on
+SaaS and running product-centric companies. Follow his reading list on
+Quibb
+<http://email.quibb.com/wf/click?upn=3D9ZhI9shrlzUQ-2BqBpbGsZAg-2FGGtUIYTHu=
+zZWmQnWp2c0-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi=
+-2BCYUm9cePTjHVQmDmQDUjguplw6mX6nXEobtbEdUzAc-2F8Ilt0AzimgPQtjzdJrH4MHR-2F-=
+2Bg2FBXxtosF9-2Bwv8jloCONEcftEgIUViOorNoTQxQQr-2BlT5B76CBraxk-2FaxaZasLkqkO=
+5pfr8-2FRD0pzZpu-2FChBw9y6FKphzTHJJJh8-2BXfAnm9-2Ble-2BZFl0t7LdAZBJyXAbi>.*
+
+After over two decades in tech, David Cancel=E2=80=99s observations on the
+importance of product are intensely meaningful. He=E2=80=99s witnessed a...
+------------------------------
+[image: Open-uri20120804-2-b7tt2h?1344063965]
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2BqMP7fZp0Q=
+5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8E=
+XrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6jDH8xf8XBMd0rFgn-2FNoXmWgozI=
+kBjPFM9vShcHg9RlF7afu04D3UGXdqfHw6wWAV6KIzidQgw6Guu83vigZq5pnIYMzSEB1UX3A0d=
+WlF0m29KVoOMr8ZRovAdk-2BHM4ekOvSqMHywEqrgg7iJTMEHF1V9SO2WoInUQd7iv0y8a99>
+What
+really makes a great product person - David Cancel on starting and scaling
+product teams
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9K-2FJjnc6C=
+TM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVmkdPhL51Ppt=
+cLWNauXamtbdB7a5uupap_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5Cc=
+cDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6ifhIw-2F8kMTAxidS6ZXGoKlnuYchYvsewOqAJA=
+0uPNr6Pura2UaQiDeMFf-2FR3FcR4FwhHH-2BEEzXwbggra-2FD6alA81RsnnJI7WBvYDiNblvU=
+k-2BHw3nYF3hvhCsuGPxhHRXerV8TNGqMnoZQt6eYdN9cLIoNybutbdF2LZkzstFNfR>
+By Sandi MacPherson, Editor-in-Chief at Quibb
+
+
+
+*David Cancel is Co-Founder and CEO at Drift. He shares his expertise on
+SaaS and running product-centric companies. Follow his reading list on
+Quibb
+<http://email.quibb.com/wf/click?upn=3D9ZhI9shrlzUQ-2BqBpbGsZAg-2FGGtUIYTHu=
+zZWmQnWp2c0-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi=
+-2BCYUm9cePTjHVQmDmQDUjguplw6rtOWhKeaVoze3aUH-2BOmPedKzaA6rzdYm6i1-2B0MXu8S=
+PSSECHPmOmMsaCa7pg4rEHgtMzPOLxq8CCJeakicsxFyiMUsx4yEaEfXto3NHzZDjYO80li9w2s=
+Oly4lArnJLPdztcliy9oO2pzOc5D7HjuXE-2FVzvcVISvVTwhCMgpv12>.*
+
+After over two decades in tech, David Cancel=E2=80=99s observations on the
+importance of product are intensely meaningful. He=E2=80=99s witnessed a...
+------------------------------
+[image: Open-uri20150223-2722-149s1r2?1424683368]
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZMnaSM7NIW3mpMJB=
+wxJw2cJDLc6-2F76Sa4bxmHyoKHuzp_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXr=
+dBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6qzkfExU7XE48AIsFcdaLIgCVOquQLk=
+W35fr50l7-2Fj9Ql3RkZnqrEYmTfnCRRkliB6DVnxRclgBIaNq5wIhBe-2BP1CKQO7AmZDxnNiP=
+RZzL3oq-2FK28yVojdgn-2Bj1I0hrSNXhpylS5EpPkHxFUPBr1u-2Bypg0Pqb90-2BxtjodDFn-=
+2BAWh>
+*Jilber
+Najem, Independent*
+Our Guide to Marketplaces, now summarized in a deck
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9K-2FJjnc6C=
+TM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVmkdPhL51Ppt=
+hBN9Y6U1qci5GDlISLQ7P_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5Cc=
+cDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6vfAua14wyftmg51F2jRHJPUapGXOqtGYVlHpabR=
+qSkM0B-2Fs-2BLAg8roBHtQ7hnNKp5lMb-2Fe3IekVfZvU3n3g7Jj6wt429avXnjcxilBbnGeYs=
+B1IAiYMjldVQukcnGKHXRq1Vw0NZE5yDLTRTKJra7-2FVNpWnbJGRqkODmxA6APUQ>
+versionone.vc
+<http://email.quibb.com/wf/click?upn=3D8ljyuO9VwCIPDZGQ8oDCsYP0CL7AcyNWnapu=
+FuJzD9w-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BC=
+YUm9cePTjHVQmDmQDUjguplw6vmonaHKuZllkGHryk2SMfRakw-2F8VA-2Fg-2FraME3ia1VXz8=
+Vg9kaA-2F9DUFrjcBim3hZKc37WNScaNNkmu2T4P-2BqbKJaA8Co9pPKLvw1LAB77a4r0x4dzTb=
+yjuBugRDrvKdn782HQSlueNJ8uKB8LkOCX-2FDDwzghchukiV0h11C7QPF>
+=C2=B7 39 views
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZKhc1pU3TzOmFMYs=
+-2FoeAjnKX5b1NSdHwpqfyaiF3molHWFagCrbx1n6g5InBNizFC8ErsW4ZdPIf4XAkxU40k4c-3=
+D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTj=
+HVQmDmQDUjguplw6vhBGpbjz3IojW9wfBtyoVcdMkogoopoSNfh9fBVW2BLpFf2x9SGocaWadlu=
+-2FWZeQ5UZrez8SXUrmgpbtwDJ1XmF0O4yxT1yrd9v4DEWxFUswnUhC8Y-2BHBirCVrlNJRsGvc=
+sXOnY86WB5Ot0t3ygcuORRnzeiUiCVv6uaKjhBO4B>
+=E2=86=92 via visit by [image: Open-uri20120804-2-b7tt2h?1344063965] Sandi
+MacPherson
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2BqMP7fZp0Q=
+5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8E=
+XrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6jj-2FFtWfNeAChRc-2Bx4-2FdUsS=
+Vi4JcZKnBA5hzREBvzhvKDgwsM9r8M3vK-2Btfbc4vbGzeUHSi3WOSWyrBNeRuRTNWH-2B4l6iV=
+W-2BT7untpP1BdhOz0Qi4lSod49u35RBz4B3AKu3kRngqfKNxgIl6pL-2FHceBoclB7Qnw7l75C=
+YWubEvF>,
+Editor-in-Chief at Quibb
+------------------------------
+[image: Open-uri20150316-7-14bzogn?1426480244]
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZBfSt6IDiobBl1D8=
+CQZIeWG1Wekt47s-2B-2FGdLrQDXmi4z_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8E=
+XrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6os6lDDohHhMxIElhZuhEzCyVvNHv=
+W6QUsdrhidA-2Boc0cY2592rKxQYONm9eNv2cMKNwN0nFfGovLgd42iWwLgvWZqMW59yTK1bUht=
+fHuDp4wRwtCg9uHSiQjTV3x4HbCTM850aW9YneWnLKCXpWBmd2HIHHVMzHU7yHYQitG-2BZ4>
+*Carlo
+Almendral, Inforum, The Commonwealth Club, Sixup.com*
+Uber and Airbnb really are for the wealthy and well-educated =E2=80=94 Quar=
+tz
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9K-2FJjnc6C=
+TM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVmkdPhL51Ppv=
+3G2-2FCaesbUglAWkujrwJ3_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5=
+CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6u5rqmM-2BWBBAezMniy1OLDBaWvStQhB4rwg0=
+-2BHiR-2F-2BTOleuM7MmxmXkC-2FxVSkdIpWdyWh-2ByPPFeL-2FQQ8UqNPHcDOeaW-2FLDNy2=
+7ufjILKTxgevASWNSD2Fm1XZvB1CM4p7NYjCQBP5v1K-2BGuUzFJKejqIm5Hv9NAoLaRY0yETsm=
+u4>
+qz.com
+<http://email.quibb.com/wf/click?upn=3DvyRcztp2sFncquaTyk1vX08P8iQ1uMd1lVKq=
+Y17yHs8-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BC=
+YUm9cePTjHVQmDmQDUjguplw6mbQiHXRRaGVl9atXNASFYSJMbd-2F2F-2FrogJxLLpMlG8uGC0=
+8GMkBY3TVKl9TZHS0VARi0lSuFfIetYdGlmspUMKl29-2FjhiaTUKqqdYaZ-2BpUrY5OrdmA8YJ=
+6xtocaFGdl9i8W86ORgv0NWV-2FwCxBfphwfoK2uEln836DAWxTzkdRA>
+=C2=B7 31 views
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZDppnl23GdvliKQR=
+ehwsy40NIPJGpFFSaZaKLFOoAUu7EApMr50SV-2Biw8iA6bOvv-2FhZ2bylLo3-2F7261azq6nu=
+Ss4Uz27QG8Fg63RgkOvXqQ-2BxMS3ZtHjKQ8pfUcbRSihAw-3D-3D_qk3BtX8NbYcxo0o4oaI6j=
+WURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6msWxoyi=
+kQKedVdz86yWO8JThuyIJzAP5DJg040-2FuZgOSYoa6dKg-2BMprBdyKcDxtvfxsPhAMTDmdJ1Z=
+VdGqlVxdkxmaxKgd-2B9V1CXIcUqItT6wXzACYQpN1ooN3BeMueen8R1fs5jKBVXVMUiGkT0Xny=
+SUE9nYs4HqEUHYVFViDc>
+=E2=86=92 via visit by [image: Open-uri20120804-2-b7tt2h?1344063965] Sandi
+MacPherson
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2BqMP7fZp0Q=
+5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8E=
+XrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6lJ5bjonlx9tu0uRbZ0xTm-2Bl2fi=
+IAy1QNtVw6-2Be2jNGG61fOYlM0lH-2FCvjDvseea3Abt8ayPZRe6no9XOujfr3fRvF8ho2V9oB=
+AosTyDG6dIZoD7fpY0Q7iKC1wgAJlCxCYLDUf6WdvlIpx1jLZ1uDxS7aXDTIlxmyjDM-2Fe9zOy=
+b>,
+Editor-in-Chief at Quibb
+------------------------------
+[image: May2012]
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZEMtsj-2B86y3grC=
+IOEM3IZSkomF7o408gwcy7o63AJmFf_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXr=
+dBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6lpAT1Kk2sFNaa5GX7-2B7yB7zoLrid=
+h-2BxkuVmRO3kahPl-2FsRgVplfBZrJWZji4SG5l08cbxwZTnUqnAdKXa0sq8XFJ14ztixHKKvD=
+GEQoV-2FJ1RfDyId4ck-2FxZQ9gqd-2FGQtNdl27Hd7rgs246BLiPsHIJr-2BpfyFqixIETzQku=
+uZ-2FX2>
+*Andrew
+Chen, Quibb, Uber*
+Why was Uber so successful vs. Lyft, Sidecar, etc.?
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9K-2FJjnc6C=
+TM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVmkdPhL51Ppu=
+kI-2FQPN8Ve9P6QF7A7TP-2Bz_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwB=
+t5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6tuVLHZ2-2BeqJOqa6Q3qKPTIr4GPo0B9TbJ=
+aCmoe4gfw1SN5kK2lu8f7DNPt1TuDNZp3D4cDHyluNTbvEp-2FplFMk4h8Fi4bcIamz0CSrmLgB=
+mEeXg8-2FsULEIREcbtWJsDCuMqK38bu4rQGcXHCzgAMY3phZRJzUiyx0W0dIBO2sAV>
+quora.com
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZC30pH2F-2BV4ieh=
+IYxHHC2xc-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2=
+BCYUm9cePTjHVQmDmQDUjguplw6qQ51oxye1l4Ud72VKPAlvHVQBLW9pNMhB2TdsajF2rtq7ko7=
+WpMU3t6oa6A3mIfhlDd7r9UhLNXV9HwU8VrHIN7d0-2BF8vh7FwiEo3ymmfahSLGveq6nP68qi-=
+2FfEMp8VpJuFanYvfycXDFlAkvmHB61QXJ268DnCRvPO40KphPOL>
+=C2=B7 23 views
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZOKkmnvR8nG-2F9e=
+PScC8FCj47BJ9yDuAdWjp2CgWtDQCMB4tPRNLvq88UsuMMWtMrPjHPHEXmd14aUQQreDhYPTM-3=
+D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTj=
+HVQmDmQDUjguplw6uazNK3dl5UhCeDOulZCa9FuwyUgoscxmUlvc3fxrjSeZyLsLKjZOe5w3W7u=
+aP7Cqjl5tvo-2BqpOCi4ioURNNVOhC-2F2L-2B8H49C7eXmLVHqCDwbCUWgZ42ouXdd9-2BPt35=
+vFmqzzYz9OraKhdn0onvh39tSOfKjlxkLosR9VbBCPMH7>
+------------------------------
+[image: Open-uri20160412-4999-85pwhb?1460499884]
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZKZNd4OYOmLfqpiX=
+Rwz6rBitJsxw0tjc4fImKKhMU-2B1r_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXr=
+dBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6g9w4wQivj58HdcvXbibj6Wi-2Bpxk2=
+rW4XaMnUh7Kj49m99WYDguDIM0kt9AAp3Yv6GbTNNpJLTn4jL5kheG-2FL8PZu4YB-2BKX-2FNd=
+2FXwD5xI9V9S3OcrYuFukCKRIVblcHEhNRvnRhMv4wsMOFPf8T-2Bofu0K60LY5Q2c4pLFVLqTT=
+A>
+*Barry
+Enderwick, Partner at Kaizen Creative Partnership*
+Google's Go-To-Market Gap
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9K-2FJjnc6C=
+TM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVmkdPhL51Ppu=
+JdHHo8sg859Wyjkz8krex_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5Cc=
+cDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6vdKghCfSr97O-2FJ2B37GcZTgaWmc15uVnyZ5Cd=
+S8G7EN6g2nRekTdv7q77UMwxX44kV7R7ZLTBdnokcKnegVwFV1bgeLPzwaX9sMRxPRFSEdrbbXG=
+sG2-2B26cIwKzhcdPXERkNCKlXup-2F-2FitfwU577FGGmR0Gh-2BajP6tOxN19Xg3F>
+stratechery.com
+<http://email.quibb.com/wf/click?upn=3Drni8oc-2FBDmoII-2Fma9gMPwTYlBpKuaZ4y=
+RYdNpWdH7-2FY-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuT=
+Ei-2BCYUm9cePTjHVQmDmQDUjguplw6j-2FCdKZEOYg476k1eTJ-2BnJBBB57sZg0PqFK9nTNKo=
+nnOMPgm9oDDRkHw0-2FEuZqUb3VCsPkTEEOkY4AeUjwtrQlWw6Uu4otmcrjy4cD2fD78ZV2hQ0b=
+-2BAD84F-2BJnltS-2FkHAdgVd4-2BxYtIrMPYr5vxRLQihnRkOmENRA9wqhBGZJqI>
+=C2=B7 21 views
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZB1cpZG-2Foc1c5v=
+xiADGIW-2BQfNhyi5-2B4AjGEKX4GSRBzBowxG64BNDXdDYmtjOBQkcw-3D-3D_qk3BtX8NbYcx=
+o0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjgupl=
+w6vFPUA3gsGnt0IpNL9cUQzc5bWZ5DOgbjr9NVmEPbOD3rTsCao7U2VD5oA5mDbIUCGet4HXy9q=
+cD5FPuochY4P-2F4kf6gPuOdqGoLTf3E8uPFQNJ0z-2FR6zda6yfpXW5obLayooq77qSshgkqlO=
+nqOuXOOBRZkTSTeKeAqxxKAt-2Be9>
+Always
+an interesting read at Stratechery.
+=E2=86=92 via visit by [image: Open-uri20120804-2-b7tt2h?1344063965] Sandi
+MacPherson
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2BqMP7fZp0Q=
+5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8E=
+XrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6mc-2FVuRtGNzOuUAiCRZcWFykgpL=
+yGsrNEWWIFILM9pUAeKbb33P5Y1n45agOD9DVrDyVulBDdGcJiFqG7SBuI2L7-2BbsKNa-2FotJ=
+SziSCp0r8e1-2FsG5z-2FOQNLZW0sPowhfLKvzk-2FNiWLy-2B-2BvhU3aQnEsKPaRWhmTDNync=
+ftbtUBb63>,
+Editor-in-Chief at Quibb
+------------------------------
+[image: May2012]
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZEMtsj-2B86y3grC=
+IOEM3IZSkomF7o408gwcy7o63AJmFf_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXr=
+dBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6n36D5p70jVLkJhkQaK243LDtBe7iyr=
+Rupd9zCIBbu6lKADcPWHMHotjn4fJQP-2B-2Bk9xWVSMeuTF3TrtOOouXhg5Lzu1Z2HzNX-2FXt=
+RsiRh-2BDfev10ny2N3LhBDmqoW0TtyPV1yiAgr4V4yb-2FRSU7Dod1K7zgyg6NTpt8CwnrD41r=
+T>
+*Andrew
+Chen, Quibb, Uber*
+Dropbox's VP Product: Find, Vet and Close the Best Product Managers
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9K-2FJjnc6C=
+TM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVmkdPhL51Ppt=
+iagP6rci4dUlCG-2BerqP3Q_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5=
+CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6pNz6CMWnDrjXbICKD7cxnJwWK-2F9227HRALX=
+tnKTYAN4Knli28sHnfEKGvoNHv22aaKi7Uia3PSqBGgbRBeDm2AYNT9wsHKDwsuk2BAmEg6qs3z=
+8Spb7G0nIPf35P2lOtFCoalt47-2FlNWdXyOLB-2BAHjRET2mZ4IZY9-2F42lW8TMPC>
+firstround.com
+<http://email.quibb.com/wf/click?upn=3D60DxSb6M5oVoaaM9SulRpOrGXLWefDNHVzi1=
+8FUGkz0-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BC=
+YUm9cePTjHVQmDmQDUjguplw6nZGihya-2BMcpdUFZ-2B0Joh9s1v14afKNyepeZPnf6LQ4UA9J=
+H27yLKBSWwLeMdH6XL8BdZ-2B8tj6uridDBn6eRW9pXNuNEemRfsBCTFIrKi-2FvZpvJe8DemEU=
+D3iUrN3QtZhFzMNiWws1BlZ7zOx7ZjA4Ax09HIk-2BzmdLTXW2PCN5f3>
+=C2=B7 18 views
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZKtp0CJxiJGXlnRT=
+e6LQG4ctsBLqoIANWs34bkAKTgykJE7yf8gC-2FgZhK1QB9YX9Ytzy6xgXe5rSX48CRlLihc4sh=
+LbYHaDoXxJnV3463iX8_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccD=
+iuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6oTlO6zYzO6nTf-2FXVNoblLmgsIqRrfe8pqnxyNON=
+-2F3y46w7wiWsrmiLYVb74GzztTV3HJRA4N2VTlWaOtSWnfyjUhGVRYYvm8ymvseWDGmJ-2Fi-2=
+FszzNgHdBTlw0UZ1d060tl-2BKmthK6B6UgRmT088cN-2FFwSX9NzewsE25GTxEymff>
+------------------------------
+[image: Open-uri20130806-17-an15ac?1375760451]
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZPnqMz6-2F6dwlTv=
+nltQuqq7H0czW9uDLIy4kJxmbtP2fh_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXr=
+dBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6m4MQc7lnh2c1BMzIK5A-2Bv5N5C66I=
+W825IG-2FAc8y2xGBZwdeJ4QVcha4W8aoqUuTLRr-2FCVFG7xAW4rzi1VKYvszhIeT9M0vB5oBx=
+FIEymFFBNlRN2XwPxLNV3mfP7Mtqn8bzIn5N6ZhGCA0nbKTpjY75loIIaulQ4ygfbUXSosIP>
+*Marin
+Perez, Independent*
+Why I declined an offer from Apple
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9K-2FJjnc6C=
+TM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVmkdPhL51Ppu=
+9TNRHLEJcOL2VHXl5BrS2_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5Cc=
+cDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6mfNQLSsR0tzNovBLzsFQxCjjFp9yOr-2FF-2B97=
+LNe5lmhI64BKnaYNhZEbQS1PEO4g8l-2BX1h3FWwwE8pyguyBAtyl8P7HACQIfuv0hEgUN7JIhP=
+UbYBNPH3OMMwveirpLqkeRa-2B2Rz2XCVWWpVOxG11Gs6Eb7xdzRI-2FGSW8rvNnDva>
+medium.com
+<http://email.quibb.com/wf/click?upn=3Dw0VMH98LPLGEOa99jWfSZU6zhCcpX5nxq4ns=
+yrCGHm4-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BC=
+YUm9cePTjHVQmDmQDUjguplw6oJMlyFq6w7xO7zSMeC19zzcf2CD4-2F-2B-2Bqd-2BGqahnpYe=
+oCo2kAIH3nofmEPkSbeYQZZCw7CiPigy0UfGvVyGcZmfN9gn4E6m5xKTFqJJ7wttuzENFrqG387=
+uICVAhdmZo8t9AwkOR4-2B6QPkPnolEWADCIvDEKiH613EXZSXBmfkiG>
+=C2=B7 12 views
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZOKkmnvR8nG-2F9e=
+PScC8FCj70lHC49qSt0FsbUQaBVvdTZ4IJEZF-2BTdEo-2BQjyDUB52Q-3D-3D_qk3BtX8NbYcx=
+o0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjgupl=
+w6j1w364z0byacRVUYf8jV-2BKLvtH5cBET9DSCwtqTvFZf1t2mvA9-2BDyxIw3MHmHCe3iAxbX=
+LCE-2BNNUQJehUEAtHHRlHoOnptekHNuaIvNOJcvLI5H7DZNrLNcqAUcREcKsCgQbI4S2eS4p8h=
+al5F7CfYGaZc6TKClXLmFuT7AbV81>
+This
+iOS dev took a job at Yelp over Apple. He lists a lot of valid reasons but
+I bet if we injected some truth serum, it would be the SF Cupertino aspect.
+=E2=86=92 via visit by [image: Open-uri20120804-2-b7tt2h?1344063965] Sandi
+MacPherson
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2BqMP7fZp0Q=
+5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8E=
+XrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6jKTOM9Dw53EJtS1Cjc4YE4zlegsk=
+Y7LKjsSP6ZLNMDDO-2Bbj572yRNBD0gDs5fWVTnKpOaP4TaGLXLuQsvyxO2u1BDX6EY7pQB42G1=
+No-2BmUNmNkSHvSn79XHdgz5Bm16Rr66swtagcnfnez-2FOLaE4EhYKwEZuT4R6XRDLrqbxi-2B=
+A>,
+Editor-in-Chief at Quibb
+------------------------------
+[image: Open-uri20120804-2-b7tt2h?1344063965]
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2BqMP7fZp0Q=
+5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8E=
+XrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6nol5wTVyczGHF5xKiiGQyv89zzvl=
+wPeAjhd2mirp0WyUupvPdgknuT8546oHc1Lp6KvGyi8b1-2BDAXmJWzwlBU0xJ3zmjL9pBzUAUn=
+EevZkP4rItWmTAI1r3WADKAMxeRrjsK-2FpDQywlbJM2-2BV0V-2Btjj4OwcjHIPDpRsNwsaGMp=
+R>
+*Sandi
+MacPherson, Editor-in-Chief at Quibb*
+The biggest Google I/O 2016 news in 10 minutes
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9K-2FJjnc6C=
+TM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVmkdPhL51Ppv=
+O-2Fbc8Pwcd-2F2DoViccQ9lY_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwB=
+t5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6tvL0mrjzLGfpT-2Bb9btWRRExAGrp9uZRFc=
+80jG5Q-2BFGJpByR5yfd5TqNgWaXFyQqQczLoDgG-2FOdPnDgpwUUBc8B8Trj9mpQWeroRi2Oc6=
+w9Tc1NT0-2FQ-2FUXgZ9bIhCE5sxzs6TmTMBcZhxyAbTx-2FCnvBoU0deBYdF-2FQHswZe-2Bof=
+Uf>
+youtube.com
+<http://email.quibb.com/wf/click?upn=3D6crhD2xPd4hoZkwMVW03tRA97DN-2Faq-2FH=
+p1EyPk0uDNE-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi=
+-2BCYUm9cePTjHVQmDmQDUjguplw6mPJDiXNFqGqFE-2Bn-2FbX5splxvAJ-2FnmhUGuUqbbwwc=
+YgSd1dlRw9uhUOC7I-2FB6Z-2B0pPboSnhJf8sio-2F3ve1if8Fd5-2FjyB0DnzqFjJ7TskR0R-=
+2B6WCJydWYKWaug9bbr1NMHAAAUqKPeTH6LSaDe6ysiJuiNDUavajxqQlSrLcu2i2p>
+=C2=B7 12 views =C2=B7 1 like =C2=B7 1 comment
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZFhihUhn1jjPw-2F=
+SR9anEF0-2FgCLttBYb4QKakHG-2BsRo8yRtBOST9o-2FsRt2eLaDLtUHQauB0ixjIltTbfLmHa=
+QCk0-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm=
+9cePTjHVQmDmQDUjguplw6qaU98IqPX94rpY5rkDzxcxAsUpfHPWqu437BCwwRF-2Bgsen4wLEI=
+qQOEftrQqYAq5CVIJ1mZK1o-2B1bTffKongh6s5PtdXRLb9P2HsiuyWw5K7cAha3dKM17mvfLRt=
+CZX8tvW7h-2FVbLhYKcLOYs1JYhpWIld4dwa3QWbm4c0IHYUj>
+Quick
+summary to watch over lunch :)
+------------------------------
+[image: 2013-10-03_00.14.00]
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZHsEZ64FqIeKvyES=
+5QlXK-2Bw5eZhssUxE7vgZOZtFDrk5_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXr=
+dBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6hZS4xSno-2BWzriOiborX8-2F5sYTP=
+lrdGYf4cn42av-2BBl1hJKvPhy-2BvzifRubPsHPhr2VRCmOQf-2BHr7ZhEmuR1GZ6ZbPmfKxaa=
+2UKpvHDWTysHIjXGFHzLgLSIhKsnlhTdvPahl4ghRhOPykZ1Walk4mbPbDeUhK6MbhdzzyvY5x8=
+o>
+*Peter
+Boyce, Rough Draft Ventures, General Catalyst*
+We analyzed 4 million data points to see what makes it to the front page of
+Reddit. Here=E2=80=99s what we learned.
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9K-2FJjnc6C=
+TM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVmkdPhL51Ppu=
+IL8j4Lm9pSbHrOjj63Qw7_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5Cc=
+cDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6ogqmZXMG7c-2F4orHifx4RQDpzLzzRCqnKiQTws=
+BApcT7hRCLV5UYgfl6WaW9BW7FH9a3eYrqryjHWk8QyNNnuF5FYeFcqUi2wEjbceHORc7H0RuPg=
+-2F-2FrLKRZD8PbhzJpb2jflfG4-2BJTkgI0txhQKJccZuWYFWxxuZyvZOfZTye6d>
+blog.datastories.com
+<http://email.quibb.com/wf/click?upn=3DhauDSMB-2FAoBysPKdHymTrsX35bSy34ekJa=
+lQ5TIuFV93FfbDtDCw5zV-2F-2FqYFrBWF_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B=
+8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6k01nFN2nl-2BIiT1V-2Fkp0BZb=
+2qGchW2wibUodi8v1pPgSqFmrB8fG-2BPtb7WKdcwOKqY6tmKqACNnu5shIx9-2F4nGK7HgQBZB=
+yYDxdmS4lz3fcUEb9fJOVhSwUgBEcZMGp9xSJvC3ET9-2Fh8FMn5y4uY8Gx7c1Jl-2BIUlPiTat=
+GsPkfWD>
+=C2=B7 12 views =C2=B7 1 like
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZN7GryrsInX2Zmkn=
+IsrVaiSyDpI-2FhaJ6r-2FULt38mjrxknFjYqX8GUvMT8SW0sUrZGnlKaC6yakWVcTM3LBCkDJ-=
+2BSVpiL4mvrccEilc3czdbLf0TM52G5T367NPm8hJ7csPWj3C3tvtePO1SlMfKyb7x0508FlNfd=
+OP6ltWD9Qh2-2F_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi=
+-2BCYUm9cePTjHVQmDmQDUjguplw6uRYEnjJPr-2BnePSYo7wC4rrwUZdA7mfZD4Ty-2BLYLC9x=
+iNHQ1bbj5HlyLJ5c98yXVUn01NNhTWBqYMeSzJ9MGtyRq-2B-2B8xKn-2BKShAreaU23LRlzWPE=
+2Z9Z0SnYYF-2BsMkX66gojgS7o9m2gsJb8AhuZr9-2FY2NX7lcSB1mIZF9DXpeXW>
+Fascinating
+insights
+=E2=86=92 via visit by [image: Open-uri20120804-2-b7tt2h?1344063965] Sandi
+MacPherson
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2BqMP7fZp0Q=
+5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8E=
+XrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6l36MSXGn3cX9klAZyFySQjX4fOY2=
+ekHelaTR8R5H5sMfGdGT2BerjehR4IDSRg20QssX6wdHMQU1d-2FDfpcUP-2F-2FLulfRFoVdbz=
+HdIkplaGRlCFwX-2F2A8zhJM75n1EGgXnnK6Zs3HdbDkUAjjNLBbrab-2FuA3Pii728QMdHnaVF=
+URB>,
+Editor-in-Chief at Quibb
+------------------------------
+[image: Open-uri20150821-7120-fb0xfy?1440134800]
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZPWTp4Zyq5ynHmLv=
+iwusbVNWdOV0aFo5dkgSruwaBdPT_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdB=
+IwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6hNbh4PZaOMZq7nUhNsLS8uAG97Ml-2Fs=
+1ql6Eumc81pB3vz7phdSIzTqfDiTbuOyMGWAkhYL0YydIYP4q2IC74SIf9DsbxAIAaQ4I5jzhb8=
+4t9HAZQ0guq0L4AA-2BypyNvCOq3m8m7H2NBGjl55Iu8538c4IPgTAhDEylzEXvXmfDM>
+*Mary
+Green, Content and Community Manager at Inbound.org*
+How Sticker Mule is Building An International Ecommerce Company
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9K-2FJjnc6C=
+TM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVmkdPhL51Pps=
+UpEYxYV6-2F1lsPvz-2Fo2NK8_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwB=
+t5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6rquBSLnXuYsINXNTJi3MY1C6vRG0ekgblqW=
+am9HpZQ-2FQIQBlvKEc-2FmTbI6t0d1DaFz-2F5OXP4NH8AH3HQX0eQhsj6Hq0DV6qtj9jgz9R0=
+Fs1M72Nab8i4BMl-2FVeuYye44ZV1YbjozwM49ufj3gRiHISHnhMkIQnEJPLcGd6cDvi0>
+stickermule.com
+<http://email.quibb.com/wf/click?upn=3Drni8oc-2FBDmoII-2Fma9gMPwbJXI2wFzBZ9=
+SVQOozoldMA-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi=
+-2BCYUm9cePTjHVQmDmQDUjguplw6kbRHks806uLfli579MjHwAstCEIE9A1Azn50cE3q53XULc=
+KkFxYbQLw1IOFlDl-2FRiGlkkx8Pvve-2FtDmxwHXFEZijdSlKcLTyvgxUdddJSxjHvD4nTISnt=
+TANlRM72i3-2BYP5K1SivQ3G9-2FG44NKSAk1a1NqMcHCHTW1CcqxxHprF>
+=C2=B7 9 views
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZKlrDbrX6hUUD18a=
+0tpbe087WWa3HfnrlFRdFieNoWDbJnRe2W-2BnZt8HHkyduQfnUd6sixnytrcn1wMEAeLAbwA2a=
+o-2BSEMabHXqklc1vZ73w_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5Cc=
+cDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6q4dMgv5bIsGHZ-2FrPDjfsDpNhbNSU33SJCA8eW=
+CFB5B3v6q7MVyNgVHIyiGo-2FI8lzQqmRBkH-2F14uAgR-2BqMWhfoCMYOfJsGcNKN-2FKOYS47=
+jtgkJsNjQtbGnlhVdW-2Bx3FTGbZZ55CTYf2hDMZu6HsfwoZ7RIQyd5qKWB08JXfOwtAn>
+=E2=86=92 via visit by [image: Open-uri20120804-2-b7tt2h?1344063965] Sandi
+MacPherson
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2BqMP7fZp0Q=
+5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8E=
+XrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6rA2I23trq0NXbwFfqjl0s6E12Zvt=
+a4I1Q-2B5ZG4468U1wn2G47S12hDUwN3axasuQrROzxXlWJzn6SWHYoiCio2r9LuZMh6GjLuYNJ=
+8VXQABBb2p3LYhijQIwPvTpNsmAs2bBa6nBn6sfwovaL-2Fl0SB00mZ-2BjchERZTTsV9uPkc-2=
+F>,
+Editor-in-Chief at Quibb
+------------------------------
+[image: May2012]
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZEMtsj-2B86y3grC=
+IOEM3IZSkomF7o408gwcy7o63AJmFf_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXr=
+dBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6lfsl5s57-2By7iqDa5neVdDZ2eQBhL=
+Vi7-2Fq-2BDv3ulbGc1R0v5u1BesmnQntI-2B9iqYEdaH3s1pFygVm1kmlErZAcQ0r8XaokKEQ5=
+m5CLmfNyPfscCtk9rIuFsiFRM0rXBurbO6eI8YlOFGZyr0orSLTste3NPQiBHE9op-2Fe2fGU5Z=
+l>
+*Andrew
+Chen, Quibb, Uber*
+Meet Uber's first self-driving car
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9K-2FJjnc6C=
+TM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVmkdPhL51Ppv=
+-2BlvoypTEgw-2BaqsM-2BtGAYX_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBI=
+wBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6lwf-2F1eqnq7YCQWuAD35RJnvyw1-2Bnr=
+ONYui5PDslhHkaMAGszjO983noODRRCQ72341F9yUeGhOFwlmRSRo9hVBC7QlWAobOjfjH0aYcD=
+VsvOxB2BqzejWqk3YexkBrept-2F2508YN2JULOaH1RIEJjLZPLPLVd0x6eyHbSXcGe4n>
+theverge.com
+<http://email.quibb.com/wf/click?upn=3DdX9lleG9vYLnxu6URT4WjOoiqZnqKQ-2FA5R=
+mV-2BYsHgcU-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi=
+-2BCYUm9cePTjHVQmDmQDUjguplw6iYyd3UJmVD6eKOWo8ZddKu3gILgF2DDhBwHV8M6XasbXD2=
+YX-2FK2klkqDg66ezXT22zJew1iF3WJapT4bmSGABa8h8q4kLHAI8dJgUv4DusI7-2FB-2Baea-=
+2F5ymcPCCUr06QLW8JtqdkKu5U2Z7z6C-2BTlVdedGcmwNF1GpAHiwDT7kPS>
+=C2=B7 8 views
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZOr373DgL2IfUO-2=
+FSxZAmIiXrvizbMddfdhccFFtTWrg3dEY426MMgz-2BFVv5dv4fpxG0g82RzxTdw4h6j-2FNPZv=
+jQ-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9c=
+ePTjHVQmDmQDUjguplw6piM7pqNYnNexD4cKPU1iFGcO2A6prZJWSo4rV8Cl1oIfZmpxKeubtoS=
+8Xm7k-2F8aEO7AQufTvdVjtqqsAcaZAvj0MqOwpr58l21PECfmZqEt4ypvQbrvBLJEyx2RAfsb8=
+9tVN9UdLRtlXUhbGrrQRllLdBA9nVFcb5GJjQg4-2FVLu>
+------------------------------
+[image: Open-uri20160506-10-tkcxsz?1462567219]
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZIP7gcj1FFYlj9A0=
+Ny1G2rPzn4sYI-2FzduScO22ovfkyb_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXr=
+dBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6sfXlNCv0FYLXUwf58U1ZpQrqCK73I7=
+5ZIXXStSHgBGVaRy4ytOwfegbAkoXB66ScKJ4RRXbYbzHcxyoyS-2FWiclWbdoabvdT-2BDuBqu=
+tA-2BTJ-2Fzd4QHqgpZRcsHvpRz-2BV7cYDxm-2FwNBAg06KpkN6AWV5CUTrWaB1We2UY6XAUy5=
+MiM>
+*Christine
+Deakers, Content Marketing Manager at Mixpanel*
+How Celebrity Apps are changing mobile gaming
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9K-2FJjnc6C=
+TM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVmkdPhL51Ppu=
+Pr1qUjVJMYILkWu9j-2FzEY_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5=
+CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6oCIHV6dLBVNnyyIZnnifrw2pCfBCD3Qrqq0-2=
+Fd9DhrTlaEIAsljgY8kgTboqOx9NRU230TNy8XxH-2FsvrlWW4BTv3xpzotnlb0-2BPKRz9FV6J=
+4XLoxHiEpDyY1n4lUa1YYCJUky2egEJifVX4HTZVyDG3jlqtGdjB4jlNKpmOarKbE>
+blog.mixpanel.com
+<http://email.quibb.com/wf/click?upn=3DhauDSMB-2FAoBysPKdHymTrllD7fG7ZEnL1h=
+Mkb2jwuyo-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2=
+BCYUm9cePTjHVQmDmQDUjguplw6qfrohXF1dYaf8y0Tq19ReC4YYbt2loC69jsp8jGWSWTiOVDM=
+SCaHpzi7aDU2-2BNvPxM2OrIn-2FUzaDKTJ1C7qWHMMsn68DqLdVEqNeCk-2FW-2BohEroeGK-2=
+F4LsZd4zGrnACmFozgB5OLyIEG6GFyo5IHUndzH1JqepR4pR6EbFXZvhX4>
+=C2=B7 8 views =C2=B7 1 like
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZKlrDbrX6hUUD18a=
+0tpbe08K-2BmLIbH7NThS4qLxFXesCurMhJBWy7GVSpl5lOxieYZdFMdvVOqferGUaqhcIRhc-3=
+D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTj=
+HVQmDmQDUjguplw6jwR1ASAKutBMiAHxFWftqVVBcMcGXJx6xKGF7BH5LffjBMrDZMNN-2Foup-=
+2Ft3LhTOBhewzFZnoaLBJJLLXpafVDjv-2B-2FZq4tMI-2FoKocN9SmUBf6j6jDPxHE17qAipWG=
+Rjg0S9C4M9A2pG4oVE570eVeOHQ1uLXD9l-2Fji1z5o1TQgNl>
+=E2=86=92 via visit by [image: Open-uri20120804-2-b7tt2h?1344063965] Sandi
+MacPherson
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2BqMP7fZp0Q=
+5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8E=
+XrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6gRMm2nbzKi4EyDLwxOVGmNzEnP2n=
+47OxiSyquW5gxolWGlkA-2F5bPaaICf68Ths1vhHG3y2-2FCh4HbP-2Fwbdb69pylpKxOViQIni=
+D0dusyZZIz26ZOi1SGujkNO6KdNoxtUfkEOx8sfXxx-2FKnLjt65j2rTBl5FO8g1wXyhZuuV66S=
+0>,
+Editor-in-Chief at Quibb
+------------------------------
+[image: Open-uri20160412-4999-85pwhb?1460499884]
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZKZNd4OYOmLfqpiX=
+Rwz6rBitJsxw0tjc4fImKKhMU-2B1r_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXr=
+dBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6jrcNS-2BI6pyx5Abj9eNIvcZJe-2Fa=
+y97lYlQ7LBT0uxjQhfg-2BQYNUBFP15P3W1GkLSdujgKlIiJk4UanaJaa3TRpAVmCpSAF1ZjGB-=
+2Bsg-2Bpv5ffpeTtkJIMQhLXma3J5c2CXm3YGQKFNPZUCqFuIyLq-2B6CKvQ6dIx81flNXiraE9=
+y75>
+*Barry
+Enderwick, Partner at Kaizen Creative Partnership*
+The smart home is stuck
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9K-2FJjnc6C=
+TM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVmkdPhL51Ppt=
+cxsNfw1mE7hjVm4xgqbTh_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5Cc=
+cDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6ib5EeENgyURdtNC4Ynrjw9XRk8PgDn0xWqgSyRr=
+cXz3L-2BBuo0pHCXkUyVPDOJXX-2FBHpZChzNeLkBGoTui9vrdROURHxf8-2Ft6rMis0JfL0CcV=
+RI0KpG9mu-2B0G86-2BxdLqHb-2Fxw03EEhzkNh2b9-2BRIIVBFIC5VELZJ4g2Y-2FmC-2BIKG1=
+>
+recode.net
+<http://email.quibb.com/wf/click?upn=3DJa794RxQRNK0aNTaDPCsE-2B9b3neiSKsWMd=
+GzM4H1KcQ-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2=
+BCYUm9cePTjHVQmDmQDUjguplw6rbs2E-2FTTxQYRz3DQX2jV-2BaNyEN7-2Bwqp8qfTrCZV9Mx=
+TyUwTFsdQ-2BRyNt1-2FqkYLRMThDrRjUdneYf1qFCcOimHyiUUEirJcdo5iSsOMAxqPxjKkQcF=
+poukz1PTEcdwHFjQpCVr9M4weT6jkyOs-2Ff3e2EeWWFHZ9PiJg9U0tfF-2BDF>
+=C2=B7 7 views
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZFhihUhn1jjPw-2F=
+SR9anEF09pkXo35tO-2F8GW7iWx27zr2MXTxjTmBqNhOxfEr0y-2BADw-3D-3D_qk3BtX8NbYcx=
+o0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjgupl=
+w6g2I-2BcrNmEC6RSicmtpI2thm2vqhJYJvxmxyn7QkQpWtywdCzI0-2F-2BMyLeeVc-2F-2FFH=
+rJsWKfd-2F9o-2Bq2JleA7-2FZFZsg77kbOc5UrAT9tp5G6cN-2B4gXijhkAZMxCCGDGAoLCFXa=
+eD8rU01bI-2FYzE45AbdHSh8Vgsk23y5csvKrRUzoWc>
+Interesting
+op-ed on the state of the smart home market.
+=E2=86=92 via visit by [image: Open-uri20120804-2-b7tt2h?1344063965] Sandi
+MacPherson
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2BqMP7fZp0Q=
+5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8E=
+XrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6s-2FOH-2BIVARCBNCKPDsV3IF3m-=
+2Fptmvw3TTNIMg7-2Fz4f9avuFQf8LqdDscOLzA-2BXBidCe4OVca7txjNwsWLhFIp8diDc9JOW=
+eH4PAMIXYhr11MjFTEaaAB2lWp0jA0KkzW2qKPBfFKWd4730DjHzoPPuyTtY-2FUVOPQ3UqbHXU=
+QgM2-2B>,
+Editor-in-Chief at Quibb
+------------------------------
+[image: Open-uri20140930-8632-10zvbcv?1412115302]
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZCu2iaWL-2FSkOCH=
+ZRcPJwGw0GSg4iMMshk6O-2B9Usl5rBr_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8E=
+XrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6lP2ayvT7K9LxEFSRMMZZDA5YvkSJ=
+HF-2B3PFp3M5LgZeIb-2Bv5zpUim0KZyTc-2BG-2Fp0kNny-2Fyv3pdFwxoY4ZCseao4fbSyNJz=
+rUT6yr6YtzPkiyikZYO9Pk6yerS8TE80nErvwmzUHzpOH2tkF054I6WmHBBuVSFCH1cAKHczBz2=
+Gw-2B>
+*Wojtek
+Borowicz, Community Evangelist at Estimote*
+Fall of friction: Google=E2=80=99s foray into beacons is a supercharger for
+contextual computing
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9K-2FJjnc6C=
+TM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVmkdPhL51Ppv=
+VzvnvKnauWcBEj9OFSuc-2F_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5=
+CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6r-2FbIv7oRJF10axgniPA18NR0qQu8VVmBwt2=
+wkZ2AFKcxuNVIC7Mby7yoPREDjB5ZsbCiSzxQR3OM9Fv0-2BfpuPW9plb3ttTexRBJs1ZPmsper=
+vNWk-2FnkbwnX7q840lqXs-2BNQMN1xfHViADTshcKHAwJlOK7ILlDuagay76pS4cGL>
+blog.estimote.com
+<http://email.quibb.com/wf/click?upn=3DhauDSMB-2FAoBysPKdHymTrsR0FYNTxCj4rG=
+fQZEALck8-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2=
+BCYUm9cePTjHVQmDmQDUjguplw6qe00DC68-2BA0a0h07M6bUjh9N0HOZr9vnLw5BVxS3jy-2B9=
+V2PRiy1f0ZRjSfzhsVJI2ogCu7LNmPRtrrcJC1MOAi9WYM6BzARezkgaiaTMJuAI0j2gjantFOA=
+8sbNLcZiawGUL7pXAIsF4MIsu7jsNOfBNv4BsH12nzZp-2BtwUE6MF>
+=C2=B7 6 views
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZIRDLzgDkk3WRSI4=
+bYtBJlvWrIqYo7yJeqzHn-2FnsPOoge0Ne3UvbMOZ0sgQU9iDfBkwDVjKZBP3TVNd5m9nda8Clm=
+LrQnUtqaeppPPc7K36RYNgP2mY3iRmXoNn8xma4AgA7FIheu5mnz-2BfkmhleQAY-3D_qk3BtX8=
+NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDU=
+jguplw6gFffXtRD1RZ5BexVWW5nipX3Tr2pVKMJonZVwW1lOu0yqHJp6xXfkI43UWHcYFKq3oVv=
+dSncYbqJiVyxxmoxNped3i3RT5ertucTJ2EGqDLaYdQlmuoAvxktdscB9-2FNvKQ-2FyfwVFAE8=
+QIOduNdhNkYdLl5LFA6PJpnMIBt39RBn>
+Google's
+announcements at I/O are big for location-based services
+=E2=86=92 via visit by [image: Open-uri20120804-2-b7tt2h?1344063965] Sandi
+MacPherson
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2BqMP7fZp0Q=
+5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8E=
+XrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6n-2FToNkVafHkn6FmbkvaMpdKE3z=
+yzu0VatObGVadlZWS9MgUxaQTvq-2BEfUcrINrSVnLVDJcfsh-2F0-2FpXSVei24cklyZlmVe1o=
+XnuSs9n8KEHTjZBcHXkOff4T6PJ0rZQCIH0PjOadB2U-2FKok3sA1EOl9jGK1BEOdk6szsZbR-2=
+BNRGr>,
+Editor-in-Chief at Quibb
+------------------------------
+[image: Bio_2014]
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZDh3FD-2BzubX1go=
+UHKeMaP-2Fef-2B2QrZ7cHTW7-2Bts0AUOJ1_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-=
+2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6iWVTgVtjtjJ20-2B0QjQGjkQ=
+Zj24waH2m68-2B9-2FwdxPt9u6VGK8RF16wVUFR1-2BC38R72FqbDu-2Fsc-2BEbBrVlZ-2B-2F=
+683vEbgtNAcH7JsqwPaj2Y-2FkgJh75oZcicQdyUIYg05vmIajxmanojzwc9OOWuZAt7BWNVbq2=
+mAQVRsgPOdqHCXX>
+*Karthik
+Hariharan, Engineering Manager at Uber*
+Meet Uber's first self-driving car
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9K-2FJjnc6C=
+TM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVmkdPhL51Ppu=
+zRbvcTtaiyCCuHs7FNICB_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5Cc=
+cDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6pEvFKRg6DjwWXVY0ip8hhGzukXP0F8qKBPBVTEa=
+JkBjbsDsypiVc2dRhVRjt58K-2FZmsQ00jssZbi9ws5FuyzlERDVj2fTnztn6Coeg-2B9XKJVll=
+-2FFgcmLEuol8igJ0bMjIeW0-2F1ilH6CLejffoY25ELVDv8f3NetiBrrV7NNaWqR>
+theverge.com
+<http://email.quibb.com/wf/click?upn=3DdX9lleG9vYLnxu6URT4WjOoiqZnqKQ-2FA5R=
+mV-2BYsHgcU-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi=
+-2BCYUm9cePTjHVQmDmQDUjguplw6mUXDSHYhM31d5GwEpd8Wyz1PB41nnFqbId30j95shLQ8aJ=
+NqJWAzlyd0QDGX7TlXjKnjuVrQasVZMmj-2F2auU4GUyh6R3hcf4X52cVvUkDeBHCQQ-2BOV4Wh=
+iuMQlu3JucexGa09GQcoBjUB5FMqK8v3s6F3g1rq0N0sS4caciTk-2F8>
+=C2=B7 6 views
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZOr373DgL2IfUO-2=
+FSxZAmIiXrvizbMddfdhccFFtTWrg3dEY426MMgz-2BFVv5dv4fpxA-3D-3D_qk3BtX8NbYcxo0=
+o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6=
+jvtxBqQ3G-2BlwgadgsnbdElMI4vjQn5EkGu6-2FWb-2BpCLugU8XO5Ta-2FVh2I2KLkec3f5ez=
+cx0ypwaA5Gb8DqMmD3Xeeouk01i4dgIHAo397X1khUKjf8SbAPO5TV0j-2Fkmk1RQnrJeRo-2Fs=
+-2FLwMc-2FZZZO53YGnhyI-2BM5G1dY2QxGUOYw>
+=E2=86=92 via visit by [image: Open-uri20120804-2-b7tt2h?1344063965] Sandi
+MacPherson
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2BqMP7fZp0Q=
+5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8E=
+XrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6kogKLlbmYRsWvzcRXOk7MOjmXlAC=
+f662VFEWRm5EguK18s9-2Buxo8pwfM63kuVvs7-2Fc2ng6d7-2FRUp02AafVDINjGF9RV7TFiR8=
+L9MVAsCaATUr83rm6lnwWo2aF5Wxj0OkHomVfvZTmtfZQ392U3b7qD8FAcTKGC8u6-2B9Hwnzw3=
+A>,
+Editor-in-Chief at Quibb
+------------------------------
+[image: Open-uri20140318-6465-1a56vsr?1395148945]
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZDxD1-2Fgr2BulaV=
+3Si44Tm5LdlLGLIViIIgB2i1hy8oh3_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXr=
+dBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6u90s74qQzQzLN62SSaRuuv-2Bfs1cN=
+PBMA6oLMDjUaadbU3K54xl6qCnqFYa8cQ1XGxAKBtC7itHhtOwokCx4LJo8IU4zvNPgCjzn4o7J=
+4lhnF4B5zKjpl-2F4PB8bnQgfkyHXfpiK1jan7usKXiMUS3qkIryOenCPB1g7lWphyhcfi>
+*Eric
+Willis, Founder at Chatmunk*
+Find, Vet and Close the Best Product Managers
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9K-2FJjnc6C=
+TM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVmkdPhL51Ppu=
+HR5mxGZoubf6wBlZqv4FW_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5Cc=
+cDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6hdMTPET-2B9yU3k-2BYLaDDAiAFgU4raQl9sY2N=
+6PaTOCOvqvtupvkHGvRaa1P-2Bnm8sBT6yK0CGNVSP7cFSWNdAYWh91-2Bi5vOnHJ6QwWl5VF0B=
+9oIvQRdv1bFXMoPTRx3N7VzDgaMVRM2-2FfGSypLk2NvEsXXpW-2B2c-2B4bjrsllugDDHu>
+firstround.com
+<http://email.quibb.com/wf/click?upn=3D60DxSb6M5oVoaaM9SulRpOrGXLWefDNHVzi1=
+8FUGkz0-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BC=
+YUm9cePTjHVQmDmQDUjguplw6jzuKl8B4nePq4sMFwts5kF0dP-2F-2Bo-2FY75KohbXaS51JF2=
+Sss0QmilawfAZXLKn6n-2BLbbOVbF6aQiZQyhbw694R1pEHs7vbz98-2B-2BxBdIqCjEmDCLxlw=
+AI06KUxUAT2gj-2BKou26h46YyhqpIgCM1FlY1nUUfV8t-2FH89rIqyy-2FVIPPs>
+=C2=B7 5 views
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZIF8VSc-2F0x7OoG=
+tQ1i7o4hC1L3Zov-2BXY-2Fpw9Q5zRtxPwnxoX7PlD-2FzD8bYrWp5pePAo8ITvf-2BGH1YvCv3=
+yYQMEI-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCY=
+Um9cePTjHVQmDmQDUjguplw6nTwxPDd8kEuA-2BG5yGQxchY3-2Bgofx-2BbWw2UBg9IIrgDCQP=
+POz3SrZ6yZq-2F3mujAKjV4R7Z3RlSPAlKlF-2F81ZoFjVtYkZHR-2BUpepQ2ZjMpJaGiaFkuBC=
+hxx0uckaPo1UMiiKYampzYV-2FCGGgbIZQDJIuspooWQGfEhqtQ6PAMVNyY>
+=E2=86=92 via visit by [image: Open-uri20120804-2-b7tt2h?1344063965] Sandi
+MacPherson
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2BqMP7fZp0Q=
+5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8E=
+XrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6iweqGilAN1wWKpnniEJMvITj5uEk=
+eivfPgpPZ3fXkQhdAGLjEUiscFupYj63QUb4Zj5MqIoixLwuQagfeoIlqA3Qg4W3nQn9rEgXoWr=
+ZU2w59idzcFQUu2EveZvC3YndAjDYs8YCOodIUhe-2F9BLwZXqBKkSM0tL41Ywm5bAdT6-2B>,
+Editor-in-Chief at Quibb
+------------------------------
+[image: Open-uri20140415-9743-1lpzzh?1397520475]
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZLnsRUS7GHg62Tn4=
+MlrFh53cWCtKnAJvA-2BJQQfPXpsQj_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXr=
+dBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6nX9sMicZvsJ3RagRKMH1YJL6Sub4dC=
+-2BnmxaQrZi1CWxtd83pXFhYShufxNwVT6ArDI90tFKt3I49kwlasWq5kSZWHmuEiENWKWsNyeb=
+x7S0wPVmxEPKPpOorq4khPZDqH-2FDgPeIbMgilRmgHNBamFOJ6cV8Bz4Uu4vVDGqpLcgv>
+*Jon
+Pincus, CTO at TapestryMaker*
+All-male panel boycott movemnet is growing in momentum
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9K-2FJjnc6C=
+TM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVmkdPhL51Ppu=
+DMBmD5etuNTy6FCq99rI1_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5Cc=
+cDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6qS9q8G2xcqeEs4fw8-2Bm5cwISRMOEbcoF8v4zD=
+FGmjnSRuTwo655xnvnpoQ1ewGONgHW8YDqmibBx-2FW5JhnldXMY-2FMjt5ta8XOvDewxMsjpGt=
+d4wA3ShZZ6bT0WoykkZer4d2JH0AgR6sHHZ-2F3JxRpEaQHFJ2793MqYhqwjNhkF6>
+qz.com
+<http://email.quibb.com/wf/click?upn=3DvyRcztp2sFncquaTyk1vX08P8iQ1uMd1lVKq=
+Y17yHs8-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BC=
+YUm9cePTjHVQmDmQDUjguplw6sc8DZQAxWYFmkxygEVFXhRWUf6fBuanYPwHNkm-2FroWVxVT3A=
+jYoA-2FJY97b57T1VE9nebQARdnPN5v02QFdZ73EG6RZ5qDWXcDaE9TKj0WrzBp5EV-2FHBwLni=
+hpwNLfPuTFY07VBjQ9V3qeyu8kftiAN327pjm-2BYL28QvNVZKo1dp>
+=C2=B7 5 views
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJuVJnorUE6BZvzJ=
+8cVH2GlhC1xn0misQsBVKMCj9VwAuI4o42LFJBs41lTMW3EU8KHiZl3x-2F3ggiqN7snZILfxNP=
+YiJPboT8GkVK3X2-2Fh6A_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5Cc=
+cDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6krwvxhvZgxgpXPMvaYiH9EETBqLFQQx7D-2BC-2=
+BhpqLRYn7JXfTr2IYmxBrJrUI-2B-2BZZYV226eGOJMVh9NF4bntXxJ8SGupq5WmXrwSJVt-2Fn=
+Bci-2FL5f0kjvJESDB8UUDy93g5w1xuueP14xgPWh7nxUnmFcEo-2FQZ8sCiBlE4IXHhCB2>
+With
+quotes from Gina Glantz of Gender Avenger and Cindy Gallop.
+=E2=86=92 via visit by [image: Open-uri20120804-2-b7tt2h?1344063965] Sandi
+MacPherson
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2BqMP7fZp0Q=
+5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8E=
+XrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6hDga3XmQd0SzaLH9NEJF47Z-2FUV=
+lly8Bttbj01o2ICmgJzcsHnF1yuau-2F1sbPtIZUDTcQ-2BuLV-2F5BmRx-2BwZnhhU0mjuajNw=
+Zzpewq7YK9NdxONeeJ8idhUewSrNmlsAiQsvOGyKlWfMtcJsC21-2BL0J5ghNDvgB6TMK0-2FOj=
+f5-2B3c2j>,
+Editor-in-Chief at Quibb
+------------------------------
+[image: Open-uri20150408-10-1fjuyfb?1428505806]
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZCZJ80ebOBmgtOb-=
+2FY2n7dqeyehyHBRGfWqO-2Fe0X9DLFr_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8E=
+XrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6iqyEG1PxNy5rHOjOscUIh2pOIUIP=
+I70CF6oP6-2F2QGGIxR6Libx4ddOY-2FUX2a6lOr9tts88JppWTAV-2FUYra0NFm5pYmG6l88Up=
+U8jMMUeIQB3IapE7oh-2F2KUH1MLd-2Fw3V-2F7iOxrUODqx4rkt3fHTmRUEqCLBC5wJUYzskdB=
+8N3EI>
+*Matt
+Roberts, Head of Studio at Wooga*
+A Month on the Farm: Designing games for Apple Watch
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9K-2FJjnc6C=
+TM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVmkdPhL51Ppu=
+4PiSmH5jNLIWKoQ2795-2BB_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5=
+CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6rtjBPhn1KvZXYosWZ5IsFTxfLnjqXFKalAdIZ=
+QgSu5UNmr1JbDM1MstzfZMjDLkUNqvnyrE6KRIcCMBjzIcRNbM4Eq1Arp3PubbG9jqrEeKxd4z1=
+n1Z-2Fa5-2BmjFvl9oqlSLl61RezvwTe9A4X8l6Il8WO3qkq8k-2Fd0zL061fWYlI>
+medium.com
+<http://email.quibb.com/wf/click?upn=3Dw0VMH98LPLGEOa99jWfSZU6zhCcpX5nxq4ns=
+yrCGHm4-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BC=
+YUm9cePTjHVQmDmQDUjguplw6kFggvUTDaBEjQMnc1e0EjwIPIrQqmatOO6GXIB-2FL5HMVy-2B=
+qNTJ4urX5tae1n7iaWoPG-2BwxNTcidoLZmb1Phv01qzq6-2FEoW0vhH7-2FG8Zd7-2FzYqHAFX=
+I4V-2Fiboemrpz7jqkDkFN7F5p1A-2FM2bwOkBJcIGWNUyVf5eGOub3iyuE9UO>
+=C2=B7 2 views =C2=B7 1 like
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZBVp0b8siOtOUWuA=
+EsWOo5MuWLS0ZvooZZGtqjRqPukZN8uBH4AZ1DlJIUEHE04VYCLCalkyQyyO8n-2BmVxaKiyLfV=
+3s-2FeBE0U9W9l-2BS7XjLs_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5=
+CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6vBWU6fpLxzTtbos9seo20B4lDSTSB-2BIUNcN=
+cV-2FnyhcAy-2FNgMzSoUzpMjSxCb-2FMtcGVolEDFo0o-2FYr33uya2kjhKMOxR7Wi7DxTCmuC=
+yqshNwQo-2F8R746u1QQOue9HeRIs1OZ42tOub3OzZLkdgi08XK3CMKIou9BAD6qeuygIZx>
+We
+share some KPI behind our second Apple Watch game, Farm Time. For example:
+the average user plays 20 times a day, and spends 13 minutes a day playing
+on the Watch alone.
+=E2=86=92 liked by [image: Open-uri20120804-2-b7tt2h?1344063965] Sandi MacP=
+herson
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2BqMP7fZp0Q=
+5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8E=
+XrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6iQpiHO2dcMcKK2tp4o9Q21TqLMmg=
+gDGnAc5i8V7oo2A85Ibf6vBtw1EvqsrIya-2Fje0H9UPBRILjBUKG-2FEWpuQURsgXcaL43YrTw=
+-2FQARHKZN6pqGaQsFO5tTYsSH0IUrFf-2BQXzxAtEn75u4aL6Id1YS2wWVl5a88vGTPKrOLTTI=
+d>,
+Quibb
+------------------------------
+Read more stories on the Quibb homepage =C2=BB
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZPfyZKESmZ8n5UM3=
+AMqv-2BLg-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2=
+BCYUm9cePTjHVQmDmQDUjguplw6vqAZ5kRiUvZmtJmddkx6AaiLvCLJ0aeVmoWcB4y-2FK2vZKz=
+Limsi3R1lZtUL-2BX1Sez0F4shVREAHkmqN1r0ZBXXuIErfWf5DLvY5Vu-2BSQuHFeQ7yxwTRz9=
+JTTThgFSpDaHypzIb6-2FcuUxibaHjWVjBCbDQyidJhzdbWG6nBXrSvT>
+
+Quibb lets you share what you're reading for work.
+Unsubscribe
+<http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZKCqNvdIpe6v1K2n=
+IV8z-2BKLvRd1jOG-2BUzj5jPBQqTFZOf4odGAS5yplSqwAREJEtg6pfXexMo-2B0UkB0fyRJC7=
+zyOWw-2BhQtSlQBVz4vB-2FZLmJ-2Fdn-2FcryjJqKwFUmmJ09U2uKZT3JNwxFSMK2oNrgrhO9B=
+7MtfV-2FnQf9oeK8pt5cma_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5C=
+ccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6jhGGLPElxR0t41kayPnhLXjpc10XSQsRI09d15=
+rMkSOaJfZz-2FX3tRIqq5HGPdduIqUwfEV12uHpJlSeSxbh4NoU9J3JMpG-2FU-2BCaVTtH469x=
+J5C-2FurJ-2FOfUzHNOPQZT8LlV2YmuGbj08L81IHTNkGukwKIiXVAACfS-2BlixaIB1Iq>.
+=C2=A9 2014 Quibb, Inc. 101 Broadway Suite #262, Oakland CA 94607
+
+--001a1130cf14e4f6df05333c2282
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br><div class=3D"gmail_quote">---------- Forwarded messag=
+e ----------<br>From: <b class=3D"gmail_sendername">Quibb</b> <span dir=3D"=
+ltr">&lt;<a href=3D"mailto:noreply@quibb.com">noreply@quibb.com</a>&gt;</sp=
+an><br>Date: Thu, May 19, 2016 at 8:07 PM<br>Subject: What really makes a g=
+reat product person - David Cancel on starting and scaling product teams an=
+d personalized news from Sandi MacPherson, Andrew Chen<br>To: Bryce McDonne=
+ll &lt;<a href=3D"mailto:brycebrycebaby@gmail.com">brycebrycebaby@gmail.com=
+</a>&gt;<br><br><br><u></u>
+
+
+
+
+
+
+
+=09
+
+
+=20
+<div bgcolor=3D"#FFFFFF">
+
+
+<table bgcolor=3D"#F5F5F5" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%">
+	<tbody><tr>
+      <td valign=3D"top" style=3D"padding:0px;width:100px">
+        <a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQ=
+wbZPfyZKESmZ8n5UM3AMqv-2BLg-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXr=
+dBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6vNEXBBdyWkVCANLlb5zO-2BfuXequf=
+TYlFkw-2BheB0qIkKX6Mu6aa7bfc59DZUBolXaZC-2BzvSIxsR6BtCNsFDowwKdHCbP5-2FVvJE=
+8o3lXU8fAEzWHcSu49Gvu0gjD8k57mwe35-2BRNkSJftIK-2B-2FwhFaOABTut4ZqUIk4kCQOLp=
+ueI1-2F" target=3D"_blank"><img alt=3D"Logo" height=3D"40" src=3D"http://qu=
+ibb.com/logo.png" width=3D"89"></a>
+      </td>
+	</tr>
+</tbody></table>
+
+
+
+<table>
+	<tbody><tr>
+		<td></td>
+		<td bgcolor=3D"#FFFFFF">
+
+			<div>
+			<table>
+				<tbody><tr>
+					<td>
+            <img alt=3D"" src=3D"http://quibb.com/visits/open_digest?email=
+=3Dbrycebrycebaby%40gmail.com&amp;type=3Ddigest">
+<h2>Personalized News for Bryce McDonnell, Cricket&#39;s Circle</h2>
+<p>
+Today&#39;s top links from
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZKCqNv=
+dIpe6v1K2nIV8z-2BKLVk7VN4ZsMdUc4tI-2Bqnvcwj7wRzNtZm46KlbD-2BqZXhwg-3D-3D_qk=
+3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQm=
+DmQDUjguplw6m93foHxXly9YHb5Ii-2F8-2BcWEoxTCDZcra9-2FQQw44qBFUszRwxtngiHm9sw=
+v-2Bbm8VYX-2BV-2B72pVXEyYuDh25pGW5MBEErWINLwHlcCH-2F-2FxG2trMPXusmGw764gUqe=
+rT9zduGiBP-2BHoG87M1s-2BzAh6QYT5JXESpnn7DZf2Hul1wJvvk" style=3D"color:#08c;=
+text-decoration:none" target=3D"_blank">16 people</a>
+you follow on Quibb
+</p>
+<hr size=3D"1">
+<table>
+<tbody><tr>
+<td valign=3D"top" width=3D"70">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2=
+BqMP7fZp0Q5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVc=
+EQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6ijirftzM-2BvtNAVvV=
+ckLKCS9Z-2F7to-2B9-2Fo4lXN2vzZ7oSp6ZxXl4yecTuD5oYLgBgvVMZHDoYEKjBBhRaah6oSx=
+ZR3ClmzDJvOLJAjOjn5AtXBfDOS279YfAkersca8Zxzdvbh7il2VjTIM-2FKAKR-2BemdsJw-2F=
+30s05RdxBvfbAc7fs" target=3D"_blank"><img alt=3D"Open-uri20120804-2-b7tt2h?=
+1344063965" src=3D"http://s3.amazonaws.com/rupert/users/photos/000/000/003/=
+small/open-uri20120804-2-b7tt2h?1344063965" style=3D"border:1px solid light=
+gray" width=3D"60">
+</a></td>
+<td>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9=
+K-2FJjnc6CTM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVm=
+kdPhL51PptcLWNauXamtbdB7a5uupap_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EX=
+rdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6mgITLlQ-2F9KL6Je9MApdgfvY0w7A=
+VekFBeybleYiALVGiOymlvkaTqALwUA8M0tXqGUxz7pNF-2FJlONHe1KdXrZfrhaNvOK5iTbK-2=
+Bqy-2FwBPMbIHpSEy0IHxbThRsSLDlFbS-2FrFSvEnrvHDVOvckEzZAtjSkP9KEsj61Z2OwJ3bL=
+SR" style=3D"font-size:18px;color:#08c;text-decoration:none" target=3D"_bla=
+nk">What really makes a great product person - David Cancel on starting and=
+ scaling product teams</a>
+<br>
+By Sandi MacPherson, Editor-in-Chief at Quibb
+<p><br><br><em>David Cancel is Co-Founder and CEO at Drift. He shares his e=
+xpertise on SaaS and running product-centric companies. <a href=3D"http://e=
+mail.quibb.com/wf/click?upn=3D9ZhI9shrlzUQ-2BqBpbGsZAg-2FGGtUIYTHuzZWmQnWp2=
+c0-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9c=
+ePTjHVQmDmQDUjguplw6mX6nXEobtbEdUzAc-2F8Ilt0AzimgPQtjzdJrH4MHR-2F-2Bg2FBXxt=
+osF9-2Bwv8jloCONEcftEgIUViOorNoTQxQQr-2BlT5B76CBraxk-2FaxaZasLkqkO5pfr8-2FR=
+D0pzZpu-2FChBw9y6FKphzTHJJJh8-2BXfAnm9-2Ble-2BZFl0t7LdAZBJyXAbi" target=3D"=
+_blank">Follow his reading list on Quibb</a>.</em></p> <p>After over two de=
+cades in tech, David Cancel=E2=80=99s observations on the importance of pro=
+duct are intensely meaningful. He=E2=80=99s witnessed a...</p>
+</td>
+</tr>
+</tbody></table>
+
+<hr size=3D"1" style=3D"margin:20px 0">
+<table>
+<tbody><tr>
+<td valign=3D"top" width=3D"70">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2=
+BqMP7fZp0Q5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVc=
+EQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6jDH8xf8XBMd0rFgn-2=
+FNoXmWgozIkBjPFM9vShcHg9RlF7afu04D3UGXdqfHw6wWAV6KIzidQgw6Guu83vigZq5pnIYMz=
+SEB1UX3A0dWlF0m29KVoOMr8ZRovAdk-2BHM4ekOvSqMHywEqrgg7iJTMEHF1V9SO2WoInUQd7i=
+v0y8a99" target=3D"_blank"><img alt=3D"Open-uri20120804-2-b7tt2h?1344063965=
+" src=3D"http://s3.amazonaws.com/rupert/users/photos/000/000/003/small/open=
+-uri20120804-2-b7tt2h?1344063965" style=3D"border:1px solid lightgray" widt=
+h=3D"60">
+</a></td>
+<td>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9=
+K-2FJjnc6CTM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVm=
+kdPhL51PptcLWNauXamtbdB7a5uupap_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EX=
+rdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6ifhIw-2F8kMTAxidS6ZXGoKlnuYch=
+YvsewOqAJA0uPNr6Pura2UaQiDeMFf-2FR3FcR4FwhHH-2BEEzXwbggra-2FD6alA81RsnnJI7W=
+BvYDiNblvUk-2BHw3nYF3hvhCsuGPxhHRXerV8TNGqMnoZQt6eYdN9cLIoNybutbdF2LZkzstFN=
+fR" style=3D"font-size:18px;color:#08c;text-decoration:none" target=3D"_bla=
+nk">What really makes a great product person - David Cancel on starting and=
+ scaling product teams</a>
+<br>
+By Sandi MacPherson, Editor-in-Chief at Quibb
+<p><br><br><em>David Cancel is Co-Founder and CEO at Drift. He shares his e=
+xpertise on SaaS and running product-centric companies. <a href=3D"http://e=
+mail.quibb.com/wf/click?upn=3D9ZhI9shrlzUQ-2BqBpbGsZAg-2FGGtUIYTHuzZWmQnWp2=
+c0-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9c=
+ePTjHVQmDmQDUjguplw6rtOWhKeaVoze3aUH-2BOmPedKzaA6rzdYm6i1-2B0MXu8SPSSECHPmO=
+mMsaCa7pg4rEHgtMzPOLxq8CCJeakicsxFyiMUsx4yEaEfXto3NHzZDjYO80li9w2sOly4lArnJ=
+LPdztcliy9oO2pzOc5D7HjuXE-2FVzvcVISvVTwhCMgpv12" target=3D"_blank">Follow h=
+is reading list on Quibb</a>.</em></p> <p>After over two decades in tech, D=
+avid Cancel=E2=80=99s observations on the importance of product are intense=
+ly meaningful. He=E2=80=99s witnessed a...</p>
+</td>
+</tr>
+</tbody></table>
+
+<hr size=3D"1" style=3D"margin:20px 0">
+<table>
+<tbody><tr>
+<td valign=3D"top" width=3D"70">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZMnaSM=
+7NIW3mpMJBwxJw2cJDLc6-2F76Sa4bxmHyoKHuzp_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ=
+5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6qzkfExU7XE48AIsFcdaL=
+IgCVOquQLkW35fr50l7-2Fj9Ql3RkZnqrEYmTfnCRRkliB6DVnxRclgBIaNq5wIhBe-2BP1CKQO=
+7AmZDxnNiPRZzL3oq-2FK28yVojdgn-2Bj1I0hrSNXhpylS5EpPkHxFUPBr1u-2Bypg0Pqb90-2=
+BxtjodDFn-2BAWh" target=3D"_blank"><img alt=3D"Open-uri20150223-2722-149s1r=
+2?1424683368" src=3D"http://s3.amazonaws.com/rupert/users/photos/000/016/22=
+4/small/open-uri20150223-2722-149s1r2?1424683368" style=3D"border:1px solid=
+ lightgray" width=3D"60">
+</a></td>
+<td>
+<b>Jilber Najem, Independent</b>
+<table>
+<tbody><tr><td valign=3D"top">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9=
+K-2FJjnc6CTM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVm=
+kdPhL51PpthBN9Y6U1qci5GDlISLQ7P_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EX=
+rdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6vfAua14wyftmg51F2jRHJPUapGXOq=
+tGYVlHpabRqSkM0B-2Fs-2BLAg8roBHtQ7hnNKp5lMb-2Fe3IekVfZvU3n3g7Jj6wt429avXnjc=
+xilBbnGeYsB1IAiYMjldVQukcnGKHXRq1Vw0NZE5yDLTRTKJra7-2FVNpWnbJGRqkODmxA6APUQ=
+" style=3D"font-size:18px;color:#08c;text-decoration:none" target=3D"_blank=
+">Our Guide to Marketplaces, now summarized in a deck</a>
+<br>
+<a href=3D"http://email.quibb.com/wf/click?upn=3D8ljyuO9VwCIPDZGQ8oDCsYP0CL=
+7AcyNWnapuFuJzD9w-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5Ccc=
+DiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6vmonaHKuZllkGHryk2SMfRakw-2F8VA-2Fg-2Fra=
+ME3ia1VXz8Vg9kaA-2F9DUFrjcBim3hZKc37WNScaNNkmu2T4P-2BqbKJaA8Co9pPKLvw1LAB77=
+a4r0x4dzTbyjuBugRDrvKdn782HQSlueNJ8uKB8LkOCX-2FDDwzghchukiV0h11C7QPF" style=
+=3D"text-decoration:none;color:#999" target=3D"_blank">versionone.vc</a>
+=C2=B7
+<span style=3D"color:#999">39 views</span>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZKhc1p=
+U3TzOmFMYs-2FoeAjnKX5b1NSdHwpqfyaiF3molHWFagCrbx1n6g5InBNizFC8ErsW4ZdPIf4XA=
+kxU40k4c-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2B=
+CYUm9cePTjHVQmDmQDUjguplw6vhBGpbjz3IojW9wfBtyoVcdMkogoopoSNfh9fBVW2BLpFf2x9=
+SGocaWadlu-2FWZeQ5UZrez8SXUrmgpbtwDJ1XmF0O4yxT1yrd9v4DEWxFUswnUhC8Y-2BHBirC=
+VrlNJRsGvcsXOnY86WB5Ot0t3ygcuORRnzeiUiCVv6uaKjhBO4B" style=3D"text-decorati=
+on:none;color:#08c" target=3D"_blank"></a></td>
+</tr></tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+<br>
+=E2=86=92
+via visit by
+<img alt=3D"Open-uri20120804-2-b7tt2h?1344063965" height=3D"14" src=3D"http=
+://s3.amazonaws.com/rupert/users/photos/000/000/003/tiny/open-uri20120804-2=
+-b7tt2h?1344063965">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2=
+BqMP7fZp0Q5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVc=
+EQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6jj-2FFtWfNeAChRc-2=
+Bx4-2FdUsSVi4JcZKnBA5hzREBvzhvKDgwsM9r8M3vK-2Btfbc4vbGzeUHSi3WOSWyrBNeRuRTN=
+WH-2B4l6iVW-2BT7untpP1BdhOz0Qi4lSod49u35RBz4B3AKu3kRngqfKNxgIl6pL-2FHceBocl=
+B7Qnw7l75CYWubEvF" target=3D"_blank">Sandi MacPherson</a>, Editor-in-Chief =
+at Quibb
+
+<hr size=3D"1" style=3D"margin:20px 0">
+<table>
+<tbody><tr>
+<td valign=3D"top" width=3D"70">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZBfSt6=
+IDiobBl1D8CQZIeWG1Wekt47s-2B-2FGdLrQDXmi4z_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVc=
+EQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6os6lDDohHhMxIElhZu=
+hEzCyVvNHvW6QUsdrhidA-2Boc0cY2592rKxQYONm9eNv2cMKNwN0nFfGovLgd42iWwLgvWZqMW=
+59yTK1bUhtfHuDp4wRwtCg9uHSiQjTV3x4HbCTM850aW9YneWnLKCXpWBmd2HIHHVMzHU7yHYQi=
+tG-2BZ4" target=3D"_blank"><img alt=3D"Open-uri20150316-7-14bzogn?142648024=
+4" src=3D"http://s3.amazonaws.com/rupert/users/photos/000/001/958/small/ope=
+n-uri20150316-7-14bzogn?1426480244" style=3D"border:1px solid lightgray" wi=
+dth=3D"60">
+</a></td>
+<td>
+<b>Carlo Almendral, Inforum, The Commonwealth Club, Sixup.com</b>
+<table>
+<tbody><tr><td valign=3D"top">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9=
+K-2FJjnc6CTM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVm=
+kdPhL51Ppv3G2-2FCaesbUglAWkujrwJ3_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8=
+EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6u5rqmM-2BWBBAezMniy1OLDBaWv=
+StQhB4rwg0-2BHiR-2F-2BTOleuM7MmxmXkC-2FxVSkdIpWdyWh-2ByPPFeL-2FQQ8UqNPHcDOe=
+aW-2FLDNy27ufjILKTxgevASWNSD2Fm1XZvB1CM4p7NYjCQBP5v1K-2BGuUzFJKejqIm5Hv9NAo=
+LaRY0yETsmu4" style=3D"font-size:18px;color:#08c;text-decoration:none" targ=
+et=3D"_blank">Uber and Airbnb really are for the wealthy and well-educated =
+=E2=80=94 Quartz</a>
+<br>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DvyRcztp2sFncquaTyk1vX08P8i=
+Q1uMd1lVKqY17yHs8-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5Ccc=
+DiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6mbQiHXRRaGVl9atXNASFYSJMbd-2F2F-2FrogJxL=
+LpMlG8uGC08GMkBY3TVKl9TZHS0VARi0lSuFfIetYdGlmspUMKl29-2FjhiaTUKqqdYaZ-2BpUr=
+Y5OrdmA8YJ6xtocaFGdl9i8W86ORgv0NWV-2FwCxBfphwfoK2uEln836DAWxTzkdRA" style=
+=3D"text-decoration:none;color:#999" target=3D"_blank">qz.com</a>
+=C2=B7
+<span style=3D"color:#999">31 views</span>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZDppnl=
+23GdvliKQRehwsy40NIPJGpFFSaZaKLFOoAUu7EApMr50SV-2Biw8iA6bOvv-2FhZ2bylLo3-2F=
+7261azq6nuSs4Uz27QG8Fg63RgkOvXqQ-2BxMS3ZtHjKQ8pfUcbRSihAw-3D-3D_qk3BtX8NbYc=
+xo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjgup=
+lw6msWxoyikQKedVdz86yWO8JThuyIJzAP5DJg040-2FuZgOSYoa6dKg-2BMprBdyKcDxtvfxsP=
+hAMTDmdJ1ZVdGqlVxdkxmaxKgd-2B9V1CXIcUqItT6wXzACYQpN1ooN3BeMueen8R1fs5jKBVXV=
+MUiGkT0XnySUE9nYs4HqEUHYVFViDc" style=3D"text-decoration:none;color:#08c" t=
+arget=3D"_blank"></a></td>
+</tr></tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+<br>
+=E2=86=92
+via visit by
+<img alt=3D"Open-uri20120804-2-b7tt2h?1344063965" height=3D"14" src=3D"http=
+://s3.amazonaws.com/rupert/users/photos/000/000/003/tiny/open-uri20120804-2=
+-b7tt2h?1344063965">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2=
+BqMP7fZp0Q5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVc=
+EQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6lJ5bjonlx9tu0uRbZ0=
+xTm-2Bl2fiIAy1QNtVw6-2Be2jNGG61fOYlM0lH-2FCvjDvseea3Abt8ayPZRe6no9XOujfr3fR=
+vF8ho2V9oBAosTyDG6dIZoD7fpY0Q7iKC1wgAJlCxCYLDUf6WdvlIpx1jLZ1uDxS7aXDTIlxmyj=
+DM-2Fe9zOyb" target=3D"_blank">Sandi MacPherson</a>, Editor-in-Chief at Qui=
+bb
+
+<hr size=3D"1" style=3D"margin:20px 0">
+<table>
+<tbody><tr>
+<td valign=3D"top" width=3D"70">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZEMtsj=
+-2B86y3grCIOEM3IZSkomF7o408gwcy7o63AJmFf_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ=
+5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6lpAT1Kk2sFNaa5GX7-2B=
+7yB7zoLridh-2BxkuVmRO3kahPl-2FsRgVplfBZrJWZji4SG5l08cbxwZTnUqnAdKXa0sq8XFJ1=
+4ztixHKKvDGEQoV-2FJ1RfDyId4ck-2FxZQ9gqd-2FGQtNdl27Hd7rgs246BLiPsHIJr-2BpfyF=
+qixIETzQkuuZ-2FX2" target=3D"_blank"><img alt=3D"May2012" src=3D"http://s3.=
+amazonaws.com/rupert/users/photos/000/000/002/small/may2012.jpg?1410335101"=
+ style=3D"border:1px solid lightgray" width=3D"60">
+</a></td>
+<td>
+<b>Andrew Chen, Quibb, Uber</b>
+<table>
+<tbody><tr><td valign=3D"top">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9=
+K-2FJjnc6CTM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVm=
+kdPhL51PpukI-2FQPN8Ve9P6QF7A7TP-2Bz_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2=
+B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6tuVLHZ2-2BeqJOqa6Q3qKPTIr=
+4GPo0B9TbJaCmoe4gfw1SN5kK2lu8f7DNPt1TuDNZp3D4cDHyluNTbvEp-2FplFMk4h8Fi4bcIa=
+mz0CSrmLgBmEeXg8-2FsULEIREcbtWJsDCuMqK38bu4rQGcXHCzgAMY3phZRJzUiyx0W0dIBO2s=
+AV" style=3D"font-size:18px;color:#08c;text-decoration:none" target=3D"_bla=
+nk">Why was Uber so successful vs. Lyft, Sidecar, etc.?</a>
+<br>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZC30pH=
+2F-2BV4iehIYxHHC2xc-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5C=
+ccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6qQ51oxye1l4Ud72VKPAlvHVQBLW9pNMhB2Tdsa=
+jF2rtq7ko7WpMU3t6oa6A3mIfhlDd7r9UhLNXV9HwU8VrHIN7d0-2BF8vh7FwiEo3ymmfahSLGv=
+eq6nP68qi-2FfEMp8VpJuFanYvfycXDFlAkvmHB61QXJ268DnCRvPO40KphPOL" style=3D"te=
+xt-decoration:none;color:#999" target=3D"_blank">quora.com</a>
+=C2=B7
+<span style=3D"color:#999">23 views</span>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZOKkmn=
+vR8nG-2F9ePScC8FCj47BJ9yDuAdWjp2CgWtDQCMB4tPRNLvq88UsuMMWtMrPjHPHEXmd14aUQQ=
+reDhYPTM-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2B=
+CYUm9cePTjHVQmDmQDUjguplw6uazNK3dl5UhCeDOulZCa9FuwyUgoscxmUlvc3fxrjSeZyLsLK=
+jZOe5w3W7uaP7Cqjl5tvo-2BqpOCi4ioURNNVOhC-2F2L-2B8H49C7eXmLVHqCDwbCUWgZ42ouX=
+dd9-2BPt35vFmqzzYz9OraKhdn0onvh39tSOfKjlxkLosR9VbBCPMH7" style=3D"text-deco=
+ration:none;color:#08c" target=3D"_blank"></a></td>
+</tr></tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+
+<hr size=3D"1" style=3D"margin:20px 0">
+<table>
+<tbody><tr>
+<td valign=3D"top" width=3D"70">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZKZNd4=
+OYOmLfqpiXRwz6rBitJsxw0tjc4fImKKhMU-2B1r_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ=
+5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6g9w4wQivj58HdcvXbibj=
+6Wi-2Bpxk2rW4XaMnUh7Kj49m99WYDguDIM0kt9AAp3Yv6GbTNNpJLTn4jL5kheG-2FL8PZu4YB=
+-2BKX-2FNd2FXwD5xI9V9S3OcrYuFukCKRIVblcHEhNRvnRhMv4wsMOFPf8T-2Bofu0K60LY5Q2=
+c4pLFVLqTTA" target=3D"_blank"><img alt=3D"Open-uri20160412-4999-85pwhb?146=
+0499884" src=3D"http://s3.amazonaws.com/rupert/users/photos/000/020/268/sma=
+ll/open-uri20160412-4999-85pwhb?1460499884" style=3D"border:1px solid light=
+gray" width=3D"60">
+</a></td>
+<td>
+<b>Barry Enderwick, Partner at Kaizen Creative Partnership</b>
+<table>
+<tbody><tr><td valign=3D"top">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9=
+K-2FJjnc6CTM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVm=
+kdPhL51PpuJdHHo8sg859Wyjkz8krex_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EX=
+rdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6vdKghCfSr97O-2FJ2B37GcZTgaWmc=
+15uVnyZ5CdS8G7EN6g2nRekTdv7q77UMwxX44kV7R7ZLTBdnokcKnegVwFV1bgeLPzwaX9sMRxP=
+RFSEdrbbXGsG2-2B26cIwKzhcdPXERkNCKlXup-2F-2FitfwU577FGGmR0Gh-2BajP6tOxN19Xg=
+3F" style=3D"font-size:18px;color:#08c;text-decoration:none" target=3D"_bla=
+nk">Google&#39;s Go-To-Market Gap</a>
+<br>
+<a href=3D"http://email.quibb.com/wf/click?upn=3Drni8oc-2FBDmoII-2Fma9gMPwT=
+YlBpKuaZ4yRYdNpWdH7-2FY-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIw=
+Bt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6j-2FCdKZEOYg476k1eTJ-2BnJBBB57sZg0=
+PqFK9nTNKonnOMPgm9oDDRkHw0-2FEuZqUb3VCsPkTEEOkY4AeUjwtrQlWw6Uu4otmcrjy4cD2f=
+D78ZV2hQ0b-2BAD84F-2BJnltS-2FkHAdgVd4-2BxYtIrMPYr5vxRLQihnRkOmENRA9wqhBGZJq=
+I" style=3D"text-decoration:none;color:#999" target=3D"_blank">stratechery.=
+com</a>
+=C2=B7
+<span style=3D"color:#999">21 views</span>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZB1cpZ=
+G-2Foc1c5vxiADGIW-2BQfNhyi5-2B4AjGEKX4GSRBzBowxG64BNDXdDYmtjOBQkcw-3D-3D_qk=
+3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQm=
+DmQDUjguplw6vFPUA3gsGnt0IpNL9cUQzc5bWZ5DOgbjr9NVmEPbOD3rTsCao7U2VD5oA5mDbIU=
+CGet4HXy9qcD5FPuochY4P-2F4kf6gPuOdqGoLTf3E8uPFQNJ0z-2FR6zda6yfpXW5obLayooq7=
+7qSshgkqlOnqOuXOOBRZkTSTeKeAqxxKAt-2Be9" style=3D"text-decoration:none;colo=
+r:#08c" target=3D"_blank"></a></td>
+</tr></tbody></table>
+Always an interesting read at Stratechery.
+</td>
+</tr>
+</tbody></table>
+
+<br>
+=E2=86=92
+via visit by
+<img alt=3D"Open-uri20120804-2-b7tt2h?1344063965" height=3D"14" src=3D"http=
+://s3.amazonaws.com/rupert/users/photos/000/000/003/tiny/open-uri20120804-2=
+-b7tt2h?1344063965">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2=
+BqMP7fZp0Q5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVc=
+EQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6mc-2FVuRtGNzOuUAiC=
+RZcWFykgpLyGsrNEWWIFILM9pUAeKbb33P5Y1n45agOD9DVrDyVulBDdGcJiFqG7SBuI2L7-2Bb=
+sKNa-2FotJSziSCp0r8e1-2FsG5z-2FOQNLZW0sPowhfLKvzk-2FNiWLy-2B-2BvhU3aQnEsKPa=
+RWhmTDNyncftbtUBb63" target=3D"_blank">Sandi MacPherson</a>, Editor-in-Chie=
+f at Quibb
+
+<hr size=3D"1" style=3D"margin:20px 0">
+<table>
+<tbody><tr>
+<td valign=3D"top" width=3D"70">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZEMtsj=
+-2B86y3grCIOEM3IZSkomF7o408gwcy7o63AJmFf_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ=
+5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6n36D5p70jVLkJhkQaK24=
+3LDtBe7iyrRupd9zCIBbu6lKADcPWHMHotjn4fJQP-2B-2Bk9xWVSMeuTF3TrtOOouXhg5Lzu1Z=
+2HzNX-2FXtRsiRh-2BDfev10ny2N3LhBDmqoW0TtyPV1yiAgr4V4yb-2FRSU7Dod1K7zgyg6NTp=
+t8CwnrD41rT" target=3D"_blank"><img alt=3D"May2012" src=3D"http://s3.amazon=
+aws.com/rupert/users/photos/000/000/002/small/may2012.jpg?1410335101" style=
+=3D"border:1px solid lightgray" width=3D"60">
+</a></td>
+<td>
+<b>Andrew Chen, Quibb, Uber</b>
+<table>
+<tbody><tr><td valign=3D"top">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9=
+K-2FJjnc6CTM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVm=
+kdPhL51PptiagP6rci4dUlCG-2BerqP3Q_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8=
+EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6pNz6CMWnDrjXbICKD7cxnJwWK-2=
+F9227HRALXtnKTYAN4Knli28sHnfEKGvoNHv22aaKi7Uia3PSqBGgbRBeDm2AYNT9wsHKDwsuk2=
+BAmEg6qs3z8Spb7G0nIPf35P2lOtFCoalt47-2FlNWdXyOLB-2BAHjRET2mZ4IZY9-2F42lW8TM=
+PC" style=3D"font-size:18px;color:#08c;text-decoration:none" target=3D"_bla=
+nk">Dropbox&#39;s VP Product: Find, Vet and Close the Best Product Managers=
+</a>
+<br>
+<a href=3D"http://email.quibb.com/wf/click?upn=3D60DxSb6M5oVoaaM9SulRpOrGXL=
+WefDNHVzi18FUGkz0-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5Ccc=
+DiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6nZGihya-2BMcpdUFZ-2B0Joh9s1v14afKNyepeZP=
+nf6LQ4UA9JH27yLKBSWwLeMdH6XL8BdZ-2B8tj6uridDBn6eRW9pXNuNEemRfsBCTFIrKi-2FvZ=
+pvJe8DemEUD3iUrN3QtZhFzMNiWws1BlZ7zOx7ZjA4Ax09HIk-2BzmdLTXW2PCN5f3" style=
+=3D"text-decoration:none;color:#999" target=3D"_blank">firstround.com</a>
+=C2=B7
+<span style=3D"color:#999">18 views</span>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZKtp0C=
+JxiJGXlnRTe6LQG4ctsBLqoIANWs34bkAKTgykJE7yf8gC-2FgZhK1QB9YX9Ytzy6xgXe5rSX48=
+CRlLihc4shLbYHaDoXxJnV3463iX8_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrd=
+BIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6oTlO6zYzO6nTf-2FXVNoblLmgsIqRrf=
+e8pqnxyNON-2F3y46w7wiWsrmiLYVb74GzztTV3HJRA4N2VTlWaOtSWnfyjUhGVRYYvm8ymvseW=
+DGmJ-2Fi-2FszzNgHdBTlw0UZ1d060tl-2BKmthK6B6UgRmT088cN-2FFwSX9NzewsE25GTxEym=
+ff" style=3D"text-decoration:none;color:#08c" target=3D"_blank"></a></td>
+</tr></tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+<hr size=3D"1" style=3D"margin:20px 0">
+<table>
+<tbody><tr>
+<td valign=3D"top" width=3D"70">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZPnqMz=
+6-2F6dwlTvnltQuqq7H0czW9uDLIy4kJxmbtP2fh_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ=
+5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6m4MQc7lnh2c1BMzIK5A-=
+2Bv5N5C66IW825IG-2FAc8y2xGBZwdeJ4QVcha4W8aoqUuTLRr-2FCVFG7xAW4rzi1VKYvszhIe=
+T9M0vB5oBxFIEymFFBNlRN2XwPxLNV3mfP7Mtqn8bzIn5N6ZhGCA0nbKTpjY75loIIaulQ4ygfb=
+UXSosIP" target=3D"_blank"><img alt=3D"Open-uri20130806-17-an15ac?137576045=
+1" src=3D"http://s3.amazonaws.com/rupert/users/photos/000/004/653/small/ope=
+n-uri20130806-17-an15ac?1375760451" style=3D"border:1px solid lightgray" wi=
+dth=3D"60">
+</a></td>
+<td>
+<b>Marin Perez, Independent</b>
+<table>
+<tbody><tr><td valign=3D"top">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9=
+K-2FJjnc6CTM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVm=
+kdPhL51Ppu9TNRHLEJcOL2VHXl5BrS2_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EX=
+rdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6mfNQLSsR0tzNovBLzsFQxCjjFp9yO=
+r-2FF-2B97LNe5lmhI64BKnaYNhZEbQS1PEO4g8l-2BX1h3FWwwE8pyguyBAtyl8P7HACQIfuv0=
+hEgUN7JIhPUbYBNPH3OMMwveirpLqkeRa-2B2Rz2XCVWWpVOxG11Gs6Eb7xdzRI-2FGSW8rvNnD=
+va" style=3D"font-size:18px;color:#08c;text-decoration:none" target=3D"_bla=
+nk">Why I declined an offer from Apple</a>
+<br>
+<a href=3D"http://email.quibb.com/wf/click?upn=3Dw0VMH98LPLGEOa99jWfSZU6zhC=
+cpX5nxq4nsyrCGHm4-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5Ccc=
+DiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6oJMlyFq6w7xO7zSMeC19zzcf2CD4-2F-2B-2Bqd-=
+2BGqahnpYeoCo2kAIH3nofmEPkSbeYQZZCw7CiPigy0UfGvVyGcZmfN9gn4E6m5xKTFqJJ7wttu=
+zENFrqG387uICVAhdmZo8t9AwkOR4-2B6QPkPnolEWADCIvDEKiH613EXZSXBmfkiG" style=
+=3D"text-decoration:none;color:#999" target=3D"_blank">medium.com</a>
+=C2=B7
+<span style=3D"color:#999">12 views</span>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZOKkmn=
+vR8nG-2F9ePScC8FCj70lHC49qSt0FsbUQaBVvdTZ4IJEZF-2BTdEo-2BQjyDUB52Q-3D-3D_qk=
+3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQm=
+DmQDUjguplw6j1w364z0byacRVUYf8jV-2BKLvtH5cBET9DSCwtqTvFZf1t2mvA9-2BDyxIw3MH=
+mHCe3iAxbXLCE-2BNNUQJehUEAtHHRlHoOnptekHNuaIvNOJcvLI5H7DZNrLNcqAUcREcKsCgQb=
+I4S2eS4p8hal5F7CfYGaZc6TKClXLmFuT7AbV81" style=3D"text-decoration:none;colo=
+r:#08c" target=3D"_blank"></a></td>
+</tr></tbody></table>
+This iOS dev took a job at Yelp over Apple. He lists a lot of valid reasons=
+ but I bet if we injected some truth serum, it would be the SF  Cupertino a=
+spect.=20
+</td>
+</tr>
+</tbody></table>
+
+<br>
+=E2=86=92
+via visit by
+<img alt=3D"Open-uri20120804-2-b7tt2h?1344063965" height=3D"14" src=3D"http=
+://s3.amazonaws.com/rupert/users/photos/000/000/003/tiny/open-uri20120804-2=
+-b7tt2h?1344063965">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2=
+BqMP7fZp0Q5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVc=
+EQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6jKTOM9Dw53EJtS1Cjc=
+4YE4zlegskY7LKjsSP6ZLNMDDO-2Bbj572yRNBD0gDs5fWVTnKpOaP4TaGLXLuQsvyxO2u1BDX6=
+EY7pQB42G1No-2BmUNmNkSHvSn79XHdgz5Bm16Rr66swtagcnfnez-2FOLaE4EhYKwEZuT4R6XR=
+DLrqbxi-2BA" target=3D"_blank">Sandi MacPherson</a>, Editor-in-Chief at Qui=
+bb
+
+<hr size=3D"1" style=3D"margin:20px 0">
+<table>
+<tbody><tr>
+<td valign=3D"top" width=3D"70">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2=
+BqMP7fZp0Q5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVc=
+EQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6nol5wTVyczGHF5xKii=
+GQyv89zzvlwPeAjhd2mirp0WyUupvPdgknuT8546oHc1Lp6KvGyi8b1-2BDAXmJWzwlBU0xJ3zm=
+jL9pBzUAUnEevZkP4rItWmTAI1r3WADKAMxeRrjsK-2FpDQywlbJM2-2BV0V-2Btjj4OwcjHIPD=
+pRsNwsaGMpR" target=3D"_blank"><img alt=3D"Open-uri20120804-2-b7tt2h?134406=
+3965" src=3D"http://s3.amazonaws.com/rupert/users/photos/000/000/003/small/=
+open-uri20120804-2-b7tt2h?1344063965" style=3D"border:1px solid lightgray" =
+width=3D"60">
+</a></td>
+<td>
+<b>Sandi MacPherson, Editor-in-Chief at Quibb</b>
+<table>
+<tbody><tr><td valign=3D"top">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9=
+K-2FJjnc6CTM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVm=
+kdPhL51PpvO-2Fbc8Pwcd-2F2DoViccQ9lY_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2=
+B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6tvL0mrjzLGfpT-2Bb9btWRREx=
+AGrp9uZRFc80jG5Q-2BFGJpByR5yfd5TqNgWaXFyQqQczLoDgG-2FOdPnDgpwUUBc8B8Trj9mpQ=
+WeroRi2Oc6w9Tc1NT0-2FQ-2FUXgZ9bIhCE5sxzs6TmTMBcZhxyAbTx-2FCnvBoU0deBYdF-2FQ=
+HswZe-2BofUf" style=3D"font-size:18px;color:#08c;text-decoration:none" targ=
+et=3D"_blank">The biggest Google I/O 2016 news in 10 minutes</a>
+<br>
+<a href=3D"http://email.quibb.com/wf/click?upn=3D6crhD2xPd4hoZkwMVW03tRA97D=
+N-2Faq-2FHp1EyPk0uDNE-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt=
+5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6mPJDiXNFqGqFE-2Bn-2FbX5splxvAJ-2Fnmh=
+UGuUqbbwwcYgSd1dlRw9uhUOC7I-2FB6Z-2B0pPboSnhJf8sio-2F3ve1if8Fd5-2FjyB0DnzqF=
+jJ7TskR0R-2B6WCJydWYKWaug9bbr1NMHAAAUqKPeTH6LSaDe6ysiJuiNDUavajxqQlSrLcu2i2=
+p" style=3D"text-decoration:none;color:#999" target=3D"_blank">youtube.com<=
+/a>
+=C2=B7
+<span style=3D"color:#999">12 views</span>
+=C2=B7
+<span style=3D"color:#999">1 like</span>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZFhihU=
+hn1jjPw-2FSR9anEF0-2FgCLttBYb4QKakHG-2BsRo8yRtBOST9o-2FsRt2eLaDLtUHQauB0ixj=
+IltTbfLmHaQCk0-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiu=
+TEi-2BCYUm9cePTjHVQmDmQDUjguplw6qaU98IqPX94rpY5rkDzxcxAsUpfHPWqu437BCwwRF-2=
+Bgsen4wLEIqQOEftrQqYAq5CVIJ1mZK1o-2B1bTffKongh6s5PtdXRLb9P2HsiuyWw5K7cAha3d=
+KM17mvfLRtCZX8tvW7h-2FVbLhYKcLOYs1JYhpWIld4dwa3QWbm4c0IHYUj" style=3D"text-=
+decoration:none;color:#08c" target=3D"_blank">=C2=B7
+<span style=3D"color:#999">1 comment</span>
+</a></td>
+</tr></tbody></table>
+Quick summary to watch over lunch :)
+</td>
+</tr>
+</tbody></table>
+
+<hr size=3D"1" style=3D"margin:20px 0">
+<table>
+<tbody><tr>
+<td valign=3D"top" width=3D"70">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZHsEZ6=
+4FqIeKvyES5QlXK-2Bw5eZhssUxE7vgZOZtFDrk5_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ=
+5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6hZS4xSno-2BWzriOibor=
+X8-2F5sYTPlrdGYf4cn42av-2BBl1hJKvPhy-2BvzifRubPsHPhr2VRCmOQf-2BHr7ZhEmuR1GZ=
+6ZbPmfKxaa2UKpvHDWTysHIjXGFHzLgLSIhKsnlhTdvPahl4ghRhOPykZ1Walk4mbPbDeUhK6Mb=
+hdzzyvY5x8o" target=3D"_blank"><img alt=3D"2013-10-03_00.14.00" src=3D"http=
+://s3.amazonaws.com/rupert/users/photos/000/002/270/small/2013-10-03_00.14.=
+00.jpg?1386122716" style=3D"border:1px solid lightgray" width=3D"60">
+</a></td>
+<td>
+<b>Peter Boyce, Rough Draft Ventures, General Catalyst</b>
+<table>
+<tbody><tr><td valign=3D"top">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9=
+K-2FJjnc6CTM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVm=
+kdPhL51PpuIL8j4Lm9pSbHrOjj63Qw7_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EX=
+rdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6ogqmZXMG7c-2F4orHifx4RQDpzLzz=
+RCqnKiQTwsBApcT7hRCLV5UYgfl6WaW9BW7FH9a3eYrqryjHWk8QyNNnuF5FYeFcqUi2wEjbceH=
+ORc7H0RuPg-2F-2FrLKRZD8PbhzJpb2jflfG4-2BJTkgI0txhQKJccZuWYFWxxuZyvZOfZTye6d=
+" style=3D"font-size:18px;color:#08c;text-decoration:none" target=3D"_blank=
+">We analyzed 4 million data points to see what makes it to the front page =
+of Reddit. Here=E2=80=99s what we learned.</a>
+<br>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DhauDSMB-2FAoBysPKdHymTrsX3=
+5bSy34ekJalQ5TIuFV93FfbDtDCw5zV-2F-2FqYFrBWF_qk3BtX8NbYcxo0o4oaI6jWURX3zTNG=
+VcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6k01nFN2nl-2BIiT1=
+V-2Fkp0BZb2qGchW2wibUodi8v1pPgSqFmrB8fG-2BPtb7WKdcwOKqY6tmKqACNnu5shIx9-2F4=
+nGK7HgQBZByYDxdmS4lz3fcUEb9fJOVhSwUgBEcZMGp9xSJvC3ET9-2Fh8FMn5y4uY8Gx7c1Jl-=
+2BIUlPiTatGsPkfWD" style=3D"text-decoration:none;color:#999" target=3D"_bla=
+nk">blog.datastories.com</a>
+=C2=B7
+<span style=3D"color:#999">12 views</span>
+=C2=B7
+<span style=3D"color:#999">1 like</span>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZN7Gry=
+rsInX2ZmknIsrVaiSyDpI-2FhaJ6r-2FULt38mjrxknFjYqX8GUvMT8SW0sUrZGnlKaC6yakWVc=
+TM3LBCkDJ-2BSVpiL4mvrccEilc3czdbLf0TM52G5T367NPm8hJ7csPWj3C3tvtePO1SlMfKyb7=
+x0508FlNfdOP6ltWD9Qh2-2F_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt=
+5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6uRYEnjJPr-2BnePSYo7wC4rrwUZdA7mfZD4T=
+y-2BLYLC9xiNHQ1bbj5HlyLJ5c98yXVUn01NNhTWBqYMeSzJ9MGtyRq-2B-2B8xKn-2BKShArea=
+U23LRlzWPE2Z9Z0SnYYF-2BsMkX66gojgS7o9m2gsJb8AhuZr9-2FY2NX7lcSB1mIZF9DXpeXW"=
+ style=3D"text-decoration:none;color:#08c" target=3D"_blank"></a></td>
+</tr></tbody></table>
+Fascinating insights
+</td>
+</tr>
+</tbody></table>
+
+<br>
+=E2=86=92
+via visit by
+<img alt=3D"Open-uri20120804-2-b7tt2h?1344063965" height=3D"14" src=3D"http=
+://s3.amazonaws.com/rupert/users/photos/000/000/003/tiny/open-uri20120804-2=
+-b7tt2h?1344063965">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2=
+BqMP7fZp0Q5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVc=
+EQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6l36MSXGn3cX9klAZyF=
+ySQjX4fOY2ekHelaTR8R5H5sMfGdGT2BerjehR4IDSRg20QssX6wdHMQU1d-2FDfpcUP-2F-2FL=
+ulfRFoVdbzHdIkplaGRlCFwX-2F2A8zhJM75n1EGgXnnK6Zs3HdbDkUAjjNLBbrab-2FuA3Pii7=
+28QMdHnaVFURB" target=3D"_blank">Sandi MacPherson</a>, Editor-in-Chief at Q=
+uibb
+
+<hr size=3D"1" style=3D"margin:20px 0">
+<table>
+<tbody><tr>
+<td valign=3D"top" width=3D"70">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZPWTp4=
+Zyq5ynHmLviwusbVNWdOV0aFo5dkgSruwaBdPT_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5h=
+h-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6hNbh4PZaOMZq7nUhNsLS8u=
+AG97Ml-2Fs1ql6Eumc81pB3vz7phdSIzTqfDiTbuOyMGWAkhYL0YydIYP4q2IC74SIf9DsbxAIA=
+aQ4I5jzhb84t9HAZQ0guq0L4AA-2BypyNvCOq3m8m7H2NBGjl55Iu8538c4IPgTAhDEylzEXvXm=
+fDM" target=3D"_blank"><img alt=3D"Open-uri20150821-7120-fb0xfy?1440134800"=
+ src=3D"http://s3.amazonaws.com/rupert/users/photos/000/013/726/small/open-=
+uri20150821-7120-fb0xfy?1440134800" style=3D"border:1px solid lightgray" wi=
+dth=3D"60">
+</a></td>
+<td>
+<b>Mary Green, Content and Community Manager at Inbound.org</b>
+<table>
+<tbody><tr><td valign=3D"top">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9=
+K-2FJjnc6CTM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVm=
+kdPhL51PpsUpEYxYV6-2F1lsPvz-2Fo2NK8_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2=
+B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6rquBSLnXuYsINXNTJi3MY1C6v=
+RG0ekgblqWam9HpZQ-2FQIQBlvKEc-2FmTbI6t0d1DaFz-2F5OXP4NH8AH3HQX0eQhsj6Hq0DV6=
+qtj9jgz9R0Fs1M72Nab8i4BMl-2FVeuYye44ZV1YbjozwM49ufj3gRiHISHnhMkIQnEJPLcGd6c=
+Dvi0" style=3D"font-size:18px;color:#08c;text-decoration:none" target=3D"_b=
+lank">How Sticker Mule is Building An International Ecommerce Company</a>
+<br>
+<a href=3D"http://email.quibb.com/wf/click?upn=3Drni8oc-2FBDmoII-2Fma9gMPwb=
+JXI2wFzBZ9SVQOozoldMA-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt=
+5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6kbRHks806uLfli579MjHwAstCEIE9A1Azn50=
+cE3q53XULcKkFxYbQLw1IOFlDl-2FRiGlkkx8Pvve-2FtDmxwHXFEZijdSlKcLTyvgxUdddJSxj=
+HvD4nTISntTANlRM72i3-2BYP5K1SivQ3G9-2FG44NKSAk1a1NqMcHCHTW1CcqxxHprF" style=
+=3D"text-decoration:none;color:#999" target=3D"_blank">stickermule.com</a>
+=C2=B7
+<span style=3D"color:#999">9 views</span>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZKlrDb=
+rX6hUUD18a0tpbe087WWa3HfnrlFRdFieNoWDbJnRe2W-2BnZt8HHkyduQfnUd6sixnytrcn1wM=
+EAeLAbwA2ao-2BSEMabHXqklc1vZ73w_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EX=
+rdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6q4dMgv5bIsGHZ-2FrPDjfsDpNhbNS=
+U33SJCA8eWCFB5B3v6q7MVyNgVHIyiGo-2FI8lzQqmRBkH-2F14uAgR-2BqMWhfoCMYOfJsGcNK=
+N-2FKOYS47jtgkJsNjQtbGnlhVdW-2Bx3FTGbZZ55CTYf2hDMZu6HsfwoZ7RIQyd5qKWB08JXfO=
+wtAn" style=3D"text-decoration:none;color:#08c" target=3D"_blank"></a></td>
+</tr></tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+<br>
+=E2=86=92
+via visit by
+<img alt=3D"Open-uri20120804-2-b7tt2h?1344063965" height=3D"14" src=3D"http=
+://s3.amazonaws.com/rupert/users/photos/000/000/003/tiny/open-uri20120804-2=
+-b7tt2h?1344063965">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2=
+BqMP7fZp0Q5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVc=
+EQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6rA2I23trq0NXbwFfqj=
+l0s6E12Zvta4I1Q-2B5ZG4468U1wn2G47S12hDUwN3axasuQrROzxXlWJzn6SWHYoiCio2r9LuZ=
+Mh6GjLuYNJ8VXQABBb2p3LYhijQIwPvTpNsmAs2bBa6nBn6sfwovaL-2Fl0SB00mZ-2BjchERZT=
+TsV9uPkc-2F" target=3D"_blank">Sandi MacPherson</a>, Editor-in-Chief at Qui=
+bb
+
+<hr size=3D"1" style=3D"margin:20px 0">
+<table>
+<tbody><tr>
+<td valign=3D"top" width=3D"70">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZEMtsj=
+-2B86y3grCIOEM3IZSkomF7o408gwcy7o63AJmFf_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ=
+5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6lfsl5s57-2By7iqDa5ne=
+VdDZ2eQBhLVi7-2Fq-2BDv3ulbGc1R0v5u1BesmnQntI-2B9iqYEdaH3s1pFygVm1kmlErZAcQ0=
+r8XaokKEQ5m5CLmfNyPfscCtk9rIuFsiFRM0rXBurbO6eI8YlOFGZyr0orSLTste3NPQiBHE9op=
+-2Fe2fGU5Zl" target=3D"_blank"><img alt=3D"May2012" src=3D"http://s3.amazon=
+aws.com/rupert/users/photos/000/000/002/small/may2012.jpg?1410335101" style=
+=3D"border:1px solid lightgray" width=3D"60">
+</a></td>
+<td>
+<b>Andrew Chen, Quibb, Uber</b>
+<table>
+<tbody><tr><td valign=3D"top">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9=
+K-2FJjnc6CTM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVm=
+kdPhL51Ppv-2BlvoypTEgw-2BaqsM-2BtGAYX_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh=
+-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6lwf-2F1eqnq7YCQWuAD35RJ=
+nvyw1-2BnrONYui5PDslhHkaMAGszjO983noODRRCQ72341F9yUeGhOFwlmRSRo9hVBC7QlWAob=
+OjfjH0aYcDVsvOxB2BqzejWqk3YexkBrept-2F2508YN2JULOaH1RIEJjLZPLPLVd0x6eyHbSXc=
+Ge4n" style=3D"font-size:18px;color:#08c;text-decoration:none" target=3D"_b=
+lank">Meet Uber&#39;s first self-driving car</a>
+<br>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DdX9lleG9vYLnxu6URT4WjOoiqZ=
+nqKQ-2FA5RmV-2BYsHgcU-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt=
+5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6iYyd3UJmVD6eKOWo8ZddKu3gILgF2DDhBwHV=
+8M6XasbXD2YX-2FK2klkqDg66ezXT22zJew1iF3WJapT4bmSGABa8h8q4kLHAI8dJgUv4DusI7-=
+2FB-2Baea-2F5ymcPCCUr06QLW8JtqdkKu5U2Z7z6C-2BTlVdedGcmwNF1GpAHiwDT7kPS" sty=
+le=3D"text-decoration:none;color:#999" target=3D"_blank">theverge.com</a>
+=C2=B7
+<span style=3D"color:#999">8 views</span>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZOr373=
+DgL2IfUO-2FSxZAmIiXrvizbMddfdhccFFtTWrg3dEY426MMgz-2BFVv5dv4fpxG0g82RzxTdw4=
+h6j-2FNPZvjQ-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTE=
+i-2BCYUm9cePTjHVQmDmQDUjguplw6piM7pqNYnNexD4cKPU1iFGcO2A6prZJWSo4rV8Cl1oIfZ=
+mpxKeubtoS8Xm7k-2F8aEO7AQufTvdVjtqqsAcaZAvj0MqOwpr58l21PECfmZqEt4ypvQbrvBLJ=
+Eyx2RAfsb89tVN9UdLRtlXUhbGrrQRllLdBA9nVFcb5GJjQg4-2FVLu" style=3D"text-deco=
+ration:none;color:#08c" target=3D"_blank"></a></td>
+</tr></tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+<hr size=3D"1" style=3D"margin:20px 0">
+<table>
+<tbody><tr>
+<td valign=3D"top" width=3D"70">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZIP7gc=
+j1FFYlj9A0Ny1G2rPzn4sYI-2FzduScO22ovfkyb_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ=
+5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6sfXlNCv0FYLXUwf58U1Z=
+pQrqCK73I75ZIXXStSHgBGVaRy4ytOwfegbAkoXB66ScKJ4RRXbYbzHcxyoyS-2FWiclWbdoabv=
+dT-2BDuBqutA-2BTJ-2Fzd4QHqgpZRcsHvpRz-2BV7cYDxm-2FwNBAg06KpkN6AWV5CUTrWaB1W=
+e2UY6XAUy5MiM" target=3D"_blank"><img alt=3D"Open-uri20160506-10-tkcxsz?146=
+2567219" src=3D"http://s3.amazonaws.com/rupert/users/photos/000/019/978/sma=
+ll/open-uri20160506-10-tkcxsz?1462567219" style=3D"border:1px solid lightgr=
+ay" width=3D"60">
+</a></td>
+<td>
+<b>Christine Deakers, Content Marketing Manager at Mixpanel</b>
+<table>
+<tbody><tr><td valign=3D"top">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9=
+K-2FJjnc6CTM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVm=
+kdPhL51PpuPr1qUjVJMYILkWu9j-2FzEY_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8=
+EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6oCIHV6dLBVNnyyIZnnifrw2pCfB=
+CD3Qrqq0-2Fd9DhrTlaEIAsljgY8kgTboqOx9NRU230TNy8XxH-2FsvrlWW4BTv3xpzotnlb0-2=
+BPKRz9FV6J4XLoxHiEpDyY1n4lUa1YYCJUky2egEJifVX4HTZVyDG3jlqtGdjB4jlNKpmOarKbE=
+" style=3D"font-size:18px;color:#08c;text-decoration:none" target=3D"_blank=
+">How Celebrity Apps are changing mobile gaming</a>
+<br>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DhauDSMB-2FAoBysPKdHymTrllD=
+7fG7ZEnL1hMkb2jwuyo-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5C=
+ccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6qfrohXF1dYaf8y0Tq19ReC4YYbt2loC69jsp8j=
+GWSWTiOVDMSCaHpzi7aDU2-2BNvPxM2OrIn-2FUzaDKTJ1C7qWHMMsn68DqLdVEqNeCk-2FW-2B=
+ohEroeGK-2F4LsZd4zGrnACmFozgB5OLyIEG6GFyo5IHUndzH1JqepR4pR6EbFXZvhX4" style=
+=3D"text-decoration:none;color:#999" target=3D"_blank">blog.mixpanel.com</a=
+>
+=C2=B7
+<span style=3D"color:#999">8 views</span>
+=C2=B7
+<span style=3D"color:#999">1 like</span>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZKlrDb=
+rX6hUUD18a0tpbe08K-2BmLIbH7NThS4qLxFXesCurMhJBWy7GVSpl5lOxieYZdFMdvVOqferGU=
+aqhcIRhc-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2B=
+CYUm9cePTjHVQmDmQDUjguplw6jwR1ASAKutBMiAHxFWftqVVBcMcGXJx6xKGF7BH5LffjBMrDZ=
+MNN-2Foup-2Ft3LhTOBhewzFZnoaLBJJLLXpafVDjv-2B-2FZq4tMI-2FoKocN9SmUBf6j6jDPx=
+HE17qAipWGRjg0S9C4M9A2pG4oVE570eVeOHQ1uLXD9l-2Fji1z5o1TQgNl" style=3D"text-=
+decoration:none;color:#08c" target=3D"_blank"></a></td>
+</tr></tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+<br>
+=E2=86=92
+via visit by
+<img alt=3D"Open-uri20120804-2-b7tt2h?1344063965" height=3D"14" src=3D"http=
+://s3.amazonaws.com/rupert/users/photos/000/000/003/tiny/open-uri20120804-2=
+-b7tt2h?1344063965">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2=
+BqMP7fZp0Q5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVc=
+EQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6gRMm2nbzKi4EyDLwxO=
+VGmNzEnP2n47OxiSyquW5gxolWGlkA-2F5bPaaICf68Ths1vhHG3y2-2FCh4HbP-2Fwbdb69pyl=
+pKxOViQIniD0dusyZZIz26ZOi1SGujkNO6KdNoxtUfkEOx8sfXxx-2FKnLjt65j2rTBl5FO8g1w=
+XyhZuuV66S0" target=3D"_blank">Sandi MacPherson</a>, Editor-in-Chief at Qui=
+bb
+
+<hr size=3D"1" style=3D"margin:20px 0">
+<table>
+<tbody><tr>
+<td valign=3D"top" width=3D"70">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZKZNd4=
+OYOmLfqpiXRwz6rBitJsxw0tjc4fImKKhMU-2B1r_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ=
+5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6jrcNS-2BI6pyx5Abj9eN=
+IvcZJe-2Fay97lYlQ7LBT0uxjQhfg-2BQYNUBFP15P3W1GkLSdujgKlIiJk4UanaJaa3TRpAVmC=
+pSAF1ZjGB-2Bsg-2Bpv5ffpeTtkJIMQhLXma3J5c2CXm3YGQKFNPZUCqFuIyLq-2B6CKvQ6dIx8=
+1flNXiraE9y75" target=3D"_blank"><img alt=3D"Open-uri20160412-4999-85pwhb?1=
+460499884" src=3D"http://s3.amazonaws.com/rupert/users/photos/000/020/268/s=
+mall/open-uri20160412-4999-85pwhb?1460499884" style=3D"border:1px solid lig=
+htgray" width=3D"60">
+</a></td>
+<td>
+<b>Barry Enderwick, Partner at Kaizen Creative Partnership</b>
+<table>
+<tbody><tr><td valign=3D"top">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9=
+K-2FJjnc6CTM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVm=
+kdPhL51PptcxsNfw1mE7hjVm4xgqbTh_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EX=
+rdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6ib5EeENgyURdtNC4Ynrjw9XRk8PgD=
+n0xWqgSyRrcXz3L-2BBuo0pHCXkUyVPDOJXX-2FBHpZChzNeLkBGoTui9vrdROURHxf8-2Ft6rM=
+is0JfL0CcVRI0KpG9mu-2B0G86-2BxdLqHb-2Fxw03EEhzkNh2b9-2BRIIVBFIC5VELZJ4g2Y-2=
+FmC-2BIKG1" style=3D"font-size:18px;color:#08c;text-decoration:none" target=
+=3D"_blank">The smart home is stuck</a>
+<br>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJa794RxQRNK0aNTaDPCsE-2B9b=
+3neiSKsWMdGzM4H1KcQ-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5C=
+ccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6rbs2E-2FTTxQYRz3DQX2jV-2BaNyEN7-2Bwqp8=
+qfTrCZV9MxTyUwTFsdQ-2BRyNt1-2FqkYLRMThDrRjUdneYf1qFCcOimHyiUUEirJcdo5iSsOMA=
+xqPxjKkQcFpoukz1PTEcdwHFjQpCVr9M4weT6jkyOs-2Ff3e2EeWWFHZ9PiJg9U0tfF-2BDF" s=
+tyle=3D"text-decoration:none;color:#999" target=3D"_blank">recode.net</a>
+=C2=B7
+<span style=3D"color:#999">7 views</span>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZFhihU=
+hn1jjPw-2FSR9anEF09pkXo35tO-2F8GW7iWx27zr2MXTxjTmBqNhOxfEr0y-2BADw-3D-3D_qk=
+3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQm=
+DmQDUjguplw6g2I-2BcrNmEC6RSicmtpI2thm2vqhJYJvxmxyn7QkQpWtywdCzI0-2F-2BMyLee=
+Vc-2F-2FFHrJsWKfd-2F9o-2Bq2JleA7-2FZFZsg77kbOc5UrAT9tp5G6cN-2B4gXijhkAZMxCC=
+GDGAoLCFXaeD8rU01bI-2FYzE45AbdHSh8Vgsk23y5csvKrRUzoWc" style=3D"text-decora=
+tion:none;color:#08c" target=3D"_blank"></a></td>
+</tr></tbody></table>
+Interesting op-ed on the state of the smart home market.
+</td>
+</tr>
+</tbody></table>
+
+<br>
+=E2=86=92
+via visit by
+<img alt=3D"Open-uri20120804-2-b7tt2h?1344063965" height=3D"14" src=3D"http=
+://s3.amazonaws.com/rupert/users/photos/000/000/003/tiny/open-uri20120804-2=
+-b7tt2h?1344063965">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2=
+BqMP7fZp0Q5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVc=
+EQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6s-2FOH-2BIVARCBNCK=
+PDsV3IF3m-2Fptmvw3TTNIMg7-2Fz4f9avuFQf8LqdDscOLzA-2BXBidCe4OVca7txjNwsWLhFI=
+p8diDc9JOWeH4PAMIXYhr11MjFTEaaAB2lWp0jA0KkzW2qKPBfFKWd4730DjHzoPPuyTtY-2FUV=
+OPQ3UqbHXUQgM2-2B" target=3D"_blank">Sandi MacPherson</a>, Editor-in-Chief =
+at Quibb
+
+<hr size=3D"1" style=3D"margin:20px 0">
+<table>
+<tbody><tr>
+<td valign=3D"top" width=3D"70">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZCu2ia=
+WL-2FSkOCHZRcPJwGw0GSg4iMMshk6O-2B9Usl5rBr_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVc=
+EQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6lP2ayvT7K9LxEFSRMM=
+ZZDA5YvkSJHF-2B3PFp3M5LgZeIb-2Bv5zpUim0KZyTc-2BG-2Fp0kNny-2Fyv3pdFwxoY4ZCse=
+ao4fbSyNJzrUT6yr6YtzPkiyikZYO9Pk6yerS8TE80nErvwmzUHzpOH2tkF054I6WmHBBuVSFCH=
+1cAKHczBz2Gw-2B" target=3D"_blank"><img alt=3D"Open-uri20140930-8632-10zvbc=
+v?1412115302" src=3D"http://s3.amazonaws.com/rupert/users/photos/000/013/43=
+1/small/open-uri20140930-8632-10zvbcv?1412115302" style=3D"border:1px solid=
+ lightgray" width=3D"60">
+</a></td>
+<td>
+<b>Wojtek Borowicz, Community Evangelist at Estimote</b>
+<table>
+<tbody><tr><td valign=3D"top">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9=
+K-2FJjnc6CTM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVm=
+kdPhL51PpvVzvnvKnauWcBEj9OFSuc-2F_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8=
+EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6r-2FbIv7oRJF10axgniPA18NR0q=
+Qu8VVmBwt2wkZ2AFKcxuNVIC7Mby7yoPREDjB5ZsbCiSzxQR3OM9Fv0-2BfpuPW9plb3ttTexRB=
+Js1ZPmspervNWk-2FnkbwnX7q840lqXs-2BNQMN1xfHViADTshcKHAwJlOK7ILlDuagay76pS4c=
+GL" style=3D"font-size:18px;color:#08c;text-decoration:none" target=3D"_bla=
+nk">Fall of friction: Google=E2=80=99s foray into beacons is a supercharger=
+ for contextual computing</a>
+<br>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DhauDSMB-2FAoBysPKdHymTrsR0=
+FYNTxCj4rGfQZEALck8-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5C=
+ccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6qe00DC68-2BA0a0h07M6bUjh9N0HOZr9vnLw5B=
+VxS3jy-2B9V2PRiy1f0ZRjSfzhsVJI2ogCu7LNmPRtrrcJC1MOAi9WYM6BzARezkgaiaTMJuAI0=
+j2gjantFOA8sbNLcZiawGUL7pXAIsF4MIsu7jsNOfBNv4BsH12nzZp-2BtwUE6MF" style=3D"=
+text-decoration:none;color:#999" target=3D"_blank">blog.estimote.com</a>
+=C2=B7
+<span style=3D"color:#999">6 views</span>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZIRDLz=
+gDkk3WRSI4bYtBJlvWrIqYo7yJeqzHn-2FnsPOoge0Ne3UvbMOZ0sgQU9iDfBkwDVjKZBP3TVNd=
+5m9nda8ClmLrQnUtqaeppPPc7K36RYNgP2mY3iRmXoNn8xma4AgA7FIheu5mnz-2BfkmhleQAY-=
+3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePT=
+jHVQmDmQDUjguplw6gFffXtRD1RZ5BexVWW5nipX3Tr2pVKMJonZVwW1lOu0yqHJp6xXfkI43UW=
+HcYFKq3oVvdSncYbqJiVyxxmoxNped3i3RT5ertucTJ2EGqDLaYdQlmuoAvxktdscB9-2FNvKQ-=
+2FyfwVFAE8QIOduNdhNkYdLl5LFA6PJpnMIBt39RBn" style=3D"text-decoration:none;c=
+olor:#08c" target=3D"_blank"></a></td>
+</tr></tbody></table>
+Google&#39;s announcements at I/O are big for location-based services
+</td>
+</tr>
+</tbody></table>
+
+<br>
+=E2=86=92
+via visit by
+<img alt=3D"Open-uri20120804-2-b7tt2h?1344063965" height=3D"14" src=3D"http=
+://s3.amazonaws.com/rupert/users/photos/000/000/003/tiny/open-uri20120804-2=
+-b7tt2h?1344063965">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2=
+BqMP7fZp0Q5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVc=
+EQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6n-2FToNkVafHkn6Fmb=
+kvaMpdKE3zyzu0VatObGVadlZWS9MgUxaQTvq-2BEfUcrINrSVnLVDJcfsh-2F0-2FpXSVei24c=
+klyZlmVe1oXnuSs9n8KEHTjZBcHXkOff4T6PJ0rZQCIH0PjOadB2U-2FKok3sA1EOl9jGK1BEOd=
+k6szsZbR-2BNRGr" target=3D"_blank">Sandi MacPherson</a>, Editor-in-Chief at=
+ Quibb
+
+<hr size=3D"1" style=3D"margin:20px 0">
+<table>
+<tbody><tr>
+<td valign=3D"top" width=3D"70">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZDh3FD=
+-2BzubX1goUHKeMaP-2Fef-2B2QrZ7cHTW7-2Bts0AUOJ1_qk3BtX8NbYcxo0o4oaI6jWURX3zT=
+NGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6iWVTgVtjtjJ20-=
+2B0QjQGjkQZj24waH2m68-2B9-2FwdxPt9u6VGK8RF16wVUFR1-2BC38R72FqbDu-2Fsc-2BEbB=
+rVlZ-2B-2F683vEbgtNAcH7JsqwPaj2Y-2FkgJh75oZcicQdyUIYg05vmIajxmanojzwc9OOWuZ=
+At7BWNVbq2mAQVRsgPOdqHCXX" target=3D"_blank"><img alt=3D"Bio_2014" src=3D"h=
+ttp://s3.amazonaws.com/rupert/users/photos/000/008/881/small/bio_2014.png?1=
+411005060" style=3D"border:1px solid lightgray" width=3D"60">
+</a></td>
+<td>
+<b>Karthik Hariharan, Engineering Manager at Uber</b>
+<table>
+<tbody><tr><td valign=3D"top">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9=
+K-2FJjnc6CTM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVm=
+kdPhL51PpuzRbvcTtaiyCCuHs7FNICB_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EX=
+rdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6pEvFKRg6DjwWXVY0ip8hhGzukXP0F=
+8qKBPBVTEaJkBjbsDsypiVc2dRhVRjt58K-2FZmsQ00jssZbi9ws5FuyzlERDVj2fTnztn6Coeg=
+-2B9XKJVll-2FFgcmLEuol8igJ0bMjIeW0-2F1ilH6CLejffoY25ELVDv8f3NetiBrrV7NNaWqR=
+" style=3D"font-size:18px;color:#08c;text-decoration:none" target=3D"_blank=
+">Meet Uber&#39;s first self-driving car</a>
+<br>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DdX9lleG9vYLnxu6URT4WjOoiqZ=
+nqKQ-2FA5RmV-2BYsHgcU-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt=
+5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6mUXDSHYhM31d5GwEpd8Wyz1PB41nnFqbId30=
+j95shLQ8aJNqJWAzlyd0QDGX7TlXjKnjuVrQasVZMmj-2F2auU4GUyh6R3hcf4X52cVvUkDeBHC=
+QQ-2BOV4WhiuMQlu3JucexGa09GQcoBjUB5FMqK8v3s6F3g1rq0N0sS4caciTk-2F8" style=
+=3D"text-decoration:none;color:#999" target=3D"_blank">theverge.com</a>
+=C2=B7
+<span style=3D"color:#999">6 views</span>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZOr373=
+DgL2IfUO-2FSxZAmIiXrvizbMddfdhccFFtTWrg3dEY426MMgz-2BFVv5dv4fpxA-3D-3D_qk3B=
+tX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDm=
+QDUjguplw6jvtxBqQ3G-2BlwgadgsnbdElMI4vjQn5EkGu6-2FWb-2BpCLugU8XO5Ta-2FVh2I2=
+KLkec3f5ezcx0ypwaA5Gb8DqMmD3Xeeouk01i4dgIHAo397X1khUKjf8SbAPO5TV0j-2Fkmk1RQ=
+nrJeRo-2Fs-2FLwMc-2FZZZO53YGnhyI-2BM5G1dY2QxGUOYw" style=3D"text-decoration=
+:none;color:#08c" target=3D"_blank"></a></td>
+</tr></tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+<br>
+=E2=86=92
+via visit by
+<img alt=3D"Open-uri20120804-2-b7tt2h?1344063965" height=3D"14" src=3D"http=
+://s3.amazonaws.com/rupert/users/photos/000/000/003/tiny/open-uri20120804-2=
+-b7tt2h?1344063965">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2=
+BqMP7fZp0Q5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVc=
+EQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6kogKLlbmYRsWvzcRXO=
+k7MOjmXlACf662VFEWRm5EguK18s9-2Buxo8pwfM63kuVvs7-2Fc2ng6d7-2FRUp02AafVDINjG=
+F9RV7TFiR8L9MVAsCaATUr83rm6lnwWo2aF5Wxj0OkHomVfvZTmtfZQ392U3b7qD8FAcTKGC8u6=
+-2B9Hwnzw3A" target=3D"_blank">Sandi MacPherson</a>, Editor-in-Chief at Qui=
+bb
+
+<hr size=3D"1" style=3D"margin:20px 0">
+<table>
+<tbody><tr>
+<td valign=3D"top" width=3D"70">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZDxD1-=
+2Fgr2BulaV3Si44Tm5LdlLGLIViIIgB2i1hy8oh3_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ=
+5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6u90s74qQzQzLN62SSaRu=
+uv-2Bfs1cNPBMA6oLMDjUaadbU3K54xl6qCnqFYa8cQ1XGxAKBtC7itHhtOwokCx4LJo8IU4zvN=
+PgCjzn4o7J4lhnF4B5zKjpl-2F4PB8bnQgfkyHXfpiK1jan7usKXiMUS3qkIryOenCPB1g7lWph=
+yhcfi" target=3D"_blank"><img alt=3D"Open-uri20140318-6465-1a56vsr?13951489=
+45" src=3D"http://s3.amazonaws.com/rupert/users/photos/000/010/964/small/op=
+en-uri20140318-6465-1a56vsr?1395148945" style=3D"border:1px solid lightgray=
+" width=3D"60">
+</a></td>
+<td>
+<b>Eric Willis, Founder at Chatmunk</b>
+<table>
+<tbody><tr><td valign=3D"top">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9=
+K-2FJjnc6CTM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVm=
+kdPhL51PpuHR5mxGZoubf6wBlZqv4FW_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EX=
+rdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6hdMTPET-2B9yU3k-2BYLaDDAiAFgU=
+4raQl9sY2N6PaTOCOvqvtupvkHGvRaa1P-2Bnm8sBT6yK0CGNVSP7cFSWNdAYWh91-2Bi5vOnHJ=
+6QwWl5VF0B9oIvQRdv1bFXMoPTRx3N7VzDgaMVRM2-2FfGSypLk2NvEsXXpW-2B2c-2B4bjrsll=
+ugDDHu" style=3D"font-size:18px;color:#08c;text-decoration:none" target=3D"=
+_blank">Find, Vet and Close the Best Product Managers</a>
+<br>
+<a href=3D"http://email.quibb.com/wf/click?upn=3D60DxSb6M5oVoaaM9SulRpOrGXL=
+WefDNHVzi18FUGkz0-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5Ccc=
+DiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6jzuKl8B4nePq4sMFwts5kF0dP-2F-2Bo-2FY75Ko=
+hbXaS51JF2Sss0QmilawfAZXLKn6n-2BLbbOVbF6aQiZQyhbw694R1pEHs7vbz98-2B-2BxBdIq=
+CjEmDCLxlwAI06KUxUAT2gj-2BKou26h46YyhqpIgCM1FlY1nUUfV8t-2FH89rIqyy-2FVIPPs"=
+ style=3D"text-decoration:none;color:#999" target=3D"_blank">firstround.com=
+</a>
+=C2=B7
+<span style=3D"color:#999">5 views</span>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZIF8VS=
+c-2F0x7OoGtQ1i7o4hC1L3Zov-2BXY-2Fpw9Q5zRtxPwnxoX7PlD-2FzD8bYrWp5pePAo8ITvf-=
+2BGH1YvCv3yYQMEI-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5CccD=
+iuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6nTwxPDd8kEuA-2BG5yGQxchY3-2Bgofx-2BbWw2UB=
+g9IIrgDCQPPOz3SrZ6yZq-2F3mujAKjV4R7Z3RlSPAlKlF-2F81ZoFjVtYkZHR-2BUpepQ2ZjMp=
+JaGiaFkuBChxx0uckaPo1UMiiKYampzYV-2FCGGgbIZQDJIuspooWQGfEhqtQ6PAMVNyY" styl=
+e=3D"text-decoration:none;color:#08c" target=3D"_blank"></a></td>
+</tr></tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+<br>
+=E2=86=92
+via visit by
+<img alt=3D"Open-uri20120804-2-b7tt2h?1344063965" height=3D"14" src=3D"http=
+://s3.amazonaws.com/rupert/users/photos/000/000/003/tiny/open-uri20120804-2=
+-b7tt2h?1344063965">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2=
+BqMP7fZp0Q5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVc=
+EQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6iweqGilAN1wWKpnniE=
+JMvITj5uEkeivfPgpPZ3fXkQhdAGLjEUiscFupYj63QUb4Zj5MqIoixLwuQagfeoIlqA3Qg4W3n=
+Qn9rEgXoWrZU2w59idzcFQUu2EveZvC3YndAjDYs8YCOodIUhe-2F9BLwZXqBKkSM0tL41Ywm5b=
+AdT6-2B" target=3D"_blank">Sandi MacPherson</a>, Editor-in-Chief at Quibb
+
+<hr size=3D"1" style=3D"margin:20px 0">
+<table>
+<tbody><tr>
+<td valign=3D"top" width=3D"70">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZLnsRU=
+S7GHg62Tn4MlrFh53cWCtKnAJvA-2BJQQfPXpsQj_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ=
+5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6nX9sMicZvsJ3RagRKMH1=
+YJL6Sub4dC-2BnmxaQrZi1CWxtd83pXFhYShufxNwVT6ArDI90tFKt3I49kwlasWq5kSZWHmuEi=
+ENWKWsNyebx7S0wPVmxEPKPpOorq4khPZDqH-2FDgPeIbMgilRmgHNBamFOJ6cV8Bz4Uu4vVDGq=
+pLcgv" target=3D"_blank"><img alt=3D"Open-uri20140415-9743-1lpzzh?139752047=
+5" src=3D"http://s3.amazonaws.com/rupert/users/photos/000/011/297/small/ope=
+n-uri20140415-9743-1lpzzh?1397520475" style=3D"border:1px solid lightgray" =
+width=3D"60">
+</a></td>
+<td>
+<b>Jon Pincus, CTO at TapestryMaker</b>
+<table>
+<tbody><tr><td valign=3D"top">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9=
+K-2FJjnc6CTM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVm=
+kdPhL51PpuDMBmD5etuNTy6FCq99rI1_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EX=
+rdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6qS9q8G2xcqeEs4fw8-2Bm5cwISRMO=
+EbcoF8v4zDFGmjnSRuTwo655xnvnpoQ1ewGONgHW8YDqmibBx-2FW5JhnldXMY-2FMjt5ta8XOv=
+DewxMsjpGtd4wA3ShZZ6bT0WoykkZer4d2JH0AgR6sHHZ-2F3JxRpEaQHFJ2793MqYhqwjNhkF6=
+" style=3D"font-size:18px;color:#08c;text-decoration:none" target=3D"_blank=
+">All-male panel boycott movemnet is growing in momentum</a>
+<br>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DvyRcztp2sFncquaTyk1vX08P8i=
+Q1uMd1lVKqY17yHs8-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5Ccc=
+DiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6sc8DZQAxWYFmkxygEVFXhRWUf6fBuanYPwHNkm-2=
+FroWVxVT3AjYoA-2FJY97b57T1VE9nebQARdnPN5v02QFdZ73EG6RZ5qDWXcDaE9TKj0WrzBp5E=
+V-2FHBwLnihpwNLfPuTFY07VBjQ9V3qeyu8kftiAN327pjm-2BYL28QvNVZKo1dp" style=3D"=
+text-decoration:none;color:#999" target=3D"_blank">qz.com</a>
+=C2=B7
+<span style=3D"color:#999">5 views</span>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJuVJn=
+orUE6BZvzJ8cVH2GlhC1xn0misQsBVKMCj9VwAuI4o42LFJBs41lTMW3EU8KHiZl3x-2F3ggiqN=
+7snZILfxNPYiJPboT8GkVK3X2-2Fh6A_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EX=
+rdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6krwvxhvZgxgpXPMvaYiH9EETBqLFQ=
+Qx7D-2BC-2BhpqLRYn7JXfTr2IYmxBrJrUI-2B-2BZZYV226eGOJMVh9NF4bntXxJ8SGupq5WmX=
+rwSJVt-2FnBci-2FL5f0kjvJESDB8UUDy93g5w1xuueP14xgPWh7nxUnmFcEo-2FQZ8sCiBlE4I=
+XHhCB2" style=3D"text-decoration:none;color:#08c" target=3D"_blank"></a></t=
+d>
+</tr></tbody></table>
+With quotes from Gina Glantz of Gender Avenger and Cindy Gallop.
+</td>
+</tr>
+</tbody></table>
+
+<br>
+=E2=86=92
+via visit by
+<img alt=3D"Open-uri20120804-2-b7tt2h?1344063965" height=3D"14" src=3D"http=
+://s3.amazonaws.com/rupert/users/photos/000/000/003/tiny/open-uri20120804-2=
+-b7tt2h?1344063965">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2=
+BqMP7fZp0Q5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVc=
+EQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6hDga3XmQd0SzaLH9NE=
+JF47Z-2FUVlly8Bttbj01o2ICmgJzcsHnF1yuau-2F1sbPtIZUDTcQ-2BuLV-2F5BmRx-2BwZnh=
+hU0mjuajNwZzpewq7YK9NdxONeeJ8idhUewSrNmlsAiQsvOGyKlWfMtcJsC21-2BL0J5ghNDvgB=
+6TMK0-2FOjf5-2B3c2j" target=3D"_blank">Sandi MacPherson</a>, Editor-in-Chie=
+f at Quibb
+
+<hr size=3D"1" style=3D"margin:20px 0">
+<table>
+<tbody><tr>
+<td valign=3D"top" width=3D"70">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZCZJ80=
+ebOBmgtOb-2FY2n7dqeyehyHBRGfWqO-2Fe0X9DLFr_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVc=
+EQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6iqyEG1PxNy5rHOjOsc=
+UIh2pOIUIPI70CF6oP6-2F2QGGIxR6Libx4ddOY-2FUX2a6lOr9tts88JppWTAV-2FUYra0NFm5=
+pYmG6l88UpU8jMMUeIQB3IapE7oh-2F2KUH1MLd-2Fw3V-2F7iOxrUODqx4rkt3fHTmRUEqCLBC=
+5wJUYzskdB8N3EI" target=3D"_blank"><img alt=3D"Open-uri20150408-10-1fjuyfb?=
+1428505806" src=3D"http://s3.amazonaws.com/rupert/users/photos/000/011/431/=
+small/open-uri20150408-10-1fjuyfb?1428505806" style=3D"border:1px solid lig=
+htgray" width=3D"60">
+</a></td>
+<td>
+<b>Matt Roberts, Head of Studio at Wooga</b>
+<table>
+<tbody><tr><td valign=3D"top">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZI1Tz9=
+K-2FJjnc6CTM1A9HRw36kbQCrZbqrBpMfmgNHP0yLdjEBSKW0xYypg-2Fmj87iIHZ5SCkn4ITVm=
+kdPhL51Ppu4PiSmH5jNLIWKoQ2795-2BB_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8=
+EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6rtjBPhn1KvZXYosWZ5IsFTxfLnj=
+qXFKalAdIZQgSu5UNmr1JbDM1MstzfZMjDLkUNqvnyrE6KRIcCMBjzIcRNbM4Eq1Arp3PubbG9j=
+qrEeKxd4z1n1Z-2Fa5-2BmjFvl9oqlSLl61RezvwTe9A4X8l6Il8WO3qkq8k-2Fd0zL061fWYlI=
+" style=3D"font-size:18px;color:#08c;text-decoration:none" target=3D"_blank=
+">A Month on the Farm: Designing games for Apple Watch</a>
+<br>
+<a href=3D"http://email.quibb.com/wf/click?upn=3Dw0VMH98LPLGEOa99jWfSZU6zhC=
+cpX5nxq4nsyrCGHm4-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5Ccc=
+DiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6kFggvUTDaBEjQMnc1e0EjwIPIrQqmatOO6GXIB-2=
+FL5HMVy-2BqNTJ4urX5tae1n7iaWoPG-2BwxNTcidoLZmb1Phv01qzq6-2FEoW0vhH7-2FG8Zd7=
+-2FzYqHAFXI4V-2Fiboemrpz7jqkDkFN7F5p1A-2FM2bwOkBJcIGWNUyVf5eGOub3iyuE9UO" s=
+tyle=3D"text-decoration:none;color:#999" target=3D"_blank">medium.com</a>
+=C2=B7
+<span style=3D"color:#999">2 views</span>
+=C2=B7
+<span style=3D"color:#999">1 like</span>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZBVp0b=
+8siOtOUWuAEsWOo5MuWLS0ZvooZZGtqjRqPukZN8uBH4AZ1DlJIUEHE04VYCLCalkyQyyO8n-2B=
+mVxaKiyLfV3s-2FeBE0U9W9l-2BS7XjLs_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8=
+EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6vBWU6fpLxzTtbos9seo20B4lDST=
+SB-2BIUNcNcV-2FnyhcAy-2FNgMzSoUzpMjSxCb-2FMtcGVolEDFo0o-2FYr33uya2kjhKMOxR7=
+Wi7DxTCmuCyqshNwQo-2F8R746u1QQOue9HeRIs1OZ42tOub3OzZLkdgi08XK3CMKIou9BAD6qe=
+uygIZx" style=3D"text-decoration:none;color:#08c" target=3D"_blank"></a></t=
+d>
+</tr></tbody></table>
+We share some KPI behind our second Apple Watch game, Farm Time. For exampl=
+e: the average user plays 20 times a day, and spends 13 minutes a day playi=
+ng on the Watch alone.
+</td>
+</tr>
+</tbody></table>
+
+<br>
+=E2=86=92
+liked by
+<img alt=3D"Open-uri20120804-2-b7tt2h?1344063965" height=3D"14" src=3D"http=
+://s3.amazonaws.com/rupert/users/photos/000/000/003/tiny/open-uri20120804-2=
+-b7tt2h?1344063965">
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZJWe-2=
+BqMP7fZp0Q5fWoPwZuZEEis7mi3a4NcEtd-2FL4d5K_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVc=
+EQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6iQpiHO2dcMcKK2tp4o=
+9Q21TqLMmggDGnAc5i8V7oo2A85Ibf6vBtw1EvqsrIya-2Fje0H9UPBRILjBUKG-2FEWpuQURsg=
+XcaL43YrTw-2FQARHKZN6pqGaQsFO5tTYsSH0IUrFf-2BQXzxAtEn75u4aL6Id1YS2wWVl5a88v=
+GTPKrOLTTId" target=3D"_blank">Sandi MacPherson</a>, Quibb
+
+<hr size=3D"1" style=3D"margin:20px 0">
+
+<h3>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZPfyZK=
+ESmZ8n5UM3AMqv-2BLg-3D_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8EXrdBIwBt5C=
+ccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6vqAZ5kRiUvZmtJmddkx6AaiLvCLJ0aeVmoWcB4=
+y-2FK2vZKzLimsi3R1lZtUL-2BX1Sez0F4shVREAHkmqN1r0ZBXXuIErfWf5DLvY5Vu-2BSQuHF=
+eQ7yxwTRz9JTTThgFSpDaHypzIb6-2FcuUxibaHjWVjBCbDQyidJhzdbWG6nBXrSvT" target=
+=3D"_blank">Read more stories on the Quibb homepage =C2=BB</a>
+</h3>
+           =20
+					</td>
+				</tr>
+			</tbody></table>
+			</div>
+								=09
+		</td>
+		<td></td>
+	</tr>
+</tbody></table>
+
+<br>
+<div style=3D"text-decoration:none;color:gray;font-size:10px;min-height:100=
+px">
+Quibb lets you share what you&#39;re reading for work.<br>
+<a href=3D"http://email.quibb.com/wf/click?upn=3DJcARYcVGVZCCZzqZZQwbZKCqNv=
+dIpe6v1K2nIV8z-2BKLvRd1jOG-2BUzj5jPBQqTFZOf4odGAS5yplSqwAREJEtg6pfXexMo-2B0=
+UkB0fyRJC7zyOWw-2BhQtSlQBVz4vB-2FZLmJ-2Fdn-2FcryjJqKwFUmmJ09U2uKZT3JNwxFSMK=
+2oNrgrhO9B7MtfV-2FnQf9oeK8pt5cma_qk3BtX8NbYcxo0o4oaI6jWURX3zTNGVcEQ5hh-2B8E=
+XrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6jhGGLPElxR0t41kayPnhLXjpc10X=
+SQsRI09d15rMkSOaJfZz-2FX3tRIqq5HGPdduIqUwfEV12uHpJlSeSxbh4NoU9J3JMpG-2FU-2B=
+CaVTtH469xJ5C-2FurJ-2FOfUzHNOPQZT8LlV2YmuGbj08L81IHTNkGukwKIiXVAACfS-2Blixa=
+IB1Iq" target=3D"_blank">Unsubscribe</a>.
+=C2=A9 2014 Quibb, Inc. 101 Broadway Suite #262, Oakland CA 94607
+</div>
+
+
+
+<img src=3D"http://email.quibb.com/wf/open?upn=3Dqk3BtX8NbYcxo0o4oaI6jWURX3=
+zTNGVcEQ5hh-2B8EXrdBIwBt5CccDiuTEi-2BCYUm9cePTjHVQmDmQDUjguplw6rN0Zzf-2BbF7=
+YiOs6Pv6pwMZNSy3hfY7JKC1DAGTBShDhw1GP-2BFcIgKGjYglS-2F1W5ZT9lct22p7G0Bf9Aaa=
+X6-2FZs0bjrMzh2LusWvcSO25a6WgV-2FyLlvIOBxpkAZJpzkMb2kWQgYV1qObu8YWiYZjf23pI=
+SsRGbFoiVFFJE8n2lH4" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=
+=3D"min-height:1px!important;width:1px!important;border-width:0!important;m=
+argin-top:0!important;margin-bottom:0!important;margin-right:0!important;ma=
+rgin-left:0!important;padding-top:0!important;padding-bottom:0!important;pa=
+dding-right:0!important;padding-left:0!important">
+</div>
+
+</div><br></div>
+
+--001a1130cf14e4f6df05333c2282--
