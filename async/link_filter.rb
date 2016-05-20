@@ -5,10 +5,13 @@ class LinkFilter
     el = EmailLink.find(email_link_id)
     el.cnt_title_words = word_count(el.title)
     result = el.update
+    el.check_and_reject
 
-    if autoreject?(el)
-      EmailLink.reject_from_reading_list(email_link_id)
-    end
+    # FIXME / TODO:
+    # reenable this infrastructure
+    #if autoreject?(el)
+      #EmailLink.reject_from_reading_list(email_link_id)
+    #end
     result
   end
 

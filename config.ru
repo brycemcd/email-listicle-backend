@@ -1,5 +1,6 @@
-require_relative 'email-listicle'
 require "rack/cors"
+require_relative 'email-listicle'
+require 'sidekiq/web'
 
 use Rack::Cors do
   allow do
@@ -8,8 +9,8 @@ use Rack::Cors do
     resource '*', :headers => :any, :methods => [:get, :post, :options, :put, :delete]
   end
 end
-#run EmailListicle::API
-require 'sidekiq/web'
+
 use Rack::Session::Cookie, :secret => "some unique secret string here"
 run Rack::URLMap.new('/' => EmailListicle::API,
                      '/sidekiq' => Sidekiq::Web)
+

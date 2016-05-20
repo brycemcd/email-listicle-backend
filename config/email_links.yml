@@ -5,13 +5,18 @@ all:
   size: 20_000
 
 undecided:
-  size: 400
+  size: 1600
   sort:
     created_at:
       order: asc
   filter:
-    missing:
-      field: accepted
+    and:
+      - range:
+          created_at:
+            gte: 'now-1w'
+            time_zone: "+4:00"
+      - missing:
+          field: accepted
 
 unengineered:
   size: 2000
@@ -28,3 +33,14 @@ unread:
             accepted: true
         - missing:
             field: read
+
+whoops:
+  size: 1000
+  query:
+    bool:
+      must:
+        - term:
+            accepted: false
+        - range:
+            accept_or_reject_dttm:
+              gte: "2016-01-29"

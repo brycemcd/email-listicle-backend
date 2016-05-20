@@ -9,10 +9,11 @@ require_relative "async/base"
 module EmailListicle
   class API < Grape::API
     version 'v1', using: :path
-    format :json
     prefix :api
 
     resource :cards do
+      format :json
+
       desc "fetches unlabeled cards from the ToDo list @ Trello"
       get :unlabeled do
         TrelloInterface.unlabeled_cards_in_list
@@ -48,6 +49,32 @@ module EmailListicle
     end
 
     resource :email_links do
+
+      desc "Parse and store links from an email"
+      post do
+        format 'text/plain'
+
+        if headers['X-Amz-Sns-Message-Type']
+          bd = ""
+          request.body.each { |x| bd << x}
+          json = JSON.parse(bd)
+        else
+          json = params
+        end
+        puts "body"
+        puts body.to_s
+        puts "headers"
+        puts headers.to_yaml
+        puts "json"
+        puts json.to_yaml
+        StoreLinksFromEmailWorker.perform_async(json)
+        {status: :ok}
+      end
+    end
+
+    resource :email_links do
+      format :json
+
       desc "Lists un-seen links"
       get :all do
         EmailLink.undecided
@@ -56,16 +83,6 @@ module EmailListicle
       desc "fetches unread stories"
       get :unread do
         EmailLink.unread
-      end
-
-      desc "Parse and store links from an email"
-      post do
-        PersistDataToCloud.new.perform(data: params["mandrill_events"],
-                                       bucket: 'bme-listicle',
-                                       key: "inbound-emails/#{Time.now.iso8601}.json",
-                                      )
-        StoreLinksFromEmailWorker.perform_async(params['mandrill_events'])
-        {status: :ok}
       end
 
       desc "adds link id to reading list"

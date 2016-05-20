@@ -1,6 +1,7 @@
 class EmailLink
   attr_accessor :title, :url, :article_content, :id,
-    :email_subject, :created_at, :from_email, :from_name, :cnt_title_words
+    :email_subject, :created_at, :from_email, :from_name, :cnt_title_words,
+    :accept_or_reject_dttm, :accepted
 
   YAML_CONFIG = 'email_links.yml'
 
@@ -17,7 +18,9 @@ class EmailLink
       created_at: self.created_at,
       from_name: self.from_name,
       from_email: self.from_email,
-      cnt_title_words: self.cnt_title_words
+      cnt_title_words: self.cnt_title_words,
+      accept_or_reject_dttm: self.accept_or_reject_dttm,
+      accepted: self.accepted
     }
   end
 
@@ -33,6 +36,27 @@ class EmailLink
     es.update(self.id, self.as_hash)
   end
 
+  def autoreject?
+    !more_than_word_count_threshold? ||
+      contains_auto_reject_phrase?
+  end
+
+  private def more_than_word_count_threshold?
+    self.cnt_title_words && self.cnt_title_words > 3
+  end
+
+  private def contains_auto_reject_phrase?
+    self.title =~ /(unsubscribe)|(read more stories on .*Quibb*)/i
+  end
+
+  def autoreject!
+    self.class.reject_from_reading_list(self.id)
+  end
+
+  def check_and_reject
+    self.autoreject! if self.autoreject?
+  end
+
   def self.find(id)
     es = EsClient.new(YAML_CONFIG, nil)
     doc = es.get_with_id(id)
@@ -43,6 +67,13 @@ class EmailLink
     es = EsClient.new(YAML_CONFIG, nil)
     es.update(id, accepted: true, accept_or_reject_dttm: DateTime.now.iso8601)
     find(id)
+  end
+
+  def self.whoops
+    es = EsClient.new(YAML_CONFIG, 'whoops')
+    es.search['hits']['hits'].map do |result|
+      parse_from_result(result)
+    end
   end
 
   def self.reject_from_reading_list(id)
@@ -62,6 +93,10 @@ class EmailLink
     es.search['hits']['hits'].map do |result|
       parse_from_result(result)
     end
+  end
+
+  def self.clean_up_undecided!
+    self.undecided.each { |el| el.check_and_reject }
   end
 
   def self.unread
@@ -91,6 +126,8 @@ class EmailLink
     el.from_email  = result['from_email']
     el.from_name   = result['from_name']
     el.cnt_title_words   = result['cnt_title_words']
+    el.accept_or_reject_dttm   = result['accept_or_reject_dttm']
+    el.accepted   = result['accepted']
     el
   end
 end
