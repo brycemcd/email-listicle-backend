@@ -61,11 +61,13 @@ module EmailListicle
         else
           json = params
         end
+        puts "body"
+        puts body.to_s
         puts "headers"
         puts headers.to_yaml
         puts "json"
         puts json.to_yaml
-        StoreLinksFromEmailWorker.perform_async(json['Message'])
+        StoreLinksFromEmailWorker.perform_async(json)
         {status: :ok}
       end
     end

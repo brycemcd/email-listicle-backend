@@ -1,7 +1,6 @@
 source "https://rubygems.org"
 ruby "2.2.0"
 
-gem 'shotgun'
 gem "httparty"
 gem "nokogiri"
 gem "puma"
@@ -17,5 +16,7 @@ gem "predictionio"
 gem "mail"
 
 group :test, :development do
+  gem 'shotgun'
+  gem 'pry'
   gem 'rspec'
 end
