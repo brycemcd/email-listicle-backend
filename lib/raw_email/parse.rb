@@ -5,7 +5,7 @@ module RawEmail
 
     def initialize(raw_text)
       mail = Mail.read_from_string(raw_text)
-      parsed = Nokogiri::HTML(mail.body.decoded)
+      parsed = find_html_and_parse(mail)
       parse_links(parsed, mail)
     end
 
@@ -14,6 +14,21 @@ module RawEmail
     end
 
     private
+
+    def parse_html_email(decoded_body)
+      Nokogiri::HTML(decoded_body)
+    end
+
+    def find_html_and_parse(mail_obj)
+      if mail_obj.multipart?
+        mail_obj.parts.each do |part|
+          next unless part.content_type =~ /html/
+          return parse_html_email(part.body.decoded)
+        end
+      else
+        parse_html_email(mail_obj.body.decoded)
+      end
+    end
 
     def parse_links(html_body, mail_obj)
       @email_links = html_body.xpath('//a').collect do |link|

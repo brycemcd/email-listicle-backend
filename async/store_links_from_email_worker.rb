@@ -1,12 +1,9 @@
 class StoreLinksFromEmailWorker
   include Sidekiq::Worker
 
-  def perform(json_string)
-    msgs = JSON.parse(json_string)
+  def perform(sns_json)
+    top_level_json = JSON.parse(sns_json['Message'])
 
-    msgs.each do |json|
-      ProcessLinksFromEmailWorker.perform_async(json)
-    end
+    ProcessLinksFromEmailWorker.perform_async(top_level_json['content'])
   end
-
 end

@@ -1,16 +1,14 @@
 require 'pp'
-#require 'pry'
 class ProcessLinksFromEmailWorker
   include Sidekiq::Worker
 
-  def perform(json)
-    #binding.pry
-    pl = RawEmail::Parse.new(json)
-    #puts "---"
-    #pl.email_links.each {|x| pp x}
-    #puts "---"
-    #pl.save_parsed_links
-    fail 'done'
+  def perform(raw_email)
+    pl = RawEmail::Parse.new(raw_email)
+    # for debugging in production
+    puts "---"
+    pl.email_links.each {|x| pp x}
+    puts "---"
+    pl.save_parsed_links
 
     FeatureEngineeringBatchWorker.perform_async
   end

@@ -61,8 +61,6 @@ module EmailListicle
         else
           json = params
         end
-        puts "body"
-        puts body.to_s
         puts "headers"
         puts headers.to_yaml
         puts "json"
