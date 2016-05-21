@@ -18,6 +18,13 @@ class EsClient
 
   end
 
+  def self.write(index: nil, type: nil, body_hash: nil)
+    $es_client.index(index: index,
+                     type: type,
+                     body: body_hash)
+
+  end
+
   def update(id, params)
     $es_client.update(id: id,
                       index: query_index,

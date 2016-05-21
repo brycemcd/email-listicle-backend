@@ -1,0 +1,13 @@
+{
+  "properties" : {
+    "body" : {
+      "type" : "nested"
+    },
+    "headers" : {
+     "type": "nested"
+    },
+    "time" : {
+      "type" : "date"
+    }
+  }
+}

@@ -58,13 +58,16 @@ module EmailListicle
           bd = ""
           request.body.each { |x| bd << x}
           json = JSON.parse(bd)
+          SNSRequest.write_to_es( body: json, headers: headers, time: Time.now)
         else
           json = params
         end
+
         puts "headers"
         puts headers.to_yaml
         puts "json"
         puts json.to_yaml
+
         StoreLinksFromEmailWorker.perform_async(json)
         {status: :ok}
       end
