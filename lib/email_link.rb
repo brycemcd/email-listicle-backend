@@ -31,6 +31,26 @@ class EmailLink
              body_hash: self.as_hash)
   end
 
+  def similar
+    es = EsClient.new(YAML_CONFIG, nil)
+    search = $es_client.search(index: es.query_index,
+                                body: similar_search_hash)
+    search['hits']['hits'].map do |result|
+      self.class.parse_from_result(result)
+    end
+  end
+
+  private def similar_search_hash
+    {
+      size: 16,
+      query: {
+        match: {
+          title: self.title
+        }
+      }
+    }
+  end
+
   def update
     es = EsClient.new(YAML_CONFIG, nil)
     es.update(self.id, self.as_hash)
