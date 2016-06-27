@@ -31,10 +31,27 @@ class EmailLink
              body_hash: self.as_hash)
   end
 
+  def reject_identical_links!
+    il = self.identical_email_links(self.similar())
+    il.each do |el|
+      self.class.reject_from_reading_list(el.id, reason: 'already seen')
+    end
+  end
+
+  def identical_email_links(comparison_email_links)
+    comparison_email_links.select { |cel| identical_link?(self, cel) }
+  end
+
+  private def identical_link?(link_1, link_2)
+    link_1.title == link_2.title &&
+      link_1.id != link_2.id
+  end
+
   def similar
     es = EsClient.new(YAML_CONFIG, nil)
     search = $es_client.search(index: es.query_index,
                                 body: similar_search_hash)
+
     search['hits']['hits'].map do |result|
       self.class.parse_from_result(result)
     end
@@ -61,8 +78,9 @@ class EmailLink
       contains_auto_reject_phrase?
   end
 
+  AUTOREJECT_WORD_COUNT_THRESHOLD = 3
   private def more_than_word_count_threshold?
-    self.cnt_title_words && self.cnt_title_words > 3
+    self.cnt_title_words && self.cnt_title_words > AUTOREJECT_WORD_COUNT_THRESHOLD
   end
 
   private def contains_auto_reject_phrase?
@@ -96,9 +114,12 @@ class EmailLink
     end
   end
 
-  def self.reject_from_reading_list(id)
+  def self.reject_from_reading_list(id, reason: 'none given')
     es = EsClient.new(YAML_CONFIG, nil)
-    es.update(id, accepted: false, accept_or_reject_dttm: DateTime.now.iso8601)
+    es.update(id,
+              accepted: false,
+              accept_or_reject_dttm: DateTime.now.iso8601,
+              reject_reason: reason)
   end
 
   def self.all
