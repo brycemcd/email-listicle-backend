@@ -1,0 +1,51 @@
+{
+  "properties": {
+    "accept_or_reject_dttm":{
+      "type":"date",
+      "format":"dateOptionalTime"
+    },
+    "accepted":{
+      "type":"boolean"
+    },
+    "reject_reason":{
+      "type":"string",
+      "index":"not_analyzed"
+    },
+    "body_hash": {
+      "properties": {
+        "cnt_title_words": {
+          "type":"long"
+        },
+        "id": {
+          "type":"string"
+        },
+        "title":{
+          "type":"string"
+        },
+        "url":{
+          "type":"string"
+        }
+      }
+    },
+    "cnt_title_words":{
+      "type":"long"
+    },
+    "created_at": {
+      "type":"date",
+      "format":"dateOptionalTime"
+    },
+    "email_subject":{
+      "type":"string"
+    },
+    "from_email":{
+      "type":"string",
+      "index":"not_analyzed"
+    },
+    "from_name":{
+      "type":"string"
+    },
+    "id":{
+      "type":"string"
+    }
+  }
+}
