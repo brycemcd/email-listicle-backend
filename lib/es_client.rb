@@ -1,5 +1,7 @@
 require 'elasticsearch'
 require 'yaml'
+require 'erb'
+
 $es_client = Elasticsearch::Client.new(log: true,
                                        host: ENV['ES_URL'])
 
@@ -55,8 +57,9 @@ class EsClient
     @full_config_file ||= read_config_file
   end
 
-  def read_config_file(yaml_dir="config/")
+  def read_config_file(yaml_dir="config/", &block)
     conf = File.join(Dir.getwd, yaml_dir, self.config_file)
-    YAML.load_file(conf)
+    erb = ERB.new(File.read(conf))
+    YAML.load(erb.result)
   end
 end

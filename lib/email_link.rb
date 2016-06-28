@@ -4,6 +4,7 @@ class EmailLink
     :accept_or_reject_dttm, :accepted
 
   YAML_CONFIG = 'email_links.yml'
+  AUTOREJECT_WORD_COUNT_THRESHOLD = 3
 
   def to_json(*args)
     as_hash.to_json
@@ -31,18 +32,31 @@ class EmailLink
              body_hash: self.as_hash)
   end
 
+  def reject_identical_links!
+    il = self.identical_email_links(self.similar())
+    il.each do |el|
+      self.class.reject_from_reading_list(el.id, reason: 'already seen', reject_automatic: true)
+    end
+  end
+
   def update
     es = EsClient.new(YAML_CONFIG, nil)
     es.update(self.id, self.as_hash)
   end
 
   def autoreject?
-    !more_than_word_count_threshold? ||
-      contains_auto_reject_phrase?
+    less_than_word_count_threshold? ||
+      contains_auto_reject_phrase? ||
+      duplicated_link?
   end
 
-  private def more_than_word_count_threshold?
-    self.cnt_title_words && self.cnt_title_words > 3
+  private def less_than_word_count_threshold?
+    self.cnt_title_words && self.cnt_title_words < AUTOREJECT_WORD_COUNT_THRESHOLD
+  end
+
+  private def duplicated_link?
+    els = EmailLinkSimilarity.new(self)
+    els.identical_links.any?
   end
 
   private def contains_auto_reject_phrase?
@@ -76,9 +90,13 @@ class EmailLink
     end
   end
 
-  def self.reject_from_reading_list(id)
+  def self.reject_from_reading_list(id, reason: 'none given', reject_automatic: false)
     es = EsClient.new(YAML_CONFIG, nil)
-    es.update(id, accepted: false, accept_or_reject_dttm: DateTime.now.iso8601)
+    es.update(id,
+              accepted: false,
+              reject_automatic: reject_automatic,
+              accept_or_reject_dttm: DateTime.now.iso8601,
+              reject_reason: reason)
   end
 
   def self.all
