@@ -6,11 +6,11 @@ class EmailLinkSimilarity
   end
 
   def fetch_similar
-    es = EsClient.new(EmailLink::YAML_CONFIG, nil)
-    search = $es_client.search(index: es.query_index,
-                                body: similar_search_hash)
+    es = EsClient.new('email_link_similarity.yml',
+                      'similar_search_hash',
+                      {title: self.link_for_comparison.title})
 
-    search['hits']['hits'].map do |result|
+    es.search['hits']['hits'].map do |result|
       EmailLink.parse_from_result(result)
     end
   end
@@ -23,28 +23,4 @@ class EmailLinkSimilarity
     link_1.title == link_2.title &&
       link_1.id != link_2.id
   end
-
-  private def similar_search_hash
-    #FIXME: move this out to yaml
-    {
-      size: 16,
-      filter: {
-        bool: {
-          must_not: [
-            {
-              missing: {
-                field: "accepted"
-              }
-            }
-          ]
-        }
-      },
-      query: {
-        match: {
-          title: self.link_for_comparison.title
-        }
-      }
-    }
-  end
-
 end

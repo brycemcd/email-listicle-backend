@@ -6,11 +6,12 @@ $es_client = Elasticsearch::Client.new(log: true,
                                        host: ENV['ES_URL'])
 
 class EsClient
-  attr_reader :config_file, :root_key, :query_hash
+  attr_reader :config_file, :root_key, :query_hash, :query_interpolations
 
-  def initialize(config_file, root_key)
+  def initialize(config_file, root_key, query_interpolations={})
     @config_file = config_file
     @root_key = root_key
+    @query_interpolations = query_interpolations
   end
 
   def write(type: nil, body_hash: nil)
@@ -57,9 +58,9 @@ class EsClient
     @full_config_file ||= read_config_file
   end
 
-  def read_config_file(yaml_dir="config/", &block)
+  def read_config_file(yaml_dir="config/")
     conf = File.join(Dir.getwd, yaml_dir, self.config_file)
     erb = ERB.new(File.read(conf))
-    YAML.load(erb.result)
+    YAML.load(erb.result binding)
   end
 end
