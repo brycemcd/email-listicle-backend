@@ -6,6 +6,7 @@ class EmailLinkRejection
   def initialize(email_link)
     wrong_arguments unless email_link.is_a?(EmailLink)
     @email_link = email_link
+    @reject_reasons = []
     rejectable?
   end
 
@@ -14,7 +15,12 @@ class EmailLinkRejection
     @reject_reasons << :title_threshold if less_than_word_count_threshold?
     @reject_reasons << :phrase if contains_auto_reject_phrase?
     @reject_reasons << :duplicate_link if duplicated_link?
+    @reject_reasons.sort!
     @reject_reasons.any?
+  end
+
+  def reason_string
+    self.reject_reasons.sort.join('-')
   end
 
   private def less_than_word_count_threshold?

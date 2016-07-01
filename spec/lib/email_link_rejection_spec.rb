@@ -69,7 +69,29 @@ RSpec.describe EmailLinkRejection do
       elr = EmailLinkRejection.new(el)
 
       expect(elr.rejectable?).to be_truthy
-      expect(elr.reject_reasons).to eql([:title_threshold, :phrase, :duplicate_link])
+      expect(elr.reject_reasons).to eql([
+        :duplicate_link,
+        :phrase,
+        :title_threshold,
+      ])
+    end
+  end
+
+  describe '#reason_string' do
+    it 'sorts and underscores the reject reasons' do
+      expect_any_instance_of(EmailLinkRejection).to receive(:find_duplicated_links).
+        and_return(true)
+
+      el = EmailLink.new
+      elr = EmailLinkRejection.new(el)
+
+      expect(elr).to receive(:reject_reasons).and_return([
+        :duplicate_link,
+        :phrase,
+        :title_threshold,
+      ])
+
+      expect(elr.reason_string).to eql('duplicate_link-phrase-title_threshold')
     end
   end
 end

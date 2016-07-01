@@ -4,7 +4,6 @@ class EmailLink
     :accept_or_reject_dttm, :accepted
 
   YAML_CONFIG = 'email_links.yml'
-  AUTOREJECT_WORD_COUNT_THRESHOLD = 3
 
   def to_json(*args)
     as_hash.to_json
@@ -45,26 +44,19 @@ class EmailLink
   end
 
   def autoreject?
-    less_than_word_count_threshold? ||
-      contains_auto_reject_phrase? ||
-      duplicated_link?
+    elr = link_rejector
+    elr.rejectable?
   end
 
-  private def less_than_word_count_threshold?
-    self.cnt_title_words && self.cnt_title_words < AUTOREJECT_WORD_COUNT_THRESHOLD
-  end
-
-  private def duplicated_link?
-    els = EmailLinkSimilarity.new(self)
-    els.identical_links.any?
-  end
-
-  private def contains_auto_reject_phrase?
-    self.title =~ /(unsubscribe)|(read more stories on .*Quibb*)/i
+  private def link_rejector
+    @link_rejector ||= EmailLinkRejection.new(self)
   end
 
   def autoreject!
-    self.class.reject_from_reading_list(self.id)
+    reject = link_rejector
+    self.class.reject_from_reading_list(self.id,
+                                       reason: reject.reason_string,
+                                       reject_automatic: true)
   end
 
   def check_and_reject
@@ -81,13 +73,6 @@ class EmailLink
     es = EsClient.new(YAML_CONFIG, nil)
     es.update(id, accepted: true, accept_or_reject_dttm: DateTime.now.iso8601)
     find(id)
-  end
-
-  def self.whoops
-    es = EsClient.new(YAML_CONFIG, 'whoops')
-    es.search['hits']['hits'].map do |result|
-      parse_from_result(result)
-    end
   end
 
   def self.reject_from_reading_list(id, reason: 'none given', reject_automatic: false)

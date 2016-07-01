@@ -2,32 +2,33 @@ require 'spec_helper'
 require 'json'
 
 RSpec.describe EmailLink do
+  let(:el) {
+    el = EmailLink.new
+    el.id = 'abc'
+    el.title = 'hello world from here'
+    el.cnt_title_words = 4
+    el
+  }
   describe '#autoreject?' do
-    let(:unrejectable_link) {
-      el = EmailLink.new
-      el.title = 'a perfectly valid title'
-      el.cnt_title_words = (EmailLink::AUTOREJECT_WORD_COUNT_THRESHOLD + 1)
-      el
-    }
+    it 'allows EmailLinkRejection to handle all auto reject concerns' do
+      expect_any_instance_of(EmailLinkRejection).to receive(:rejectable?).
+        twice.and_return(false)
 
-    it 'does not reject unrejectable_link' do
-      expect(unrejectable_link).to receive(:duplicated_link?).and_return(false)
-      expect(unrejectable_link.autoreject?).to be_falsey
+      el.autoreject?
     end
+  end
 
-    it 'rejects if number of words in title is below a threshold' do
-      unrejectable_link.cnt_title_words = (EmailLink::AUTOREJECT_WORD_COUNT_THRESHOLD - 1)
-      expect(unrejectable_link.autoreject?).to be_truthy
-    end
+  describe '#autoreject!' do
+    it 'calls .reject_from_reading_list with the reject reasons' do
+      reject = double(:email_link_rejection, reason_string: 'foo')
 
-    it 'rejects if the title contains the word unsubscribe' do
-      unrejectable_link.title = 'unsubscribe from this email'
-      expect(unrejectable_link.autoreject?).to be_truthy
-    end
-
-    it 'rejects if the link title is duplicated' do
-      expect(unrejectable_link).to receive(:duplicated_link?).and_return(true)
-      expect(unrejectable_link.autoreject?).to be_truthy
+      expect(el).to receive(:link_rejector).and_return(reject)
+      expect(EmailLink).to receive(:reject_from_reading_list).with(
+        el.id,
+        reason: reject.reason_string,
+        reject_automatic: true
+      )
+      el.autoreject!
     end
   end
 end
