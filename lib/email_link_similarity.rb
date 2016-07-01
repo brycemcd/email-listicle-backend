@@ -25,8 +25,20 @@ class EmailLinkSimilarity
   end
 
   private def similar_search_hash
+    #FIXME: move this out to yaml
     {
       size: 16,
+      filter: {
+        bool: {
+          must_not: [
+            {
+              missing: {
+                field: "accepted"
+              }
+            }
+          ]
+        }
+      },
       query: {
         match: {
           title: self.link_for_comparison.title

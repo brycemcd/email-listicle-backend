@@ -1,11 +1,6 @@
 index: email_links
 type: email_link
 
-similar:
-  size: 16
-  query:
-    match:
-      title: <%= @config %>
 
 all:
   size: 20_000

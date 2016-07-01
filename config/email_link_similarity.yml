@@ -1,0 +1,10 @@
+similar_search_hash:
+  size: 16
+  filter:
+    bool:
+      must_not:
+        - missing:
+            field: accepted
+  query:
+    match:
+      title: <%= title %>
