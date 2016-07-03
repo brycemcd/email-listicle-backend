@@ -46,6 +46,23 @@ RSpec.describe EmailLinkSimilarity do
       expect(sim).to be_kind_of Array
       expect(sim.first).to be_kind_of EmailLink
     end
+
+    #NOTE: this is from a production bug
+    it 'returns an empty array if no title is available' do
+      el = EmailLink.new
+      els = EmailLinkSimilarity.new(el)
+      expect(els.fetch_similar).to eql([])
+
+      el = EmailLink.new
+      el.title = ""
+      els = EmailLinkSimilarity.new(el)
+      expect(els.fetch_similar).to eql([])
+
+      el = EmailLink.new
+      el.title = "\n"
+      els = EmailLinkSimilarity.new(el)
+      expect(els.fetch_similar).to eql([])
+    end
   end
 
   describe '#identical_links' do
@@ -55,6 +72,14 @@ RSpec.describe EmailLinkSimilarity do
       sames = els.identical_links
 
       expect(sames).to eql([el_2])
+    end
+
+    it 'returns an empty array when presented with an empty array' do
+      expect(els).to receive(:fetch_similar).and_return([])
+
+      sames = els.identical_links
+
+      expect(sames).to be_empty
     end
   end
 end

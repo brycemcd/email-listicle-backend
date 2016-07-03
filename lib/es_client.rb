@@ -43,6 +43,7 @@ class EsClient
 
   def search
     $es_client.search(index: query_index,
+                      type: full_config_file['type'],
                       body: get_config_hash)
   end
 
