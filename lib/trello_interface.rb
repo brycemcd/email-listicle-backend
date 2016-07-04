@@ -56,6 +56,11 @@ class TrelloInterface
     card.save
   end
 
+  def self.vote_on_card(card_id: nil, voting_member: ENV['TRELLO_USER_ID'])
+    uri = "/cards/#{card_id}/membersVoted"
+    Trello.client.post(uri, {value: voting_member})
+  end
+
   def self.label_from_color(color)
     colors = { 'orange' => '5516b206664ce8ff30c2bd0b',
                'yellow' => '5516b206664ce8ff30c2bd0a',
