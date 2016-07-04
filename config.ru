@@ -2,6 +2,7 @@ require "rack/cors"
 require_relative 'email-listicle'
 require 'sidekiq/web'
 
+use Bugsnag::Rack
 use Rack::Cors do
   allow do
     origins '*'

@@ -5,8 +5,9 @@ class LinkFilter
     begin
       el = EmailLink.find(email_link_id)
     rescue Elasticsearch::Transport::Transport::Errors::NotFound => e
+      Bugsnag.notify(e)
       puts "[ERROR] LinkFilter can not find #{email_link_id}"
-      return false
+      return true
     end
 
     el.cnt_title_words = word_count(el.title)
