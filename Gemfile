@@ -14,6 +14,8 @@ gem 'sidekiq'
 gem 'aws-sdk', '~> 2'
 gem "predictionio"
 gem "mail"
+gem 'bugsnag', '~> 4.2.1'
+gem 'octokit', '~> 4.3.0'
 
 group :test, :development do
   gem 'shotgun'

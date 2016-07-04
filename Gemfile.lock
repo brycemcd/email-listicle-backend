@@ -21,6 +21,7 @@ GEM
       descendants_tracker (~> 0.0.4)
       ice_nine (~> 0.11.0)
       thread_safe (~> 0.3, >= 0.3.1)
+    bugsnag (4.2.1)
     builder (3.2.2)
     coderay (1.1.1)
     coercible (1.0.0)
@@ -77,6 +78,8 @@ GEM
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
     oauth (0.4.7)
+    octokit (4.3.0)
+      sawyer (~> 0.7.0, >= 0.5.3)
     predictionio (0.9.6)
       json (~> 1.8)
     pry (0.10.3)
@@ -116,6 +119,9 @@ GEM
       json
       oauth (~> 0.4.5)
       rest-client (~> 1.8.0)
+    sawyer (0.7.0)
+      addressable (>= 2.3.5, < 2.5)
+      faraday (~> 0.8, < 0.10)
     shotgun (0.9.1)
       rack (>= 1.0)
     sidekiq (4.1.0)
@@ -145,12 +151,14 @@ PLATFORMS
 
 DEPENDENCIES
   aws-sdk (~> 2)
+  bugsnag (~> 4.2.1)
   dotenv
   elasticsearch
   grape
   httparty
   mail
   nokogiri
+  octokit (~> 4.3.0)
   predictionio
   pry
   puma
