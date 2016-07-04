@@ -42,6 +42,15 @@ module EmailListicle
                                           card_id: params[:card_id])
       end
 
+      desc "upvotes a card indicating the reader liked the article"
+      params do
+        requires :card_id, type: String, desc: "The Trello card id"
+      end
+      put :upvote_card do
+        TrelloInterface.vote_on_card(card_id: params[:card_id]) &&
+          Trello::Card.find(params[:card_id])
+      end
+
       desc "archives card in Trello"
       delete :archive_card do
         TrelloInterface.close_card(card_id: params[:card_id])
