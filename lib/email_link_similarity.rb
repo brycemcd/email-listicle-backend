@@ -9,7 +9,7 @@ class EmailLinkSimilarity
     return [] if title_unsearchable?
     es = EsClient.new('email_link_similarity.yml',
                       'similar_search_hash',
-                      {title: self.link_for_comparison.title})
+                      {title: self.link_for_comparison.cleansed_title})
 
     es.search['hits']['hits'].map do |result|
       EmailLink.parse_from_result(result)

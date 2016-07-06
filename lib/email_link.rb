@@ -24,6 +24,13 @@ class EmailLink
     }
   end
 
+  #NOTE: This is causing problems in LinkSimilarity but doesn't appear
+  # to affect anything else in the system. It should probably be moved to
+  # some sort of pre-persistence check
+  def cleansed_title
+    self.title.gsub(/[\t\r\n\f]/, '')
+  end
+
   # TODO - this should be create, not save
   def save
     es = EsClient.new(YAML_CONFIG, nil)
