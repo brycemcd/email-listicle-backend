@@ -28,7 +28,7 @@ class EmailLink
   # to affect anything else in the system. It should probably be moved to
   # some sort of pre-persistence check
   def cleansed_title
-    self.title.gsub(/[\t\r\n\f]/, '')
+    self.title.gsub(/[\t\r\n\f:]/, '')
   end
 
   # TODO - this should be create, not save

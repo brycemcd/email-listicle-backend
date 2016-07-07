@@ -34,7 +34,7 @@ RSpec.describe EmailLink do
 
   describe '#cleansed_title' do
     it 'removes non-printable characters' do
-      el.title = "2 \n comments\t from \r\n people"
+      el.title = "2 \n comments\t from \r\n people:"
       expect(el.cleansed_title).to eql('2  comments from  people')
     end
   end
