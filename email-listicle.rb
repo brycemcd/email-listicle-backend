@@ -21,7 +21,12 @@ module EmailListicle
 
       desc "Fetches cards that are in the TODO list and labeled"
       get :unread do
-        TrelloInterface.labeled_cards_in_list
+        TrelloInterface.labeled_cards_in_list.reverse
+      end
+
+      desc "Fetches cards that are in the DOING list"
+      get :reading do
+        TrelloInterface.all_cards_in_list(list_id: ENV['TRELLO_DOING_LIST_ID'])
       end
 
       desc "applies label color (like green, not a hash) to a card"
