@@ -70,6 +70,17 @@ class EmailLink
     self.autoreject! if self.autoreject?
   end
 
+  def set_title_word_count
+    self.cnt_title_words = get_title_word_count
+    self.update
+    self.cnt_title_words
+  end
+
+  def get_title_word_count
+    return 0 unless self.title.methods.include?(:split)
+    self.title.split.length
+  end
+
   def self.find(id)
     es = EsClient.new(YAML_CONFIG, nil)
     doc = es.get_with_id(id)

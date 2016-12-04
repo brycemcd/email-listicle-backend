@@ -109,6 +109,21 @@ module EmailListicle
       post :mark_for_reject do
         RejectLinkFromReadingListWorker.perform_async(params[:id])
       end
+
+      desc 'sets number of words in title attribute for an email link'
+      params do
+        requires :id, type: String, desc: 'ES id of email link'
+      end
+      put ':id/set_title_word_count' do
+        begin
+          # sigh - rather than returning a falsey value, an exception is raised
+          el = EmailLink.find(params[:id])
+          el.set_title_word_count
+          el
+        rescue Elasticsearch::Transport::Transport::Errors::NotFound
+          status 404
+        end
+      end
     end
   end
 end

@@ -95,6 +95,8 @@ GEM
       rack (>= 1.0.0)
     rack-protection (1.5.3)
       rack
+    rack-test (0.6.3)
+      rack (>= 1.0)
     redis (3.2.2)
     rest-client (1.8.0)
       http-cookie (>= 1.0.2, < 2.0)
@@ -163,6 +165,7 @@ DEPENDENCIES
   pry
   puma
   rack-cors
+  rack-test
   rspec
   ruby-trello (~> 1.4.1)
   shotgun

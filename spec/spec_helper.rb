@@ -19,6 +19,7 @@
 SPEC_BASE = File.dirname(__FILE__)
 
 require_relative "../lib/base"
+require_relative "../email-listicle"
 
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
