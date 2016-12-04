@@ -19,6 +19,30 @@ certainly a work in progress.
 [save notification to ES /sns_notifications/news-email,
  post to async app /email_links] => Kick Off Async Workers
 
+### Update 2016-12-04
+
+I've begun experimenting with using the new AWS Step Functions to
+manage this pipeline. The step functions appear to be designed to handle
+this workflow whereas I feel I've shoehorned a series of async processes
+together to fit the needs of this application. The approach of
+shoehorning has been okay, but yielded frequent events that fail
+midstream with no notification (I realize this is my own laziness).
+
+The approach here is to start at the end and work forward. I'll begin by
+making an API endpoint for each async process and then call the API
+endpoint from the step function. Once this is complete I can assess how
+well the step functions work compared to the series of sidekiq
+tasks.
+
+Migration to API endpoints:
+
++ [ ] StoreLinksFromEmailWorker
++ [ ] ProcessLinksFromEmailWorker
++ [ ] FeatureEngineeringBatchWorker
++ [ ] LinkFilter
+  + [ ] Count Words in Title
+  + [ ] `check_and_reject`
+
 ### Async Worker Flow
 
 StoreLinksFromEmailWorker => ProcessLinksFromEmailWorker => FeatureEngineeringBatchWorker =>
