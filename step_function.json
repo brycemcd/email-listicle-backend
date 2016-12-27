@@ -1,0 +1,16 @@
+{
+  "Comment": "Invokes a pipeline of processing steps for a link found in an email",
+  "StartAt": "CountTitleWords",
+  "States": {
+    "CountTitleWords": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:us-west-2:304286125266:function:countTitleWords",
+			"Next" : "AutoReject"
+    },
+		"AutoReject" : {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:us-west-2:304286125266:function:autoreject",
+      "End": true
+		}
+  }
+}

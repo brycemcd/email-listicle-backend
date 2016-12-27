@@ -40,7 +40,7 @@ Migration to API endpoints:
 + [ ] ProcessLinksFromEmailWorker
 + [ ] FeatureEngineeringBatchWorker
 + [ ] LinkFilter
-  + [ ] Count Words in Title
+  + [x] Count Words in Title
   + [ ] `check_and_reject`
 
 ### Async Worker Flow

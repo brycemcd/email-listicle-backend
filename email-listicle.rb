@@ -124,6 +124,21 @@ module EmailListicle
           status 404
         end
       end
+
+      desc 'determines if link should be rejected based on some historical critiera'
+      params do
+        requires :id, type: String, desc: 'ES id of email link'
+      end
+      put ':id/autoreject' do
+        begin
+          # sigh - rather than returning a falsey value, an exception is raised
+          el = EmailLink.find(params[:id])
+          el.check_and_reject
+          el
+        rescue Elasticsearch::Transport::Transport::Errors::NotFound
+          status 404
+        end
+      end
     end
   end
 end

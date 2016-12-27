@@ -52,7 +52,9 @@ class EmailLink
 
   def autoreject?
     elr = link_rejector
-    elr.rejectable?
+    result = elr.rejectable?
+    puts "[AUTOREJECT] #{self.id} #{elr.reason_string}"
+    result
   end
 
   private def link_rejector
