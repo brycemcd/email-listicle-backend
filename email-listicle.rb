@@ -110,19 +110,29 @@ module EmailListicle
         RejectLinkFromReadingListWorker.perform_async(params[:id])
       end
 
+      ## NOTE: Below here is the first bits of a refactor to move async jobs
+      # out of an async pipeline and into a step function
+
+      helpers do
+        private def call_method_on_email_link(id, method)
+          begin
+            # sigh - rather than returning a falsey value, an exception is raised
+            el = EmailLink.find(id)
+            el.public_send(method)
+            el
+          rescue Elasticsearch::Transport::Transport::Errors::NotFound
+            false
+          end
+        end
+      end
+
       desc 'sets number of words in title attribute for an email link'
       params do
         requires :id, type: String, desc: 'ES id of email link'
       end
       put ':id/set_title_word_count' do
-        begin
-          # sigh - rather than returning a falsey value, an exception is raised
-          el = EmailLink.find(params[:id])
-          el.set_title_word_count
-          el
-        rescue Elasticsearch::Transport::Transport::Errors::NotFound
-          status 404
-        end
+        el = call_method_on_email_link(params[:id], :set_title_word_count)
+        el || (status 404)
       end
 
       desc 'determines if link should be rejected based on some historical critiera'
@@ -130,14 +140,8 @@ module EmailListicle
         requires :id, type: String, desc: 'ES id of email link'
       end
       put ':id/autoreject' do
-        begin
-          # sigh - rather than returning a falsey value, an exception is raised
-          el = EmailLink.find(params[:id])
-          el.check_and_reject
-          el
-        rescue Elasticsearch::Transport::Transport::Errors::NotFound
-          status 404
-        end
+        el = call_method_on_email_link(params[:id], :check_and_reject)
+        el || (status 404)
       end
     end
   end
