@@ -18,6 +18,8 @@ undecided:
             time_zone: "+4:00"
       - missing:
           field: accepted
+      - exists:
+          field: cnt_title_words
 
 unengineered:
   size: 2000

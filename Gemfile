@@ -16,6 +16,7 @@ gem "predictionio"
 gem "mail"
 gem 'bugsnag', '~> 4.2.1'
 gem 'octokit', '~> 4.3.0'
+gem 'rake'
 
 group :test, :development do
   gem 'shotgun'

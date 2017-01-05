@@ -2,7 +2,7 @@ require 'elasticsearch'
 require 'yaml'
 require 'erb'
 
-$es_client = Elasticsearch::Client.new(log: true,
+$es_client = Elasticsearch::Client.new(log: false,
                                        host: ENV['ES_URL'])
 
 class EsClient
